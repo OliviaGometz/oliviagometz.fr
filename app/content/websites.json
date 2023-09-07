@@ -12,6 +12,10 @@
       "desc": "Ma page Facebook",
       "link": "https://www.facebook.com/OliviaGometzAutrice/"
     },
+    "amazon": {
+      "desc": "Mon page autrice Amazon",
+      "link": "https://www.amazon.fr/Olivia-Gometz/e/B09Q299Q98"
+    },
     "wattpad": {
       "desc": "Mon profil Wattpad",
       "link": "https://www.wattpad.com/user/OliviaGometz"
@@ -28,11 +32,6 @@
     },
     "edlf": "https://www.wattpad.com/666768516-%C3%A9crire-de-la-fantasy-comme-g-r-r-martin",
     "rantbook": "https://www.wattpad.com/678351969-rantbook"
-  },
-  "bp": {
-    "tome1": "https://www.betapublisher.com/roman/trahir-%26-survivre",
-    "epub": "https://www.betapublisher.com/product-page/les-carmidor-tome-1-trahir-survivre-epub",
-    "mobi": "https://www.betapublisher.com/product-page/les-carmidor-tome-1-trahir-survivre-mobi"
   },
   "book": {
     "amazon": {
@@ -76,23 +75,5 @@
     "booknode": "https://booknode.com/les_carmidor_tome_1_trahir_et_survivre_03388465/commentaires",
     "livraddict": "https://www.livraddict.com/biblio/livre/les-carmidor-tome-1-trahir-et-survivre.html#comments",
     "goodreads": "https://www.goodreads.com/review/new/59375682-les-carmidor"
-  },
-  "media": {
-    "parisco": {
-      "name": "Paris&Co",
-      "link": "https://labodeledition.parisandco.paris/a-la-une/actualites/Interview-de-l-autrice-Olivia-Gometz-Beta-Book-Jam-Nuit-de-la-Lecture-2021"
-    },
-    "epinalinfos": {
-      "name": "Épinal Infos",
-      "link": "https://epinalinfos.fr/2021/10/livres-palpitants-de-maison-dedition-beta-publisher/"
-    },
-    "20minutes": {
-      "name": "20 minutes",
-      "link": "https://www.20minutes.fr/arts-stars/livres/3145319-20211014-carmidor-olivia-gometz-trahit-besoin-imagination-survivre"
-    },
-    "desauteursdeslivres": {
-      "name": "Des auteurs des livres",
-      "link": "https://magazine-desauteursdeslivres.fr/olivia-gometz-presente-les-carmidor/"
-    }
   }
 }
