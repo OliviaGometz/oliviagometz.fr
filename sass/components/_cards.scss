@@ -1,0 +1,75 @@
+.card {
+    margin: $spaceMD;
+    padding: $spaceLG $spaceMD;
+    border: $line*4 solid $white00;
+    outline: $line solid;
+
+    & > :first-child,
+    h2 {
+        margin-top: 0;
+    }
+
+    & > :last-child {
+        margin-bottom: 0;
+    }
+
+    .buttons:last-child {
+        a {
+            margin-bottom: 0;
+        }
+    }
+
+    p {
+        font-size: $fontSizeSM;
+        margin: $spaceSM 0;
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            background-color: map-get($color, "ultraLight");
+            color: map-get($color, "dark");
+            outline-color: map-get($color, "ultraLight");
+
+            p {
+                a {
+                    color: map-get($color, "ultraDark");
+
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        color: map-get($color, "ultraDark");
+                        background-color: map-get($color, "light");
+                    }
+                }
+            }
+
+            figure {
+                color: map-get($color, "dark");
+            }
+        }
+
+        &--gradient-#{$colorName} {
+            background-color: map-get($color, "main");
+            background-image: linear-gradient(map-get($color, "main"), map-get($color, "dark"));
+            color: $white00;
+            outline-color: map-get($color, "main");
+
+            p {
+                a {
+                    color: $white00;
+
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        color: $white00;
+                        background-color: map-get($color, "dark");
+                    }
+                }
+            }
+
+            figure {
+                color: $white00;
+            }
+        }
+    }
+}

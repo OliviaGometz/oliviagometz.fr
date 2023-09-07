@@ -1,0 +1,12 @@
+.person {
+    margin: $spaceMD;
+    margin-bottom: $spaceXXS;
+
+    img {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        padding: 6px;
+        border: $line solid $grey30;
+    }
+}

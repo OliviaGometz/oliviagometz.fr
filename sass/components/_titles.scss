@@ -1,0 +1,30 @@
+.title {
+    &--header {
+        text-align: center;
+        color: $white00;
+        text-transform: uppercase;
+        letter-spacing: $spacingLG;
+        margin: $spaceMD;
+        margin-bottom: $spaceXL;
+    }
+
+    &--normal {
+        text-align: center;
+        margin-left: $spaceMD;
+        margin-right: $spaceMD;
+    }
+
+    &--underline {
+        text-align: center;
+        margin-left: $spaceMD;
+        margin-right: $spaceMD;
+
+        &::after {
+            content: '';
+            width: $underline;
+            height: $line;
+            background-color: $secondaryLight;
+            margin: $spaceMD auto $spaceXL auto;
+        }
+    }
+}

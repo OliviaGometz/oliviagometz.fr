@@ -1,0 +1,33 @@
+.home-book {
+    background-color: $primary;
+    background-image: linear-gradient(
+        to bottom,
+        $primary,
+        $primaryDark
+    );
+
+    .wave:first-child {
+        transform: scaleY(-1) translateY(1px);
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        padding: $spaceMD 0;
+    }
+
+    article {
+        padding: $spaceMD;
+    }
+
+    h2 {
+        color: $white00;
+        margin-top: 0;
+    }
+
+    p {
+        color: $primaryUltraLight;
+    }
+}

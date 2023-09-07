@@ -1,0 +1,38 @@
+.hamburger {
+    position: relative;
+    width: $navButtonWidth;
+    height: $navButtonWidth/1.4;
+    padding: 0;
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    span {
+        height: 3px;
+        width: 100%;
+        background-color: $white00;
+        transition: all $durationSM;
+
+        &:last-of-type {
+            align-self: flex-end;
+        }
+    }
+
+    @media #{$menuDesktop} {
+        display: none;
+    }
+}
+
+.js-active {
+    .hamburger {
+        span {
+            &:first-of-type,
+            &:last-of-type {
+                width: 0;
+            }
+        }
+    }
+}

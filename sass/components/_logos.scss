@@ -1,0 +1,75 @@
+.logo {
+    svg {
+        transition: all $durationXS, fill $durationSM;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        svg {
+            transform: scale(1.05);
+        }
+    }
+
+    &--sm {
+        margin: $spaceSM;
+
+        svg {
+            height: 24px;
+            max-width: 120px;
+        }
+    }
+
+    &--md {
+        margin: $spaceLG;
+
+        svg {
+            height: 60px;
+            max-width: 120px;
+        }
+    }
+
+    &--white {
+        svg {
+            fill: $white00;
+        }
+    }
+
+    &--black {
+        svg {
+            fill: $black00;
+        }
+    }
+
+    &--white,
+    &--black {
+        svg {
+            opacity: 0.6;
+        }
+
+
+        &:hover,
+        &:active,
+        &:focus {
+            svg {
+                opacity: 1;
+            }
+        }
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            svg {
+                fill: map-get($color, "main");
+            }
+
+            &:hover,
+            &:active,
+            &:focus {
+                svg {
+                    fill: $black00;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.banner {
+    background-color: $black00;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    article {
+        background-color: transparentize($black00, 0.5);
+        padding: $spaceMD;
+
+        @media #{$minSM} {
+            padding: $spaceLG;
+        }
+
+        @media #{$minMD} {
+            padding: $spaceXL;
+        }
+
+        p {
+            color: $grey10;
+
+            small {
+                color: $grey30;
+                font-size: 0.7em;
+            }
+        }
+    }
+}
+
+.basic-banner {
+    img {
+        width: 70%;
+    }
+
+    article {
+        @media #{$minMD} {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.banner-gradient {
+    color: $white00;
+    padding-top: $spaceMD;
+
+    .content {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: $spaceMD;
+        text-align: center;
+
+        @media #{$minMD} {
+            padding-bottom: 0;
+        }
+
+        img {
+            display: block;
+            width: 50%;
+            max-width: 150px;
+            margin: 0 auto;
+        }
+    }
+
+    .wave {
+        transform: scaleX(-1) translateY(1px);
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            background-color: map-get($color, "main");
+            background-image: linear-gradient(
+                to bottom,
+                map-get($color, "main"),
+                map-get($color, "dark")
+            );
+        }
+    } 
+}

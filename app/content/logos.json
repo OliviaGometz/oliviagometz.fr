@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.amazon.fr/",
+    "icon": "websites/amazon-mini"
+  },
+  {
+    "url": "https://www.babelio.com/",
+    "icon": "websites/babelio-mini"
+  },
+  {
+    "url": "https://www.bod.fr/",
+    "icon": "websites/bod-mini"
+  },
+  {
+    "url": "https://booknode.com/",
+    "icon": "websites/booknode-mini"
+  },
+  {
+    "url": "https://www.chapitre.com/",
+    "icon": "websites/chapitre-mini"
+  },
+  {
+    "url": "https://www.decitre.fr/",
+    "icon": "websites/decitre-mini"
+  },
+  {
+    "url": "https://livre.fnac.com/",
+    "icon": "websites/fnac-mini"
+  },
+  {
+    "url": "https://www.goodreads.com/",
+    "icon": "websites/goodreads-mini"
+  },
+  {
+    "url": "https://www.livraddict.com/",
+    "icon": "websites/livraddict-mini"
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "icon": "websites/youtube-mini"
+  },
+  {
+    "url": "https://www.instagram.com/",
+    "icon": "networks/instagram"
+  }
+]

@@ -1,0 +1,12 @@
+.buy-details {
+    align-items: flex-start;
+
+    aside {
+        svg {
+            fill: $secondaryDark;
+            height: 150px;
+            margin: 0 auto;
+            margin-bottom: $spaceLG;
+        }
+    }
+}

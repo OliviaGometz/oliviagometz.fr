@@ -1,0 +1,58 @@
+{% macro nav(activePage='') %}
+<nav>
+    <button type="button" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <a href="/" class="home">
+        {% include 'svg/logos/carmidor.svg' %}
+    </a>
+
+    <div class="overlay"></div>
+
+    {%
+        set links = {
+            home: {
+                name: 'Accueil',
+                url: ''
+            },
+            map: {
+                name: 'Carte',
+                url: 'carte'
+            },
+            characters: {
+                name: 'Familles',
+                url: 'familles'
+            },
+            comments: {
+                name: 'Avis',
+                url: 'avis'
+            },
+            author: {
+                name: 'Autrice',
+                url: 'autrice'
+            },
+            buy: {
+                name: 'Acheter',
+                url: 'acheter',
+                button: true
+            }
+        }
+    %}
+
+    <ul>
+        {% for id, link in links %}
+            <li>
+                <a
+                    href="/{{ link.url }}"
+                    class="{% if link.button %}button--active-primary button button{% else %}link link{% endif %}--white{%if activePage == id %} active{% endif %}"
+                >
+                    {{ link.name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endmacro %}

@@ -1,0 +1,61 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Les Carmidor - Mentions légales</title>
+    <meta name="description" content="Hébergeur, cookies et protection de la vie privée sur le site les-carmidor.fr, administré par Olivia Gometz depuis 2021." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav()}}
+
+    <main class="legal">
+        <section class="banner-gradient banner-gradient--secondary">
+            <div class="content text--margin-sm">
+                <h1 class="title--header">Mentions légales</h1>
+
+                <p>Site web créé, administré et alimenté par Olivia Gometz. Tous droits réservés.</p>
+
+                <small>Certains photomontages utilisent des stocks provenant d'Unsplash.com.</small>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <aside class="text--center">
+            <h2>Hébergeur du site</h2>
+
+            <p><strong>Github Pages</strong></p>
+            <p>88 Colin P Kelly Jr St</p>
+            <p>San Francisco, CA&nbsp;94107</p>
+            <p>United States</p>
+            <p>Tel&nbsp;: +1&nbsp;(877)&nbsp;958-8742</p>
+        </aside>
+
+        <article class="maxwidth--lg text--sm text--margin-sm">
+            <h2>Cookies et données personnelles</h2>
+
+            <p>
+                Je ne dépose aucun cookie sur votre appareil (et je ne fais appel à aucune technologie similaire), et je ne collecte aucune donnée personnelle (ça mérite bien un cookie, ça).
+            </p>
+
+            <p>
+                Mention tout de même à YouTube&nbsp;: le booktrailer sur la page d'accueil a bien été intégré en mode "no-cookie", mais il semblerait que YouTube nous la mette bien profond puisqu'il utilise quand même votre Local Storage dès lors que vous lancez la vidéo.
+            </p>
+
+            <small>
+                Pour vous la faire courte, dire <i>"Promis, on ne dépose aucun cookie&nbsp;!"</i> et utiliser votre Local Storage, c'est un peu comme dire <i>"Non c'est faux, j'ai pas bu 5 pintes de Chouffe"</i> alors que vous vous êtes enfilé 2 verres de Whisky (on appelle ça un mensonge par omission, ou juste de la mauvaise foi).
+            </small>
+
+            <p>
+                De la même manière, j'utilise l'API Google Fonts pour les polices du site&nbsp;: ça a au moins l'avantage de réduire les temps de chargement, mais là encore, ça doit utiliser vos cookies.
+            </p>
+
+            <p>
+                Moralité&nbsp;: je ne squatte ni vos cookies, ni votre Local Storage, et je n'ai accès à aucune de vos données personnelles (pas même pour faire des statistiques). En revanche, Google ne se prive pas.
+            </p>
+        </article>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

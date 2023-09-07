@@ -1,0 +1,52 @@
+.link {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: $fontMain, serif;
+    font-size: $fontSizeLG;
+    font-weight: $bold;
+    font-variant: small-caps;
+    letter-spacing: $spacingSM;
+    color: $black00;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        height: $line;
+        width: 0;
+        background-color: $black00;
+        opacity: .5;
+        transition: all $durationSM;
+    }
+
+    &::before {
+        left: 0;
+    }
+
+    &::after {
+        right: 0;
+        transition-delay: $durationSM/2;
+    }
+
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+        &::before,
+        &::after {
+            width: 100%;
+        }
+    }
+
+    @each $colorName, $color in $mainColors {
+        &--#{$colorName} {
+            color: $color;
+
+            &::before,
+            &::after {
+                background-color: $color;
+            }
+        }
+    }
+}

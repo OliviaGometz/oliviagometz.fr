@@ -1,0 +1,186 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Olivia Gometz - Autrice de fantasy et romantasy</title>
+    <meta name="description" content="Les Carmidor est une saga fantasy écrite par Olivia Gometz et éditée par Beta Publisher : un Game of Thrones sans dragons ni magie, mais tout aussi sanglant." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav('home')}}
+
+    <main>
+        <section class="banner home-banner">
+            <article>
+                <h1>les <em>Carmidor</em></h1>
+                <strong>Saga Fantasy</strong>
+
+                <a href="{{websites.bp.tome1}}" rel="external" target="_blank" class="logo--bp button--bp">
+                    Éditions Beta Publisher
+                    {% include 'svg/logos/bp/beta-publisher.svg' %}
+                </a>
+            </article>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="home-intro maxwidth--lg">
+            <div class="logo--carmidor">
+                {% include 'svg/logos/carmidor.svg' %}
+            </div>
+
+            <p>
+                <em>Les Carmidor</em> est une série de <strong>romans fantasy de mœurs</strong>. Au programme&nbsp;: séduction, complots, manipulation, ambition, guerres et oppression. Ces thèmes sont abordés pour un public adulte et averti&nbsp;: avant d'aller plus loin, pensez à consulter les <a href="/trigger-warnings">trigger warnings</a>.
+            </p>
+        </section>
+
+        <section class="home-book">
+            {% include 'svg/wave.svg' %}
+
+            <div class="content">
+                <article class="maxwidth--sm text--sm text--margin-sm">
+                    <h2>
+                        Tome <span>1</span> – Trahir et Survivre
+                    </h2>
+
+                    <p>
+                        Prête à tout pour protéger son île, la puissante famille Carmidor s'allie aux nobles continentaux et renverse le souverain.
+                    </p>
+
+                    <p>
+                        La dynastie royale est massacrée. Tandis que les Virdemis s'emparent de la couronne, le clan insulaire étend son influence dans la capitale en usant de son or et de ses charmes.
+                    </p>
+
+                    <p>
+                        Mais au nord, la dernière Arvagna jure d'anéantir les assassins de ses parents, dût-elle rejoindre les redoutables Népéis dont les prophéties annoncent l'engloutissement des terres émergées.
+                    </p>
+
+                    <p>
+                        Les Carmidor le savent&nbsp;: les vagues les plus dévastatrices ne seront pas faites d'écume et de sel.
+                    </p>
+
+                    <p>
+                        Elles seront de terreur et de sang.
+                    </p>
+                </article>
+
+                <img src="./img/medias/book.png" class="img--book" alt="Tome 1 : Trahir et Survivre (format broché)" />
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="home-trailer">
+            <h2>
+                Booktrailer du tome&nbsp;<span>1</span>
+            </h2>
+
+            <small class="maxwidth--md">
+                Attention&nbsp;: ce site ne collecte aucune donnée personnelle, mais YouTube, si. Vous serez traqué dès que vous lancerez cette vidéo (comme d'hab, en fait). Plus d'informations dans les <a href="/mentions-legales">mentions légales</a>. 
+            </small>
+
+            <div class="video">
+                <iframe src="https://www.youtube-nocookie.com/embed/x59_QCjOWD4" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <aside class="maxwidth--sm">
+                <h3>Et le tome <span>2</span>&nbsp;?</h3>
+
+                <p>
+                    <em>Unir et Détruire</em> (titre encore susceptible de changer) est actuellement en cours d'écriture. Sortie prévue en 2023&nbsp;!
+                </p>
+            </aside>
+        </section>
+
+        <section class="home-discover">
+            {% include 'svg/wave.svg' %}
+
+            <h2 class="title--header">
+                Découvrir le tome&nbsp;<span>1</span>
+            </h2>
+
+            <div class="buttons">
+                <a href="{{websites.wattpad.tome1.start}}" rel="external" target="_blank" class="link link--white">
+                    Lire le début sur Wattpad
+                </a>
+
+                <a href="/acheter" class="button button--white button--active-primary">
+                    Acheter
+                </a>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="home-comments">
+            <h2 class="title--normal">
+                Ce que les lecteurs en disent
+            </h2>
+
+            {% from 'quote.njk' import quote %}
+            {{quote(comments.anouklangel, hasButton=false)}}
+
+            <div class="buttons">
+                <a href="/avis" class="button button--primary">
+                    Lire plus d'avis
+                </a>
+            </div>
+        </section>
+
+        <section class="home-lore">
+            {% include 'svg/wave.svg' %}
+
+            <div class="container text--sm">
+                <article class="maxwidth--xs">
+                    {% include 'svg/illu/map.svg' %}
+
+                    <h2>Royaumes et cités</h2>
+
+                    <p>
+                        Parcourez la carte interactive des terres émergées et explorez les lieux de l'histoire&nbsp;: ceux qu'on protège, ceux qu'on détruit et ceux où l'on périt&hellip;
+                    </p>
+
+                    <div class="buttons">
+                        <a href="/carte" class="button button--white button--active-secondary">
+                            Naviguer
+                        </a>
+                    </div>
+                </article>
+
+                <article class="maxwidth--xs">
+                    {% include 'svg/illu/characters.svg' %}
+
+                    <h2>Familles et personnages</h2>
+
+                    <p>
+                        Rois, dames, courtisanes et guerriers&nbsp;: découvrez les clans, les emblèmes et les visages de ceux qui écrivent l'histoire – avec leur sang ou celui de leurs ennemis.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="/familles" class="button button--white button--active-secondary">
+                            Rencontrer
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section>
+            <h2 class="title--normal">
+                Les médias en parlent
+            </h2>
+
+            <div class="container">
+                {% for id, media in websites.media %}
+                    <a href="{{media.link}}" class="logo logo--md logo--black" rel="external" target="_blank" aria-label="{{media.name}}">
+                        {% include "svg/logos/medias/" + id + ".svg" %}
+                    </a>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

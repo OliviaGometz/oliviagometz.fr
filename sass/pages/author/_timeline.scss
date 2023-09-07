@@ -1,0 +1,61 @@
+.author-timeline {
+    background-color: $primary;
+    background-image: linear-gradient(
+        to bottom,
+        $primary,
+        $primaryDark
+    );
+    color: $white00;
+
+    .wave {
+        &:first-child {
+            transform: scaleX(-1) scaleY(-1) translateY(1px);
+        }
+
+        &:last-child {
+            transform: scaleX(-1) translateY(1px);
+        }
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: $spaceMD;
+        padding-top: 0;
+    }
+
+    h2 {
+        text-align: center;
+
+        @media #{$minMD} {
+            margin-top: 0;
+        }
+    }
+
+    .timeline {
+        margin: 0 auto;
+        margin-bottom: $spaceMD;
+
+        @media #{$minSM} {
+            margin-top: $spaceXL;
+        }
+
+        span {
+            color: $primaryUltraLight;
+
+            &::before,
+            &::after {
+                background-color: $primaryLight;
+            }
+        }
+
+        p {
+            border-color: $primaryLight;
+
+            &::before {
+                background-color: $primaryLight;
+            }
+        }
+    }
+}

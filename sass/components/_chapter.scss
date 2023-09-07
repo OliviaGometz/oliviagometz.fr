@@ -1,0 +1,32 @@
+.chapter {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: $spaceMD;
+
+    h2 {
+        text-align: center;
+        margin-bottom: $spaceSM;
+    }
+
+    .chapter-date {
+        text-align: center;
+        font-family: $fontMain, serif;
+        font-size: $fontSizeXL;
+        color: $grey50;
+
+        &::after {
+            content: '';
+            width: $underline;
+            height: $line;
+            background-color: $secondaryLight;
+            margin: $spaceMD auto $spaceXL auto;
+        }
+    }
+
+    p {
+        text-align: justify;
+        font-size: $fontSizeSM;
+        margin: $spaceSM 0;
+        text-indent: 2em;
+    }
+}

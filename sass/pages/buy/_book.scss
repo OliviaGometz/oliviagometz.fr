@@ -1,0 +1,22 @@
+.buy-book {
+    .content {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article {
+        max-width: 710px;
+        padding: $spaceMD;
+        text-align: center;
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .buttons {
+            margin: $spaceXS #{-$spaceSM};
+        }
+    }
+}

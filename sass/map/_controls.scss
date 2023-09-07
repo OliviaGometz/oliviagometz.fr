@@ -1,0 +1,81 @@
+.map-legend {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: $spaceLG;
+    padding: $spaceSM;
+    max-width: 100%;
+}
+
+.zoom {
+    $zoomButtonSize: 30px;
+
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0% $zoomButtonSize/2,
+        $white00 $zoomButtonSize/2 ($zoomButtonSize/2 + $line),
+        transparent ($zoomButtonSize/2 + 1) 100%
+    );
+
+    button {
+        height: $zoomButtonSize;
+        width: $zoomButtonSize;
+        padding: 0;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        line-height: $lineHeightXS;
+        font-size: $titleSizeSM;
+        font-weight: $normal;
+        border: none;
+        box-shadow: $blackShadowMD;
+        background-color: $white00;
+        color: $black00;
+        transition: all $durationSM;
+
+        &:disabled {
+            cursor: not-allowed;
+        }
+
+        &:not(:disabled) {
+            &:hover,
+            &:focus {
+                @media #{$minMD} {
+                    background-color: $primaryUltraLight;
+                }
+            }
+
+            &:active {
+                background-color: $primary;
+                color: $primaryUltraLight;
+            }
+        }
+    }
+}
+
+.echelle {
+    span {
+        display: none;
+        box-sizing: border-box;
+        user-select: none;
+        border: $line solid $white00;
+        border-top: none;
+        color: $white00;
+        text-shadow: 0 0 4px $black00;
+        text-align: center;
+        font-size: $fontSizeXXS;
+        line-height: $lineHeightXS;
+        transition: all $durationXS linear;
+    }
+
+    .level-a {
+        width: 18vw; // default value at zoom = 100%
+    }
+}

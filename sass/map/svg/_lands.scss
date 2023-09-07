@@ -1,0 +1,49 @@
+.ville {
+    cursor: pointer;
+    outline: none;
+    font-size: 8px;
+    font-weight: $bold;
+    text-shadow: 0 0 8px $secondary, 0 0 2px $secondaryLight;
+
+    $strokeOffset: 13;
+
+    circle {
+        stroke: $black00;
+        stroke-width: 0.5px;
+        stroke-dasharray: $strokeOffset;
+        stroke-dashoffset: $strokeOffset;
+        filter: drop-shadow($secondaryLight 0 0 1px);
+        transition: all $durationSM linear $durationLG, stroke-dashoffset $durationLG linear 0s;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        circle {
+            fill: $secondary;
+            stroke-dashoffset: 0;
+            transition-delay: 0s;
+        }
+    }
+}
+
+.nom-pays {
+    pointer-events: none;
+    font-variant: small-caps;
+    font-weight: $bold;
+    font-size: 24px;
+    letter-spacing: $spacingSM;
+    text-shadow: 0 0 12px $secondary, 0 0 2px $secondaryLight;
+}
+
+.pays-zone,
+.region-zone {
+    fill: transparent;
+    stroke: $secondaryLight;
+    stroke-opacity: 0;
+}
+
+.terre {
+    fill: $secondary;
+    filter: drop-shadow(2px 2px 20px #{$primaryUltraDark});
+}

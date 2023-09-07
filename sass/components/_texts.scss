@@ -1,0 +1,19 @@
+.text {
+    &--sm {
+        p {
+            font-size: $fontSizeSM;
+        }
+    }
+
+    &--center {
+        p {
+            text-align: center;
+        }
+    }
+
+    &--margin-sm {
+        p {
+            margin: $spaceSM 0;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.buy-ebook {
+    background-color: $primary;
+    background-image: linear-gradient(
+        to bottom,
+        $primary,
+        $primaryDark
+    );
+
+    .wave:first-child {
+        transform: scaleY(-1) translateY(1px);
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: $spaceMD 0;
+    }
+
+    article {
+        padding: $spaceMD;
+        text-align: center;
+    }
+
+    h2 {
+        color: $white00;
+        margin-top: 0;
+        margin-bottom: $spaceXXL;
+    }
+
+    .buttons {
+        small {
+            color: $primaryUltraLight;
+        }
+    }
+
+    p {
+        margin-top: $spaceXXL;
+        color: $white00;
+    }
+}

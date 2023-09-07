@@ -1,0 +1,16 @@
+.nom-ocean {
+    fill: $primaryLight;
+    font-size: 26px;
+    font-variant: small-caps;
+    letter-spacing: $spacingSM;
+    opacity: 0.6;
+}
+
+.fleuve {
+    pointer-events: none;
+    fill: $primaryDark;
+    font-size: 8px;
+    font-weight: $bold;
+    font-variant: small-caps;
+    letter-spacing: $spacingSM;
+}

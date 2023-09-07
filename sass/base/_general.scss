@@ -1,0 +1,105 @@
+body,
+main,
+nav,
+header,
+footer,
+section,
+article,
+aside,
+div,
+form,
+small,
+svg,
+::before,
+::after {
+    box-sizing: border-box;
+    display: block;
+}
+
+html {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    background-color: $black00;
+}
+
+body {
+    background-color: $white00;
+    font-family: $fontDefault, serif;
+    font-size: $fontSizeBase;
+    line-height: $lineHeightMD;
+    -webkit-tap-highlight-color: transparentize($primary, 0.6);
+}
+
+h1,
+h2,
+h3 {
+    font-family: $fontMain, serif;
+    font-weight: $normal;
+    line-height: $lineHeightXS;
+
+    span {
+        font-size: 1.3em;
+    }
+
+    small {
+        font-size: 0.5em;
+    }
+}
+
+h2 {
+    font-size: $titleSizeLG;
+    margin-top: $spaceXL;
+    margin-bottom: $spaceLG;
+}
+
+h3 {
+    font-size: $titleSizeMD;
+    margin-top: $spaceXL;
+    margin-bottom: $spaceLG;
+}
+
+a,
+button {
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    user-select: none;
+}
+
+p,
+small {
+    margin: 0;
+
+    a {
+        font-weight: $bold;
+        color: $secondary;
+        transition: all $durationSM;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $primary;
+            background-color: $primaryUltraLight;
+        }
+    }
+
+    em {
+        font-style: italic;
+        font-family: $fontMain, serif;
+        font-size: 1.3em;
+        line-height: $lineHeightXS;
+        margin: 0 0.1em;
+    }
+}
+
+::selection {
+    background-color: $primary;
+    color: $white00;
+}

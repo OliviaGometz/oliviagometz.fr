@@ -1,0 +1,57 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Les Carmidor - Trigger warnings</title>
+    <meta name="description" content="Trigger warnings des Carmidor : meurtre, suicide, viol, violence physique, mutilation, amputation, décès infantile, misogynie, racisme, emprise psychologique." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav()}}
+
+    <main>
+        <section class="banner-gradient banner-gradient--primary">
+            <div class="content">
+                <h1 class="title--header">Trigger warnings</h1>
+
+                <p><em>Les Carmidor</em> aborde de nombreux sujets qui pourraient réveiller des traumatismes chez certains lecteurs. Si vous en ressentez le besoin, consultez la liste des avertissements ci-dessous&nbsp;: mieux vaut connaître à l'avance certains thèmes difficiles plutôt que de les laisser nous atteindre à un moment où l'on n'y est pas préparé.</p>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="container">
+            <article class="text--center text--margin-sm">
+                <h2>Thèmes difficiles abordés</h2>
+
+                <p>Meurtre, suicide</p>
+
+                <p>Viol, violence physique</p>
+
+                <p>Mutilation, amputation</p>
+
+                <p>Décès infantile</p>
+
+                <p>Misogynie, racisme</p>
+
+                <p>Emprise psychologique</p>
+            </article>
+
+            <aside class="card card--secondary maxwidth--xs">
+                <p>
+                    Un thème, une scène, un personnage de <em>Les Carmidor</em> vous a choqué(e)&nbsp;?
+                </p>
+
+                <p>
+                    Discutons-en&nbsp;: n'hésitez pas à m'envoyer un message sur <a href="{{websites.network.instagram.link}}" rel="external" target="_blank">Instagram</a> ou sur <a href="{{websites.network.wattpad.link}}" rel="external" target="_blank">Wattpad</a>.
+                </p>
+
+                <p>
+                    La narration ne condamne pas forcément les actes les plus méprisables de mes personnages&nbsp;: mais moi, si on me demande mon avis, je le fais sans hésiter.
+                </p>
+            </aside>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

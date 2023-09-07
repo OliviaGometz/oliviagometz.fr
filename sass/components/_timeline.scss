@@ -1,0 +1,62 @@
+.timeline {
+    font-size: $fontSizeSM;
+
+    @media #{$minSM} {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+
+    span {
+        @media #{$maxSM} {
+            margin: $spaceSM 0;
+            display: flex;
+            align-items: center;
+
+            &::before,
+            &::after {
+                content: '';
+                flex: 1;
+                height: $line;
+                background-color: $black00;
+            }
+
+            &::before {
+                margin-right: $spaceSM;
+            }
+            
+            &::after {
+                margin-left: $spaceSM;
+            }
+        }
+
+        @media #{$minSM} {
+            padding-right: $spaceLG;
+            text-align: right;
+        }
+    }
+
+    p {
+        max-width: map-get($widths, "md");
+
+        &:not(:last-of-type) {
+            padding-bottom: $spaceLG;
+        }
+
+        @media #{$minSM} {
+            position: relative;
+            padding-left: $spaceLG;
+            border-left: $line solid;
+
+            &::before {
+                content: '';
+                height: $line;
+                width: $spaceMD;
+                position: absolute;
+                left: $line / -2;
+                top: 0.6em;
+                transform: translateX(-50%);
+                background-color: $black00;
+            }
+        }
+    }
+}

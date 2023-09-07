@@ -1,0 +1,27 @@
+$strokeOffset: 3100;
+
+.wave {
+    .shape {
+        fill: $white00;
+    }
+
+    .line {
+        fill: none;
+        stroke: $white00;
+        stroke-width: 7px;
+        stroke-dasharray: $strokeOffset;
+        transition: stroke-dashoffset 5s linear;
+
+        @media #{$minLG} {
+            stroke-width: 3px;
+        }
+    }
+}
+
+*:hover {
+    & > .wave {
+        .line {
+            stroke-dashoffset: $strokeOffset;
+        }
+    }
+}

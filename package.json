@@ -1,0 +1,31 @@
+{
+  "name": "oliviagometz.fr",
+  "version": "0.0.1",
+  "description": "Olivia Gometz website",
+  "author": "Olivia Gometz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "postcss": "^8.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "chokidar": "^3.5.1",
+    "cssnano": "^5.0.4",
+    "gulp": "github:gulpjs/gulp",
+    "gulp-data": "^1.3.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "browserslist": {
+    "production": [
+      "> 0.5% or last 2 versions"
+    ],
+    "development": [
+      "> 0.5% or last 2 versions"
+    ]
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}

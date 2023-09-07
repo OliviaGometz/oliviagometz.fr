@@ -1,0 +1,49 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Les Carmidor - Familles et personnages</title>
+    <meta name="description" content="Rois, dames, courtisanes et guerriers : découvrez les clans, les emblèmes et les visages de ceux qui écrivent l'histoire des Carmidor." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav('characters')}}
+
+    <main>
+        <section class="banner characters-banner">
+            <article class="maxwidth--md text--margin-sm">
+                <h1 class="title--header">Familles <small>et personnages</small></h1>
+
+                <p>
+                    Nobles, bourgois et gens de rien, tous les personnages sans exception sont présentés ici (et c'est est garanti sans spoilers).
+                </p>
+
+                <p>
+                    <small>
+                        Bon cela dit, les gens de rien sont relégués en bas de la page.
+                    </small>
+                </p>
+            </article>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="container">
+            <article class="maxwidth--lg text--margin-sm text--center">
+                <h2 class="title--normal">Page en construction</h2>
+
+                <p>Un tas de belles choses se préparent en coulisses pour vous présenter les personnages. En attendant la mise en production, n'hésitez pas à suivre les mises à jour sur mes réseaux&nbsp;!</p>
+
+                <div class="container">
+                    {% for name, website in websites.network %}
+                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
+                            {% include "svg/logos/networks/" + name + ".svg" %}
+                        </a>
+                    {% endfor %}
+                </div>
+            </article>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

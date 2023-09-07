@@ -1,0 +1,111 @@
+nav {
+    position: fixed;
+    z-index: $z-index-topbar;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $navHeight;
+    padding: $spaceXS;
+    align-items: center;
+    background-color: $black00;
+
+    @media #{$menuMobile} {
+        display: grid;
+        grid-template-columns: $navButtonWidth 1fr $navButtonWidth;
+        grid-template-rows: 100%;
+        justify-items: center;
+    }
+
+    @media #{$menuDesktop} {
+        display: flex;
+    }
+
+    .home {
+        display: block;
+        height: 100%;
+        padding: $spaceXXS 0;
+
+        svg {
+            height: 100%;
+            fill: $white00;
+            transition: all $durationSM;
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            svg {
+                fill: $primary;
+            }
+        }
+    }
+
+    .overlay {
+        top: $navHeight;
+    }
+
+    ul {
+        box-sizing: border-box;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        @media #{$menuMobile} {
+            position: fixed;
+            z-index: $z-index-topbar;
+            top: $navHeight;
+            left: 0;
+            width: 100%;
+            padding: $spaceSM;
+            background-color: $black00;
+            transform-origin: top center;
+            transform: scaleY(0);
+            transition: all $durationSM;
+        }
+
+        @media #{$menuDesktop} {
+            margin: 0 $spaceMD;
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        li {
+            @media #{$menuMobile} {
+                text-align: center;
+                padding: $spaceSM;
+            }
+
+            @media #{$menuDesktop} {
+                padding: 0 $spaceSM;
+            }
+        }
+
+        .link {
+            @media #{$menuMobile} {
+                font-size: $fontSizeXL;
+            }
+        }
+    }
+}
+
+.js-active {
+    @media #{$menuMobile} {
+        overflow: hidden;
+    }
+
+    nav {
+        .overlay {
+            @media #{$menuMobile} {
+                pointer-events: all;
+                opacity: 1;
+            }
+        }
+
+        ul {
+            @media #{$menuMobile} {
+                transform: scale(1);
+            }
+        }
+    }
+}

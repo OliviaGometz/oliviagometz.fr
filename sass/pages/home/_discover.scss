@@ -1,0 +1,24 @@
+.home-discover {
+    background-color: $primaryDark;
+    background-image: url('../img/bg/buy.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-shadow: $textShadowMD;
+
+    .wave:first-child {
+        transform: rotate(180deg) translateY(1px);
+    }
+
+    h2 {
+        @media #{$maxMD} {
+            margin-top: $spaceXXL;
+        }
+    }
+
+    .buttons {
+        @media #{$maxMD} {
+            margin-bottom: $spaceXL;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.characters-banner {
+    background-image: url('../img/bg/characters.png');
+    background-size: auto 100%;
+
+    article {
+        text-align: center;
+
+        @media #{$minSM} {
+            margin-left: auto;
+        }
+
+        @media #{$minLG} {
+            margin-right: auto;
+            padding-bottom: 0;
+        }
+    }
+
+    .wave {
+        transform: scaleX(-1) translateY(1px);
+    }
+}

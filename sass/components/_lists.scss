@@ -1,0 +1,28 @@
+$indent: 2em;
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: $indent;
+
+    li {
+        margin: $spaceMD 0;
+        text-indent: -$indent;
+        
+        &::before {
+            content: '—';
+            display: inline;
+            margin-right: $spaceSM;
+        }
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            li {
+                &::before {
+                    color: map-get($color, "main");
+                }
+            }
+        }
+    }
+}

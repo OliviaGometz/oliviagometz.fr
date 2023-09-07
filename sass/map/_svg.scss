@@ -1,0 +1,29 @@
+.map {
+    * {
+        transition: opacity $durationSM, stroke-opacity $durationSM;
+    }
+
+    text {
+        path {
+            fill: none;
+        }
+    }
+
+    .map-title {
+        fill: $white00;
+        opacity: 0.5;
+        pointer-events: none;
+        font-size: 28px;
+
+        text {
+            &:first-of-type {
+                font-size: 18px;
+            }
+        }
+    }
+
+    @import "svg/decoration";
+    @import "svg/lands";
+    @import "svg/montains";
+    @import "svg/water";
+}

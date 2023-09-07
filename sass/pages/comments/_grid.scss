@@ -1,0 +1,27 @@
+.comments-grid {
+    margin: 0 auto;
+    margin-bottom: $spaceLG;
+
+    @media #{$maxMD} {
+        padding: 0 $spaceMD;
+    }
+
+    @media #{$minMD} {
+        display: block;
+        columns: auto 2;
+        gap: 0;
+        max-width: map-get($widths, "md") * 2;
+    }
+
+    article {
+        @media #{$maxMD} {
+            max-width: map-get($widths, "lg");
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media #{$minMD} {
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Les Carmidor - Page introuvable</title>
+    <meta name="description" content="Erreur 404 : page introuvable. Si vous ne savez pas quoi faire, voici le début du tome 1 : bonne lecture !" />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav()}}
+
+    <main>
+        <section class="banner basic-banner">
+            <div class="container">
+                <img src="./img/medias/skull.png" class="maxwidth--xxs" />
+
+                <article class="maxwidth--md text--margin-sm">
+                    <h1 class="title--header">Oups</h1>
+
+                    <p>
+                        Erreur 404&nbsp;: la page recherchée n'existe pas (elle a peut-être changé d'adresse, ou alors il y a une faute de frappe dans l'URL).
+                    </p>
+
+                    <p>
+                        Si vous ne savez pas quoi faire, le début du tome&nbsp;1 de <em>Les Carmidor</em> est disponible à la lecture juste ci-dessous.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#prologue" class="link link--white">
+                            Lire le début du tome 1
+                        </a>
+
+                        <a href="/" class="button button--white button--active-secondary">
+                            Aller à l'accueil
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section id="prologue">
+            {% include 'chapter.njk' %}
+
+            <div class="buttons">
+                <a href="{{websites.wattpad.tome1.chapter1}}" rel="external" target="_blank" class="link link--primary">
+                    Continuer sur Wattpad
+                </a>
+
+                <a href="/acheter" class="button button--primary">
+                    Acheter
+                </a>
+            </div>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

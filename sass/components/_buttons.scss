@@ -1,0 +1,119 @@
+.button {
+    height: $buttonHeight;
+    padding: 0 ($spaceSM - 2) 0 $spaceSM;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $fontMain, serif;
+    font-size: $fontSizeLG;
+    font-weight: $bold;
+    font-variant: small-caps;
+    letter-spacing: $spacingSM;
+    border: $line solid $black00;
+    color: $black00;
+    background-image: linear-gradient(transparent 50%, $black00 50%);
+    background-size: auto 202%;
+    transition: all $durationSM;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+        text-shadow: none; // reset for buttons inside div with background-image and text-shadow
+        color: $white00;
+        background-position-y: 99%;
+    }
+
+    &.logo {
+        &--top {
+            max-width: 230px; // temp fix for firefox bug with svg inside display flex
+            flex-direction: column;
+            height: $buttonHeight*2;
+            padding-top: $spaceXS;
+        }
+
+        &--left {
+            svg {
+                height: 60%;
+                margin-right: $spaceSM;
+            }
+        }
+
+        svg {
+            transition: all $durationSM;
+        }
+
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+            svg {
+                fill: $white00;
+            }
+        }
+    }
+
+    @each $colorName, $color in $mainColors {
+        &--#{$colorName} {
+            border-color: $color;
+            color: $color;
+            background-image: linear-gradient(transparent 50%, $color 50%);
+
+            &.logo {
+                svg {
+                    fill: $color;
+                }
+            }
+        }
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName}-dark {
+            border-color: map-get($color, "dark");;
+            color: map-get($color, "dark");;
+            background-image: linear-gradient(transparent 50%, map-get($color, "dark") 50%);
+
+            &.logo {
+                svg {
+                    fill: map-get($color, "dark");
+                }
+            }
+        }
+
+        &--active-#{$colorName} {
+            &:hover,
+            &:active,
+            &:focus,
+            &.active {
+                color: map-get($color, "dark");
+
+                &.logo {
+                    svg {
+                        fill: map-get($color, "dark");
+                    }
+                }
+            }
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .link,
+    .button {
+        margin: $spaceSM;
+    }
+
+    span {
+        text-align: center;
+
+        small {
+            margin: $spaceSM;
+            margin-top: 0;
+        }
+    }
+}

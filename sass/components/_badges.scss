@@ -1,0 +1,27 @@
+.badge {
+    padding: 0 $spaceSM;
+    font-family: $fontDefault, serif;
+    font-size: 0.7em;
+    font-style: normal;
+
+    &:not(:first-child) {
+        margin-left: $spaceSM;
+    }
+
+    &:not(:last-child) {
+        margin-right: $spaceSM;
+    }
+
+    small {
+        font-size: 0.6em;
+        display: inline;
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            color: map-get($color, "main");
+            background-color: map-get($color, "ultraLight");
+            box-shadow: $spaceXXS $spaceXXS 0 0 transparentize(map-get($color, "ultraLight"), 0.5);
+        }
+    }
+}

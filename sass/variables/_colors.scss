@@ -1,0 +1,53 @@
+// White and black
+
+$white00: #ffffff;
+$white10: #f9f9f9;
+$white20: #ececec;
+$grey00: #dedede;
+$grey10: #cdcdcd;
+$grey20: #b1b1b1;
+$grey30: #a0a0a0;
+$grey40: #888888;
+$grey50: #4e4e4e;
+$grey60: #292929;
+$black00: #000000;
+
+// Main colors
+
+$primary: #750a0a;
+$secondary: #bc912a;
+
+$primaryLight: #ff6565;
+$secondaryLight: #fac854;
+
+$primaryUltraLight: #ffb4b4;
+$secondaryUltraLight: #ffe19c;
+
+$primaryDark: #460707;
+$secondaryDark: #573d00;
+
+$primaryUltraDark: #300000;
+$secondaryUltraDark: #241400;
+
+$mainColors: (
+    primary: $primary,
+    secondary: $secondary,
+    white: $white00
+);
+
+$colors: (
+    primary: (
+        main: $primary,
+        light: $primaryLight,
+        ultraLight: $primaryUltraLight,
+        dark: $primaryDark,
+        ultraDark: $primaryUltraDark
+    ),
+    secondary: (
+        main: $secondary,
+        light: $secondaryLight,
+        ultraLight: $secondaryUltraLight,
+        dark: $secondaryDark,
+        ultraDark: $secondaryUltraDark
+    ),
+);

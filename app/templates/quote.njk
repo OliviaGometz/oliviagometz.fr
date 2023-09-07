@@ -1,0 +1,33 @@
+{% macro quote(selectedComment, hasButton=true, buttonCss='') %}
+
+<figure>
+    <blockquote cite="{{selectedComment.link}}">
+        {% for paragraph in selectedComment.comment %}
+            <p>{{paragraph | safe}}</p>
+        {% endfor %}
+    </blockquote>
+
+    <figcaption>
+        <cite>{{selectedComment.name}}</cite>
+        {% if selectedComment.details|length %}– {% endif %}{{selectedComment.details | safe}}
+    </figcaption>
+</figure>
+
+{% if hasButton %}
+    {% set logoPath = 'icons/website' %}
+
+    {% for logo in logos %}
+        {% if logo.url in selectedComment.link %}
+            {% set logoPath = 'logos/' + logo.icon %}
+        {% endif %}
+    {% endfor %}
+
+    <div class="buttons">
+        <a href="{{selectedComment.link}}" class="button logo logo--left {{buttonCss}}" rel="external" target="_blank">
+            {% include "svg/" + logoPath + ".svg" %}
+            Avis complet
+        </a>
+    </div>
+{% endif %}
+
+{% endmacro %}

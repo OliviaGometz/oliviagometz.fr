@@ -1,0 +1,28 @@
+$widths: (
+    xxs: 300px,
+    xs: 400px,
+    sm: 500px,
+    md: 600px,
+    lg: 750px,
+);
+
+.maxwidth {
+    @each $name, $size in $widths {
+        &--#{$name} {
+            max-width: $size;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    & > div,
+    & > article,
+    & > aside {
+        padding: $spaceMD;
+    }
+}

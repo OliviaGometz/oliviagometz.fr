@@ -1,0 +1,23 @@
+.grids {
+    opacity: 0.06;
+
+    line {
+        stroke: $white00;
+    }
+
+    .grid-b {
+        line {
+            stroke-width: 0.6px;
+        }
+    }
+
+    .grid-c {
+        line {
+            stroke-width: 0.4px;
+        }
+    }
+}
+
+.nepyrme {
+    filter: drop-shadow(#{$primaryLight} 0 0 20px);
+}

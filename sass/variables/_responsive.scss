@@ -1,0 +1,33 @@
+$widthSM: 550px;
+$widthMD: 960px;
+$widthLG: 1200px;
+$widthXL: 1350px;
+
+$minSM: "(min-width: #{$widthSM})";
+$minMD: "(min-width: #{$widthMD})";
+$minLG: "(min-width: #{$widthLG})";
+$minXL: "(min-width: #{$widthXL})";
+$maxSM: "not all and #{$minSM}";
+$maxMD: "not all and #{$minMD}";
+$maxLG: "not all and #{$minLG}";
+$maxXL: "not all and #{$minXL}";
+
+$menuMobile: $maxMD;
+$menuDesktop: $minMD;
+
+$responsiveSpaces: (
+    $minSM: $spaceMD,
+    $minMD: $spaceLG,
+    $minLG: $spaceXL,
+    $minXL: $spaceXXL
+);
+
+@mixin responsiveProp($prop, $coeff: 1) {
+    @each $mediaQuery, $space in $responsiveSpaces {
+        #{$prop}: $spaceSM * $coeff;
+
+        @media #{$mediaQuery} {
+            #{$prop}: $space * $coeff;
+        }
+    }
+}

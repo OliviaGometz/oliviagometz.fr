@@ -1,0 +1,78 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Olivia Gometz - Liens utiles</title>
+    <meta name="description" content="Liens utiles pour Olivia Gometz : le site web des Carmidor, les plateformes d'achat du tome 1, les conseils décalés dans Écrire de la fantasy, et mon rantbook." />
+{% endblock %}
+
+{% block content %}
+    <header class="banner-gradient banner-gradient--primary links-banner">
+        <div class="content">
+            <img src="./img/medias/me-circle.png" alt="Photo de profil de Olivia Gometz" />
+
+            <h1>Olivia Gometz</h1>
+
+            <div class="container">
+                {% for name, website in websites.network %}
+                    <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
+                        {% include "svg/logos/networks/" + name + ".svg" %}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% include 'svg/wave.svg' %}
+    </header>
+
+    <section class="links-content">
+        <aside class="card card--secondary maxwidth--sm">
+            <a href="https://www.amazon.fr/Noces-dOmbre-Fum%25C3%25A9e-Olivia-Gometz-ebook/dp/B0CGM871V9/?&_encoding=UTF8&tag=oliviagomet06-21&linkCode=ur2&linkId=5417d1886884a8f4a96e57307c58aada&camp=1642&creative=6746" class="button" rel="external" target="_blank">
+                Précommander Les Noces
+            </a>
+
+            <small><i>Les Noces d'Ombre et de Fumée</i> au format Kindle, à 3,99&nbsp;€ au lieu de 4,99&nbsp;€</small>
+        </aside>
+
+        <div>
+            <a href="/" class="button">
+                Site des Carmidor
+            </a>
+
+            <small>Booktrailer, carte interactive, arbres et bannières des familles&hellip;</small>
+        </div>
+
+        <div>
+            <a href="/acheter" class="button">
+                Acheter le tome 1
+            </a>
+
+            <small>En broché ou en ebook (toutes liseuses)</small>
+        </div>
+
+        <div>
+            <a href="{{websites.wattpad.tome1.start}}" class="button" rel="external" target="_blank">
+                Lire le début
+            </a>
+
+            <small>Lisez gratuitement les premiers chapires du tome&nbsp;1 sur Wattpad</small>
+        </div>
+
+        <div>
+            <a href="{{websites.wattpad.edlf}}" class="button" rel="external" target="_blank">
+                Écrire de la fantasy
+            </a>
+
+            <small>Plein de conseils décalés à découvrir sur Wattpad</small>
+        </div>
+
+        <div>
+            <a href="{{websites.wattpad.rantbook}}" class="button" rel="external" target="_blank">
+                Mon rantbook
+            </a>
+
+            <small>Du blabla et des avis très très personnels (encore sur Wattpad)</small>
+        </div>
+    </section>
+
+    {% include 'footer.njk' %}
+{% endblock %}

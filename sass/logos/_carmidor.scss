@@ -1,0 +1,25 @@
+.logo--carmidor {
+    svg {
+        stroke: $black00;
+        stroke-width: 4px;
+        fill: transparent;
+
+        @include animation(5s linear forwards) {
+            80% {
+                stroke-dashoffset: 0;
+            }
+
+            90% {
+                stroke-dashoffset: 0;
+                stroke: $black00;
+                fill: transparent;
+            }
+
+            to {
+                stroke-dashoffset: 0;
+                stroke: transparent;
+                fill: $black00;
+            }
+        }
+    }
+}
