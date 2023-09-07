@@ -2,7 +2,7 @@
 
 {% block head %}
     <title>Olivia Gometz - Autrice de fantasy et romantasy</title>
-    <meta name="description" content="Les Carmidor est une saga fantasy écrite par Olivia Gometz et éditée par Beta Publisher : un Game of Thrones sans dragons ni magie, mais tout aussi sanglant." />
+    <meta name="description" content="Les Carmidor est une saga fantasy écrite par Olivia Gometz et éditée par Beta Publisher : un Game of Thrones sans dragons ni magie, mais tout aussi sanglant."/>
 {% endblock %}
 
 {% block content %}
@@ -10,175 +10,177 @@
     {{nav('home')}}
 
     <main>
-        <section class="banner home-banner">
-            <article>
-                <h1>les <em>Carmidor</em></h1>
-                <strong>Saga Fantasy</strong>
+        <section class="banner author-banner">
+            <div class="container">
+                <aside class="person">
+                    <img src="./img/medias/me.png" alt="Photo de Olivia Gometz"/>
 
-                <a href="{{websites.bp.tome1}}" rel="external" target="_blank" class="logo--bp button--bp">
-                    Éditions Beta Publisher
-                    {% include 'svg/logos/bp/beta-publisher.svg' %}
-                </a>
-            </article>
+                    <div class="container">
+                        {% for name, website in websites.network %}
+                            <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
+                                {% include "svg/logos/networks/" + name + ".svg" %}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </aside>
+
+                <article class="maxwidth--md text--margin-sm">
+                    <h1 class="title--header">Olivia Gometz</h1>
+
+                    <p>
+                        Fantasy, <strong>romantasy</strong>, complots, féminisme, personnages gris&nbsp;: j’écris des <strong>romans adulte</strong> et j’en parle sur les réseaux sociaux.
+                    </p>
+
+                    <p>
+                        Mais au bout d’un moment, c’est bien aussi d’avoir un site internet.
+                    </p>
+
+                    <p>
+                        <small>
+                            Féministe, passionnée d'histoire médiévale et grande amatrice de vin – selon elle le meilleur carburant pour une autrice de fantasy&nbsp;!&nbsp;–, Olivia Gometz commence à écrire très jeune et publie sur internet depuis 2006.
+                        </small>
+                    </p>
+
+                    <p>
+                        <small>
+                            Les intrigues de pouvoir, les liens familiaux et la place des femmes dans des sociétés très codifiées sont autant de thèmes qui inspirent ses romans – à ne surtout pas mettre entre des mains trop innocentes.
+                        </small>
+                    </p>
+                </article>
+            </div>
 
             {% include 'svg/wave.svg' %}
         </section>
 
         <section class="home-intro maxwidth--lg">
-            <div class="logo--carmidor">
-                {% include 'svg/logos/carmidor.svg' %}
+            <div class="logo--og">
+                {% include 'svg/logos/og.svg' %}
             </div>
 
-            <p>
-                <em>Les Carmidor</em> est une série de <strong>romans fantasy de mœurs</strong>. Au programme&nbsp;: séduction, complots, manipulation, ambition, guerres et oppression. Ces thèmes sont abordés pour un public adulte et averti&nbsp;: avant d'aller plus loin, pensez à consulter les <a href="/trigger-warnings">trigger warnings</a>.
-            </p>
+            <h2 class="title--header title--header--black">
+                Mes romans
+            </h2>
         </section>
 
-        <section class="home-book">
+        <section class="home-book home-book--primary">
             {% include 'svg/wave.svg' %}
 
             <div class="content">
                 <article class="maxwidth--sm text--sm text--margin-sm">
                     <h2>
-                        Tome <span>1</span> – Trahir et Survivre
+                        Les Noces d'Ombre et de Fumée
                     </h2>
 
                     <p>
-                        Prête à tout pour protéger son île, la puissante famille Carmidor s'allie aux nobles continentaux et renverse le souverain.
+                        <i>Les Noces d’Ombre et de Fumée</i> est un one shot (un roman en un seul tome) de <strong>romantasy</strong> d’inspiration Renaissance Italienne.
                     </p>
 
                     <p>
-                        La dynastie royale est massacrée. Tandis que les Virdemis s'emparent de la couronne, le clan insulaire étend son influence dans la capitale en usant de son or et de ses charmes.
+                        Romance slow burn, univers patriarcal, féminisme, complots&hellip; le tout sur fond de mariage arrangé et de magie mortelle pour les femmes.
                     </p>
 
-                    <p>
-                        Mais au nord, la dernière Arvagna jure d'anéantir les assassins de ses parents, dût-elle rejoindre les redoutables Népéis dont les prophéties annoncent l'engloutissement des terres émergées.
-                    </p>
+                    <ul class="list list--white">
+                        <li>One shot dispo en ebook, broché et relié</li>
 
-                    <p>
-                        Les Carmidor le savent&nbsp;: les vagues les plus dévastatrices ne seront pas faites d'écume et de sel.
-                    </p>
+                        <li>Un seul point de vue <small>(celui de Priya, l’héroïne)</small> à la 1ère personne</li>
 
-                    <p>
-                        Elles seront de terreur et de sang.
-                    </p>
+                        <li>Romantasy <small>(fantasy avec une romance)</small>
+                        </li>
+
+                        <li>Public&nbsp;: new adult/adulte <small>(roman très accessible mais thèmes adultes)</small>
+                        </li>
+
+                        <li>Autoédition <small>(disponible sur Amazon et dans certaines librairies)</small>
+                        </li>
+                    </ul>
+
+                    <div class="buttons">
+                        <a href="/lesnoces" class="button button--white button--active-primary">
+                            En savoir plus
+                        </a>
+                    </div>
                 </article>
 
-                <img src="./img/medias/book.png" class="img--book" alt="Tome 1 : Trahir et Survivre (format broché)" />
+                <img src="./img/medias/nof-paperback.png" class="img--book" alt="Les Noces d'Ombre et de Fumée (format broché)"/>
             </div>
 
             {% include 'svg/wave.svg' %}
         </section>
 
-        <section class="home-trailer">
-            <h2>
-                Booktrailer du tome&nbsp;<span>1</span>
-            </h2>
+        <section class="home-book">
+            <div class="content">
+                <img src="./img/medias/carmidor-paperback.png" class="img--book" alt="Les Carmidor tome 1 (format broché)"/>
 
-            <small class="maxwidth--md">
-                Attention&nbsp;: ce site ne collecte aucune donnée personnelle, mais YouTube, si. Vous serez traqué dès que vous lancerez cette vidéo (comme d'hab, en fait). Plus d'informations dans les <a href="/mentions-legales">mentions légales</a>. 
-            </small>
+                <article class="maxwidth--sm text--sm text--margin-sm">
+                    <h2>
+                        Les Carmidor
+                    </h2>
 
-            <div class="video">
-                <iframe src="https://www.youtube-nocookie.com/embed/x59_QCjOWD4" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>
+                        <i>Les Carmidor</i> est une pentalogie (une saga de 5 tomes) de <strong>fantasy de mœurs</strong>, qui suit l’histoire d’une famille de nobles ambitieux dans un impitoyable monde d’inspiration médiévale.
+                    </p>
+
+                    <p>
+                        Au programme&nbsp;: séduction, complots, manipulation, ambition, guerres et oppression – le tout sur fond de menace d’engloutissement des terres émergées par les océans.
+                    </p>
+
+                    <ul class="list list--primary">
+                        <li>Saga de 5 tomes</li>
+
+                        <li>Roman choral <small>(plusieurs points de vues)</small> à la 3ème personne</li>
+
+                        <li>Fantasy de mœurs <small>(le sous-genre de Game of Thrones, mais sans les dragons et la magie)</small>
+                        </li>
+
+                        <li>Public&nbsp;: adulte et averti</li>
+
+                        <li>À paraître en 2025 aux <strong>éditions Plume Blanche</strong>
+                            <small>(tome 1 anciennement édité par Beta Publisher)</small>
+                        </li>
+                    </ul>
+
+                    <div class="buttons">
+                        <a href="https://les-carmidor.fr" class="button button--primary" target="blank">
+                            En savoir plus
+                        </a>
+                    </div>
+                </article>
             </div>
+        </section>
 
-            <aside class="maxwidth--sm">
-                <h3>Et le tome <span>2</span>&nbsp;?</h3>
+        <section class="home-podcasts">
+            {% include 'svg/wave.svg' %}
+                <article class="maxwidth--sm text--sm text--margin-sm centered">
+                    <h2 class="title--header">
+                        Podcasts
+                    </h2>
 
-                <p>
-                    <em>Unir et Détruire</em> (titre encore susceptible de changer) est actuellement en cours d'écriture. Sortie prévue en 2023&nbsp;!
+                    <p class="maxwidth--sm">
+                        Je n'ai pas de podcast à moi, en revanche j'adore être invitée sur ceux des autres influenceurs littéraires&nbsp;! Découvrez tous ceux auxquels j'ai déjà participé&nbsp;:
+                    </p>
+
+                    <div class="buttons">
+                        <a href="/podcasts" class="button button--white button--active-primary">
+                            Tous les podcasts
+                        </a>
+                    </div>
+                </article>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="home-newsletter">
+            <article class="maxwidth--sm text--sm text--margin-sm centered">
+                <h2 class="title--normal">
+                    Recevoir de mes nouvelles
+                </h2>
+
+                <p class="maxwidth--sm">
+                    Une newsletter 100% lecteurices, envoyée max une fois par mois (quand je suis régulière) pour partager mes actus les plus importantes en avant-première, et quelques exclusivités&nbsp;!
                 </p>
-            </aside>
-        </section>
 
-        <section class="home-discover">
-            {% include 'svg/wave.svg' %}
-
-            <h2 class="title--header">
-                Découvrir le tome&nbsp;<span>1</span>
-            </h2>
-
-            <div class="buttons">
-                <a href="{{websites.wattpad.tome1.start}}" rel="external" target="_blank" class="link link--white">
-                    Lire le début sur Wattpad
-                </a>
-
-                <a href="/acheter" class="button button--white button--active-primary">
-                    Acheter
-                </a>
-            </div>
-
-            {% include 'svg/wave.svg' %}
-        </section>
-
-        <section class="home-comments">
-            <h2 class="title--normal">
-                Ce que les lecteurs en disent
-            </h2>
-
-            {% from 'quote.njk' import quote %}
-            {{quote(comments.anouklangel, hasButton=false)}}
-
-            <div class="buttons">
-                <a href="/avis" class="button button--primary">
-                    Lire plus d'avis
-                </a>
-            </div>
-        </section>
-
-        <section class="home-lore">
-            {% include 'svg/wave.svg' %}
-
-            <div class="container text--sm">
-                <article class="maxwidth--xs">
-                    {% include 'svg/illu/map.svg' %}
-
-                    <h2>Royaumes et cités</h2>
-
-                    <p>
-                        Parcourez la carte interactive des terres émergées et explorez les lieux de l'histoire&nbsp;: ceux qu'on protège, ceux qu'on détruit et ceux où l'on périt&hellip;
-                    </p>
-
-                    <div class="buttons">
-                        <a href="/carte" class="button button--white button--active-secondary">
-                            Naviguer
-                        </a>
-                    </div>
-                </article>
-
-                <article class="maxwidth--xs">
-                    {% include 'svg/illu/characters.svg' %}
-
-                    <h2>Familles et personnages</h2>
-
-                    <p>
-                        Rois, dames, courtisanes et guerriers&nbsp;: découvrez les clans, les emblèmes et les visages de ceux qui écrivent l'histoire – avec leur sang ou celui de leurs ennemis.
-                    </p>
-
-                    <div class="buttons">
-                        <a href="/familles" class="button button--white button--active-secondary">
-                            Rencontrer
-                        </a>
-                    </div>
-                </article>
-            </div>
-
-            {% include 'svg/wave.svg' %}
-        </section>
-
-        <section>
-            <h2 class="title--normal">
-                Les médias en parlent
-            </h2>
-
-            <div class="container">
-                {% for id, media in websites.media %}
-                    <a href="{{media.link}}" class="logo logo--md logo--black" rel="external" target="_blank" aria-label="{{media.name}}">
-                        {% include "svg/logos/medias/" + id + ".svg" %}
-                    </a>
-                {% endfor %}
-            </div>
+                <div class="ml-embedded" data-form="p3qnJb"></div>
+            </article>
         </section>
     </main>
 

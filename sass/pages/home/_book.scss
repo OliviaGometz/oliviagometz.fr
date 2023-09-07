@@ -1,11 +1,4 @@
 .home-book {
-    background-color: $primary;
-    background-image: linear-gradient(
-        to bottom,
-        $primary,
-        $primaryDark
-    );
-
     .wave:first-child {
         transform: scaleY(-1) translateY(1px);
     }
@@ -23,11 +16,23 @@
     }
 
     h2 {
-        color: $white00;
         margin-top: 0;
     }
 
-    p {
-        color: $primaryUltraLight;
+    &--primary {
+        background-color: $primary;
+        background-image: linear-gradient(
+            to bottom,
+            $primary,
+            $primaryDark
+        );
+
+        h2 {
+            color: $white00;
+        }
+
+        p {
+            color: $primaryUltraLight;
+        }
     }
 }

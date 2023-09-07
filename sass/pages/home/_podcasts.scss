@@ -1,6 +1,6 @@
-.home-discover {
+.home-podcasts {
     background-color: $primaryDark;
-    background-image: url('../img/bg/buy.png');
+    background-image: url('../img/bg/podcasts.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,6 +14,10 @@
         @media #{$maxMD} {
             margin-top: $spaceXXL;
         }
+    }
+
+    p {
+        color: $white00;
     }
 
     .buttons {

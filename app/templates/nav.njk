@@ -7,7 +7,7 @@
     </button>
 
     <a href="/" class="home">
-        {% include 'svg/logos/carmidor.svg' %}
+        {% include 'svg/logos/og.svg' %}
     </a>
 
     <div class="overlay"></div>
@@ -16,28 +16,20 @@
         set links = {
             home: {
                 name: 'Accueil',
-                url: ''
+                url: '/'
             },
-            map: {
-                name: 'Carte',
-                url: 'carte'
+            nof: {
+                name: 'Les Noces',
+                url: '/lesnoces'
             },
-            characters: {
-                name: 'Familles',
-                url: 'familles'
+            carmidor: {
+                name: 'Les Carmidor',
+                url: 'https://les-carmidor.fr/',
+                external: true
             },
-            comments: {
-                name: 'Avis',
-                url: 'avis'
-            },
-            author: {
-                name: 'Autrice',
-                url: 'autrice'
-            },
-            buy: {
-                name: 'Acheter',
-                url: 'acheter',
-                button: true
+            pro: {
+                name: 'Librairies & salons',
+                url: '/librairies-et-salons'
             }
         }
     %}
@@ -46,8 +38,9 @@
         {% for id, link in links %}
             <li>
                 <a
-                    href="/{{ link.url }}"
+                    href="{{ link.url }}"
                     class="{% if link.button %}button--active-primary button button{% else %}link link{% endif %}--white{%if activePage == id %} active{% endif %}"
+                    {% if link.external %}target="blank"{% endif %}
                 >
                     {{ link.name }}
                 </a>

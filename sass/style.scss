@@ -15,6 +15,7 @@
 @import "base/helpers";
 
 // Components
+@import "components/articles";
 @import "components/badges";
 @import "components/banners";
 @import "components/buttons";
@@ -37,7 +38,7 @@
 
 // Logos
 @import "logos/beta-publisher";
-@import "logos/carmidor";
+@import "logos/og";
 
 // Structure
 @import "structure/main";
@@ -54,9 +55,7 @@
 @import "pages/home/banner";
 @import "pages/home/intro";
 @import "pages/home/book";
-@import "pages/home/trailer";
-@import "pages/home/discover";
-@import "pages/home/comments";
+@import "pages/home/podcasts";
 @import "pages/home/lore";
 
 @import "pages/links/banner";
