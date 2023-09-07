@@ -31,14 +31,9 @@ function html() {
     .src("app/pages/**/*.njk")
     .pipe(
       data(function () {
-        const author = require("./app/content/author.json");
-        const characters = require("./app/content/characters.json");
-        const comments = require("./app/content/comments.json");
-        const families = require("./app/content/families.json");
         const logos = require("./app/content/logos.json");
         const websites = require("./app/content/websites.json");
-        const world = require("./app/content/world.json");
-        return { author, characters, comments, families, logos, websites, world };
+        return { logos, websites };
       })
     )
     .pipe(

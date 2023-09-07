@@ -1,0 +1,48 @@
+{% extends "layout.njk" %}
+{% set path = "../" %}
+
+{% block head %}
+    <title>Les Carmidor - Trigger warnings</title>
+    <meta name="description" content="Trigger warnings des Carmidor : meurtre, suicide, viol, violence physique, mutilation, amputation, décès infantile, misogynie, racisme, emprise psychologique." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav()}}
+
+    <main>
+        <section class="banner-gradient banner-gradient--primary home-book">
+            <div class="content">
+                <article class="maxwidth--sm text--sm text--margin-sm">
+                    <h1 class="title--header">Trigger warnings</h1>
+
+                    <p>
+                        <em>Les Noces d’Ombre et de Fumée</em> est un roman adulte. Il est moins violent que <em>Les Carmidor</em> mais contient néanmoins plusieurs thèmes sensibles.
+                    </p>
+                </article>
+
+                <img src="{{ path }}img/medias/nof-paperback.png" class="img--book" alt="Les Noces d'Ombre et de Fumée (format broché)"/>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="container">
+            <article class="text--center text--margin-sm">
+                <h2>Thèmes difficiles abordés</h2>
+
+                <p>Grossesse et avortement</p>
+
+                <p>Scènes de meurtre et de suicide</p>
+
+                <p>Misogynie, sexisme</p>
+
+                <p>Relations sexuelles explicites (consenties)</p>
+
+                <p>Mentions de viol (événement passé et jamais détaillé)</p>
+            </article>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}
