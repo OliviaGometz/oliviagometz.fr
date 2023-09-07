@@ -1,8 +1,8 @@
 {% extends "layout.njk" %}
 
 {% block head %}
-    <title>Les Carmidor - Acheter le tome 1</title>
-    <meta name="description" content="Le tome 1 des Carmidor est disponible au format papier/broché (17 €) et ebook (3,99 €) sur de nombreux sites de vente et dans les librairies françaises." />
+    <title>Olivia Gometz - Podcasts</title>
+    <meta name="description" content="Les podcasts auxquels j'ai participé" />
 {% endblock %}
 
 {% block content %}
@@ -10,147 +10,32 @@
     {{nav('buy')}}
 
     <main>
-        <section class="buy-banner">
-            <h1 class="title--header">
-                Acheter le tome&nbsp;<span>1</span>
-            </h1>
+        <section class="banner banner-container podcasts-banner">
+            <article class="maxwidth--md text--margin-sm">
+                <h1 class="title--header">Podcasts</h1>
 
-            <div class="buttons">
-                <a href="#ebook" class="link link--white">
-                    En ebook
-                </a>
-
-                <a href="#papier" class="button button--white button--active-primary">
-                    En papier
-                </a>
-            </div>
+                <p>
+                    Tous les podcasts auxquels on m'a invitée.
+                </p>
+            </article>
 
             {% include 'svg/wave.svg' %}
         </section>
 
-        <section class="buy-book">
-            <div class="content" id="papier">
-                <article class="maxwidth--md text--sm text--margin-sm">
-                    <h2>
-                        Commander le tome&nbsp;<span>1</span> en broché <i class="badge badge--primary">17&nbsp;€</i>
-                    </h2>
+        <section class="container">
+            <article class="maxwidth--lg text--margin-sm text--center">
+                <h2 class="title--normal">Page en construction</h2>
 
-                    <p>
-                        Vous pouvez commander votre exemplaire du tome&nbsp;1 de <em>Les Carmidor</em> sur&nbsp;:
-                    </p>
+                <p>Y'a plus qu'à lister les podcasts dans lesquels vous pouvez me retrouver (y'en a une bonne dizaine mine de rien). En attendant la mise en production de cette page, n'hésitez pas à suivre les mises à jour sur mes réseaux&nbsp;!</p>
 
-                    <div class="buttons">
-                        {% for name, website in websites.book %}
-                            <a href="{{website.link}}" class="button button--primary logo logo--top" rel="external" target="_blank">
-                                {% include "svg/logos/websites/" + name + ".svg" %}
-                                {{website.desc}}
-                            </a>
-                        {% endfor %}
-                    </div>
-
-                    <p>
-                        Ou dans <strong>toutes les librairies françaises</strong>.
-                    </p>
-                </article>
-
-                <img src="./img/medias/book.png" class="img--book" alt="Tome 1&nbsp;: Trahir et Survivre (format broché)" />
-            </div>
-        </section>
-
-        <section class="booknook">
-            <article class="card card--primary maxwidth--lg">
-                <div>
-                    <h2>Ou achetez-le directement à Book&nbsp;Nook&nbsp;!</h2>
-
-                    <p>Beta Publisher a ouvert son coffee-book-shop à Paris, à moins de 10 minutes à pieds de la gare Saint Lazare&nbsp;: laissez-vous tenter par un bon café, une pâtisserie et achetez votre exemplaire de <em>Les Carmidor</em> en main propre (en plus, le marque-page y est offert)&nbsp;!</p>
-
-                    <div class="buttons">
-                        <a href="https://goo.gl/maps/vkfZUqXKRpxw3pwY9" class="button button--primary" rel="external" target="_blank">
-                            Trouver BKNK
+                <div class="container">
+                    {% for name, website in websites.network %}
+                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
+                            {% include "svg/logos/networks/" + name + ".svg" %}
                         </a>
-                    </div>
+                    {% endfor %}
                 </div>
             </article>
-        </section>
-
-        <section class="buy-ebook" id="ebook">
-            {% include 'svg/wave.svg' %}
-
-            <div class="content">
-                <img src="./img/medias/ebook.png" class="img--book" alt="Tome 1&nbsp;: Trahir et Survivre (format ebook)" />
-
-                <article class="maxwidth--md text--sm text--margin-sm">
-                    <h2>
-                        Acheter le tome <span>1</span> en ebook <i class="badge badge--primary">3<small>,99</small>&nbsp;€</i>
-                    </h2>
-
-                    <div class="buttons">
-                        <span>
-                            <a href="{{websites.bp.epub}}" class="button button--white button--active-primary" rel="external" target="_blank">
-                                Acheter en .epub
-                            </a>
-
-                            <small>
-                                Toutes les liseuses dont Kobo
-                            </small>
-                        </span>
-
-                        <span>
-                            <a href="{{websites.bp.mobi}}" class="button button--white button--active-primary" rel="external" target="_blank">
-                                Acheter en .mobi
-                            </a>
-                        
-                            <small>
-                                Pour les Kindle d'Amazon
-                            </small>
-                        </span>
-                    </div>
-
-                    <p>
-                        Également disponible sur de nombreuses plateformes de vente, notamment&nbsp;:
-                    </p>
-
-                    <div class="container">
-                        {% for name, link in websites.ebook %}
-                            <a href="{{link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{name}}">
-                                {% include "svg/logos/websites/" + name + ".svg" %}
-                            </a>
-                        {% endfor %}
-                    </div>
-                </article>
-            </div>
-
-            {% include 'svg/wave.svg' %}
-        </section>
-
-        <section class="container buy-details">
-            <article class="maxwidth--md text--margin-sm">
-                <h2>Que gagne l'autrice&nbsp;?</h2>
-
-                <p>Contrairement à ce que l'on pourrait penser, je touche autant d'argent (voire plus) sur un ebook que sur un broché. Si vous souhaitez me soutenir en tant qu'autrice, le format n'a donc pas d'importance&nbsp;!</p>
-
-                <p>En revanche&nbsp;:</p>
-
-                <ul class="list list--secondary">
-                    <li>Beta Publisher et moi touchons davantage sur les <strong>ebooks achetés sur le site de la maison</strong> (puisqu'il n'y a pas d'intermédiaire).</li>
-
-                    <li>S'agissant des brochés, les plateformes margent à peu près toutes à la même hauteur, hormis BoD qui reste plus avantageux.</li>
-
-                    <li>Libraire ou plateforme de vente, pour moi, c'est à peu près la même chose&nbsp;: n'hésitez donc pas à privilégier votre librairie&nbsp;!</li>
-
-                    <li>L'idéal, c'est d'acheter les brochés directement à Beta Publisher (par exemple, sur un <strong>salon du livre</strong>, lors d'une séance de dédicaces, ou à <strong>Book Nook</strong>)&nbsp;: dans ce cas, je touche nettement plus d'argent puisqu'il n'y a aucun intermédiaire&nbsp;!</li>
-                </ul>
-            </article>
-
-            <aside class="card card--secondary maxwidth--xs">
-                <p>
-                    Les romans édités par Beta Publisher disposent du label <strong>Naked Book</strong>, qui détaille la répartition du prix d'achat du broché pour chaque plateforme.
-                </p>
-
-                <p>
-                    Feuilletez les dernières pages de votre exemplaire pour en savoir plus&nbsp;!
-                </p>
-            </aside>
         </section>
     </main>
 
