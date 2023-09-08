@@ -40,7 +40,7 @@
                 <a
                     href="{{ link.url }}"
                     class="{% if link.button %}button--active-primary button button{% else %}link link{% endif %}--white{%if activePage == id %} active{% endif %}"
-                    {% if link.external %}target="blank"{% endif %}
+                    {% if link.external %}rel="external" target="_blank"{% endif %}
                 >
                     {{ link.name }}
                 </a>

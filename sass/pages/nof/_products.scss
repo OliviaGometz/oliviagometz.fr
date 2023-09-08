@@ -1,0 +1,12 @@
+.container--products {
+    text-align: center;
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article {
+        flex-grow: 1;
+    }
+}

@@ -11,98 +11,65 @@
     {{nav('author')}}
 
     <main>
-        <section class="banner author-banner">
+        <section class="banner">
             <div class="container">
-                <aside class="person">
-                    <img src="{{ path }}img/medias/me.png" alt="L'autrice des Carmidor, Olivia Gometz" />
-
-                    <div class="container">
-                        {% for name, website in websites.network %}
-                            <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
-                                {% include "svg/logos/networks/" + name + ".svg" %}
-                            </a>
-                        {% endfor %}
-                    </div>
-                </aside>
-
                 <article class="maxwidth--lg text--margin-sm">
-                    <h1 class="title--header">L'autrice</h1>
+                    <h1 class="title--header">Les Noces d'Ombre et de Fumée</h1>
 
                     <p>
-                        Féministe, passionnée d'histoire médiévale et grande amatrice de vin – selon elle le meilleur carburant pour une autrice de fantasy&nbsp;!&nbsp;–, Olivia Gometz commence à écrire très jeune et publie sur internet depuis 2006.
+                        <em>«&nbsp;Je suis une fille d’Ombre, condamnée à perdre la vie en la donnant.&nbsp;»</em>
                     </p>
 
                     <p>
-                        Les intrigues de pouvoir, les liens familiaux et la place des femmes dans des sociétés très codifiées sont autant de thèmes qui inspirent ses romans – à ne surtout pas mettre entre des mains trop innocentes.
-                    </p>
+                        Sous la République de Fumée, la magie est mortelle pour les femmes&nbsp;: seuls certains hommes en naissent dotés.
+                    <p>
+                    
+                    <p>
+                        Priya est une Recluse&nbsp;: elle appartient à une sororité affranchie des lois patriarcales. Hélas, sa liberté vole en éclats lorsque son père la fiance à Ezio de Ciavi, le dangereux héritier du doge.
+                    <p>
+                    
+                    <p>
+                        Pour protéger ses sœurs, la Recluse n’a pas le choix&nbsp;: elle doit perpétuer la lignée de ses pires ennemis, dût-elle en mourir. Mais au cœur de leur palais corrompu par les mensonges et le vice, Priya est prête à tout pour abattre la redoutable dynastie de Fumée&hellip;
+                    <p>
+
+                    <div class="buttons">
+                        <a href="{{websites.buy.nof.ebook}}" class="button button--white button--active-primary" rel="external" target="_blank">
+                            Acheter
+                        </a>
+                    </div>
                 </article>
+
+                <img src="{{ path }}img/medias/nof-paperback.png" class="img--book" alt="Les Noces d'Ombre et de Fumée (format broché)"/>
             </div>
 
             {% include 'svg/wave.svg' %}
         </section>
 
-        <section class="container">
-            <article class="maxwidth--md text--margin-sm">
-                <h2>Des infos qui croustillent</h2>
-
-                <p>Je parle de moi à la 1<sup>ère</sup> personne sur Wattpad, dans mon <strong>rantbook</strong> (pour les crasseux du fond de la classe qui savent pas ce que c'est, c'est un mélange d'avis perso et d'infos sur un être humain en particulier – en l'occurence, moi).</p>
-
-                <p>Si vous avez du temps à perdre, c'est par là&nbsp;:</p>
-
-                <div class="buttons">
-                    <a href="{{websites.wattpad.rantbook}}" class="button button--primary" rel="external" target="_blank">
-                        Perdre du temps
-                    </a>
-                </div>
-            </article>
-
-            <aside class="card card--secondary maxwidth--sm">
-                <h2>Des conseils de qualitay</h2>
-
-                <p>
-                    Je dispense mes très précieux conseils sur l'écriture de roman fantasy dans un autre bouquin sur Wattpad&nbsp;: <em>Écrire de la fantasy comme G.&nbsp;R.&nbsp;R.&nbsp;Martin</em>, un monument littéraire fondé sur ma très grande connaissance de cet auteur qui a totalement approuvé que je me serve de son nom pour faire des vues.
-                </p>
-
-                <div class="buttons">
-                    <a href="{{websites.wattpad.edlf}}" class="button" rel="external" target="_blank">
-                        C'est quoi ça putain&nbsp;?
-                    </a>
-                </div>
-            </aside>
+        <section class="home-intro maxwidth--lg">
+            <h2 class="title--header title--header--black">
+                Disponible en&hellip;
+            </h2>
         </section>
 
-        <section class="author-timeline">
-            {% include 'svg/wave.svg' %}
+        <section class="container container--products">
+            <article class="maxwidth--xxs text--margin-sm">
+                <img src="{{ path }}img/medias/nof-ebook.png" class="img--book" alt="Les Noces d'Ombre et de Fumée (en ebook)"/>
 
-            <article>
-                <h2>
-                    Mon parcours d'autrice
-                </h2>
-
-                <div class="timeline">
-                    {% for line in author %}
-                        <span>{{line.date}}</span>
-                        <p>{{line.description | safe }}</p>
-                    {% endfor %}
-                </div>
+                <p><strong>Format Kindle</strong></p>
+                <small>Et dans l'abonnement Kindle</small>
+                <small><em>Envoi du epub par mail sur preuve d'achat du ebook sur Amazon – contactez-moi sur mes réseaux sociaux</em></small>
             </article>
 
-            {% include 'svg/wave.svg' %}
-        </section>
+            <article class="maxwidth--xxs text--margin-sm">
+                <img src="{{ path }}img/medias/nof-paperback.png" class="img--book" alt="Les Noces d'Ombre et de Fumée (en broché)"/>
 
-        <section class="container">
-            <article class="maxwidth--lg text--margin-sm text--center">
-                <p>
-                    Toujours là&nbsp;? Pour suivre toutes mes actualités (et celles des Carmidor, notamment la progression du tome 2), suivez-moi sur mes réseaux&nbsp;:
-                </p>
+                <p><strong>Broché</strong></p>
+            </article>
 
-                <div class="container">
-                    {% for name, website in websites.network %}
-                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
-                            {% include "svg/logos/networks/" + name + ".svg" %}
-                        </a>
-                    {% endfor %}
-                </div>
+            <article class="maxwidth--xxs text--margin-sm">
+                <img src="{{ path }}img/medias/nof-hardback.png" class="img--book" alt="Les Noces d'Ombre et de Fumée (en relié)"/>
+
+                <p><strong>Relié</strong></p>
             </article>
         </section>
     </main>
