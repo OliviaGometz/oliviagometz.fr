@@ -4,6 +4,10 @@
       "desc": "Mon compte Instagram",
       "link": "https://www.instagram.com/oliviagometz/"
     },
+    "threads": {
+      "desc": "Mon compte Threads",
+      "link": "https://www.threads.net/@oliviagometz"
+    },
     "tiktok": {
       "desc": "Mon profil TikTok",
       "link": "https://www.tiktok.com/@oliviagometz"
@@ -11,10 +15,6 @@
     "facebook": {
       "desc": "Ma page Facebook",
       "link": "https://www.facebook.com/OliviaGometzAutrice/"
-    },
-    "amazon": {
-      "desc": "Mon page autrice Amazon",
-      "link": "https://www.amazon.fr/Olivia-Gometz/e/B09Q299Q98"
     },
     "wattpad": {
       "desc": "Mon profil Wattpad",
@@ -39,42 +39,6 @@
       "paperback": "",
       "hardback": ""
     }
-  },
-  "book": {
-    "amazon": {
-      "desc": "amazon prime",
-      "link": "https://amzn.to/3sFEplw"
-    },
-    "fnac": {
-      "desc": "fnac.com",
-      "link": "https://livre.fnac.com/a16444863/Olivia-Gometz-Les-Carmidor"
-    },
-    "cultura": {
-      "desc": "cultura.com",
-      "link": "https://www.cultura.com/les-carmidor-trahir-et-survivre-9782490163694.html"
-    },
-    "decitre": {
-      "desc": "decitre.fr",
-      "link": "https://www.decitre.fr/livre-pod/les-carmidor-9782490163694.html"
-    },
-    "bod": {
-      "desc": "book on demand",
-      "link": "https://www.bod.fr/librairie/les-carmidor-olivia-gometz-9782490163694"
-    },
-    "chapitre": {
-      "desc": "chapitre.com",
-      "link": "https://www.chapitre.com/BOOK/gometz-olivia/les-carmidor-trahir-et-survivre,83087757.aspx"
-    },
-    "lireka": {
-      "desc": "librairie fr",
-      "link": "https://www.lireka.com/fr/pp/9782490163694-les-carmidor"
-    }
-  },
-  "ebook": {
-    "amazon": "https://amzn.to/3eFldvQ",
-    "fnac": "https://livre.fnac.com/a16444863/Olivia-Gometz-Les-Carmidor?NUMERICAL=Y",
-    "vivlio": "https://shop.vivlio.com/product/9782490163700_9782490163700_10007",
-    "rakuten": "https://www.kobo.com/fr/fr/ebook/les-carmidor"
   },
   "comment": {
     "amazon": "https://www.amazon.fr/review/create-review/?ie=UTF8&channel=glance-detail&asin=2490163698",
