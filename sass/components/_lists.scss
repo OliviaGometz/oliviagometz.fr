@@ -35,7 +35,7 @@ $indent: 2em;
 
         li {
             &::before {
-                color: transparentize($white00, 0.4);
+                color: color.adjust($white00, $alpha: -0.4);
             }
         }
     }

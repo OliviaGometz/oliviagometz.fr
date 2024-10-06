@@ -4,6 +4,33 @@ $bold: 700;
 $fontDefault: 'Martel';
 $fontMain: 'Cormorant';
 
+@mixin fontSrc($name) {
+    src:
+        local(#{$name}),
+        url('../fonts/#{$name}.woff2') format('woff2'),
+        url('../fonts/#{$name}.woff') format('woff'),
+        url('../fonts/#{$name}.ttf') format('truetype');
+}
+
+@each $fontWeight in 'Regular', 'ExtraBold' {
+    @font-face {
+        font-family: $fontDefault;
+        @include fontSrc(#{$fontDefault}-#{$fontWeight});
+        
+        @if ($fontWeight == 'ExtraBold') {
+            font-weight: $bold;
+        }
+        @else {
+            font-weight: $normal;
+        }
+    }
+}
+
+@font-face {
+    font-family: $fontMain;
+    @include fontSrc('#{$fontMain}-Regular');
+}
+
 $spacingXS: 0.1em;
 $spacingSM: 0.2em;
 $spacingLG: 0.3em;

@@ -27,7 +27,7 @@ body {
     font-family: $fontDefault, serif;
     font-size: $fontSizeBase;
     line-height: $lineHeightMD;
-    -webkit-tap-highlight-color: transparentize($primary, 0.6);
+    -webkit-tap-highlight-color: color.adjust($primary, $alpha: -0.6);
 }
 
 h1,

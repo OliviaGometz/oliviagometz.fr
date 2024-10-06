@@ -52,7 +52,7 @@
                 height: $line;
                 width: $spaceMD;
                 position: absolute;
-                left: $line / -2;
+                left: math.div($line, -2);
                 top: 0.6em;
                 transform: translateX(-50%);
                 background-color: $black00;

@@ -1,3 +1,6 @@
+@use "sass:color";
+@use 'sass:math';
+
 // Variables
 @import "variables/animations";
 @import "variables/colors";
@@ -30,7 +33,6 @@
 @import "components/texts";
 @import "components/timeline";
 @import "components/titles";
-@import "components/videos";
 @import "components/wave";
 
 // Logos

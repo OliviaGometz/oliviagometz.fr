@@ -21,7 +21,7 @@
         &--#{$colorName} {
             color: map-get($color, "main");
             background-color: map-get($color, "ultraLight");
-            box-shadow: $spaceXXS $spaceXXS 0 0 transparentize(map-get($color, "ultraLight"), 0.5);
+            box-shadow: $spaceXXS $spaceXXS 0 0 color.adjust(map-get($color, "ultraLight"), $alpha: -0.5);
         }
     }
 }

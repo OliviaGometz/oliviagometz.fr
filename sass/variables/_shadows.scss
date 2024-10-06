@@ -3,14 +3,14 @@ $shadowMD: 16px;
 
 // Block shadows
 
-$blackShadowSM: 0 0 $shadowSM transparentize($black00, 0.9);
-$blackShadowMD: 0 0 $shadowMD transparentize($black00, 0.8);
+$blackShadowSM: 0 0 $shadowSM color.adjust($black00, $alpha: -0.9);
+$blackShadowMD: 0 0 $shadowMD color.adjust($black00, $alpha: -0.8);
 
-$primaryShadowSM: 0 -#{$shadowSM} $shadowMD transparentize($primary, 0.92);
-$secondaryShadowSM: -#{$shadowSM} $shadowSM $shadowMD transparentize($secondary, 0.92);
+$primaryShadowSM: 0 -#{$shadowSM} $shadowMD color.adjust($primary, $alpha: -0.92);
+$secondaryShadowSM: -#{$shadowSM} $shadowSM $shadowMD color.adjust($secondary, $alpha: -0.92);
 
-$primaryShadowMD: 0 -#{$shadowSM} $shadowMD transparentize($primary, 0.8);
-$secondaryShadowMD: -#{$shadowSM} $shadowSM $shadowMD transparentize($secondary, 0.8);
+$primaryShadowMD: 0 -#{$shadowSM} $shadowMD color.adjust($primary, $alpha: -0.8);
+$secondaryShadowMD: -#{$shadowSM} $shadowSM $shadowMD color.adjust($secondary, $alpha: -0.8);
 
 // Text shadows
 

@@ -1,7 +1,7 @@
 .hamburger {
     position: relative;
     width: $navButtonWidth;
-    height: $navButtonWidth/1.4;
+    height: math.div($navButtonWidth, 1.4);
     padding: 0;
     border: none;
     background: transparent;

@@ -10,5 +10,7 @@ $durationLG: 0.8s;
         @content;
     }
 
-    animation: $name $params;
+    & {
+        animation: $name $params;
+    }
 }
