@@ -1,10 +1,22 @@
-# Remove .html extension in url
+# Activer le moteur de réécriture
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC, L]
 
-# Expires caching
+# Définir la base de réécriture (à adapter si nécessaire)
+RewriteBase /
+
+# Rediriger les URL avec un / final vers l'URL sans /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+# Supprimer l'extension .html des URL tout en gérant les sous-répertoires
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*[^/])$ $1.html [NC,L]
+
+# Page d'erreur personnalisée
+ErrorDocument 404 /404.html
+
+# Cache-control pour les ressources statiques
 <IfModule mod_expires.c>
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
