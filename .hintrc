@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "link[sizes]",
+          "meta[name=theme-color]"
+        ]
+      }
+    ],
+    "disown-opener": "off"
+  }
+}
