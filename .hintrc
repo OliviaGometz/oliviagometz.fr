@@ -17,7 +17,8 @@
       "default",
       {
         "ignore": [
-          "flex-grow"
+          "flex-grow",
+          "user-select"
         ]
       }
     ]
