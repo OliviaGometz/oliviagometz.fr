@@ -19,10 +19,6 @@
     "wattpad": {
       "desc": "Mon profil Wattpad",
       "link": "https://www.wattpad.com/user/OliviaGometz"
-    },
-    "goodreads": {
-      "desc": "Mon compte auteur Goodreads",
-      "link": "https://www.goodreads.com/olivia-gometz"
     }
   },
   "wattpad": {
@@ -39,12 +35,5 @@
       "paperback": "",
       "hardback": ""
     }
-  },
-  "comment": {
-    "amazon": "https://www.amazon.fr/review/create-review/?ie=UTF8&channel=glance-detail&asin=2490163698",
-    "babelio": "https://www.babelio.com/ajoutinfoslivre.php?id_oeuvre=1363327&action=ajout",
-    "booknode": "https://booknode.com/les_carmidor_tome_1_trahir_et_survivre_03388465/commentaires",
-    "livraddict": "https://www.livraddict.com/biblio/livre/les-carmidor-tome-1-trahir-et-survivre.html#comments",
-    "goodreads": "https://www.goodreads.com/review/new/59375682-les-carmidor"
   }
 }
