@@ -30,9 +30,8 @@ function html() {
     .src("app/pages/**/*.njk")
     .pipe(
       data(function () {
-        const logos = require("./app/content/logos.json");
         const websites = require("./app/content/websites.json");
-        return { logos, websites };
+        return { websites };
       })
     )
     .pipe(
