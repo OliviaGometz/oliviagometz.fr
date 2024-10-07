@@ -166,6 +166,21 @@
             {% include 'svg/wave.svg' %}
         </section>
 
+        <section class="container">
+            <article class="text--center">
+                <h2>
+                    Mon parcours d'autrice
+                </h2>
+
+                <div class="timeline timeline--primary">
+                    {% for line in timeline %}
+                        <span>{{line.date | safe}}</span>
+                        <p>{{line.description | safe }}</p>
+                    {% endfor %}
+                </div>
+            </article>
+        </section>
+
         {% include 'newsletter.njk' %}
     </main>
 

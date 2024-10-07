@@ -30,8 +30,9 @@ function html() {
     .src("app/pages/**/*.njk")
     .pipe(
       data(function () {
+        const timeline = require("./app/content/timeline.json");
         const websites = require("./app/content/websites.json");
-        return { websites };
+        return { timeline, websites };
       })
     )
     .pipe(

@@ -36,6 +36,7 @@
     }
 
     p {
+        text-align: left;
         max-width: map-get($widths, "md");
 
         &:not(:last-of-type) {
@@ -56,6 +57,29 @@
                 top: 0.6em;
                 transform: translateX(-50%);
                 background-color: $black00;
+            }
+        }
+
+        small {
+            display: inline;
+        }
+    }
+
+    &--primary {
+        span {
+            color: $primary;
+
+            &::before,
+            &::after {
+                background-color: $primaryLight;
+            }
+        }
+
+        p {
+            border-color: $primaryLight;
+
+            &::before {
+                background-color: $primaryLight;
             }
         }
     }
