@@ -21,19 +21,14 @@
       "link": "https://www.wattpad.com/user/OliviaGometz"
     }
   },
-  "wattpad": {
-    "tome1": {
-      "start": "https://www.wattpad.com/655892420-les-carmidor-t1-trahir-et-survivre",
-      "chapter1": "https://www.wattpad.com/663681962-les-carmidor-t1-trahir-et-survivre-%C3%A9dit%C3%A9-chapitre"
-    },
-    "edlf": "https://www.wattpad.com/666768516-%C3%A9crire-de-la-fantasy-comme-g-r-r-martin",
-    "rantbook": "https://www.wattpad.com/678351969-rantbook"
+  "read": {
+    "nof": "https://www.amazon.fr/Noces-dOmbre-Fum%C3%A9e-Olivia-Gometz-ebook/dp/B0CGM871V9/?asin=B0CGM871V9&revisionId=80f07807&format=1&depth=1"
   },
   "buy": {
     "nof": {
-      "ebook": "https://www.amazon.fr/Noces-dOmbre-Fum%25C3%25A9e-Olivia-Gometz-ebook/dp/B0CGM871V9/?&_encoding=UTF8&tag=oliviagomet06-21&linkCode=ur2&linkId=5417d1886884a8f4a96e57307c58aada&camp=1642&creative=6746",
-      "paperback": "",
-      "hardback": ""
+      "ebook": "https://www.amazon.fr/Noces-dOmbre-Fum%25C3%25A9e-Olivia-Gometz-ebook/dp/B0CGM871V9/",
+      "paperback": "https://www.amazon.fr/Noces-dOmbre-Fum%C3%A9e-Olivia-Gometz/dp/B0CHL3ZQ1R/ref=tmm_pap_swatch_0",
+      "hardback": "https://www.amazon.fr/Noces-dOmbre-Fum%C3%A9e-Olivia-Gometz/dp/B0CHLC1XHD/ref=tmm_hrd_swatch_0"
     }
   }
 }

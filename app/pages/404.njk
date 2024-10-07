@@ -2,7 +2,8 @@
 
 {% block head %}
     <title>Olivia Gometz - Page introuvable</title>
-    <meta name="description" content="Erreur 404 : page introuvable. Si vous ne savez pas quoi faire, voici le début des Carmidor !" />
+    <meta name="description" content="Erreur 404 : page introuvable. Si vous ne savez pas quoi faire, voici le début des Noces d'Ombre et de Fumée !" />
+    <meta name="robots" content="noindex" />
 {% endblock %}
 
 {% block content %}
@@ -22,12 +23,12 @@
                     </p>
 
                     <p>
-                        Si vous ne savez pas quoi faire, le début du tome&nbsp;1 de <em>Les Carmidor</em> est disponible à la lecture juste ci-dessous.
+                        Si vous ne savez pas quoi faire, le début de <em>Les Noces d'Ombre et de Fumée</em> est disponible à la lecture juste ci-dessous.
                     </p>
 
                     <div class="buttons">
-                        <a href="#prologue" class="link link--white">
-                            Lire le début du tome 1
+                        <a href="#lire" class="link link--white">
+                            Lire le début des Noces
                         </a>
 
                         <a href="/" class="button button--white button--active-secondary">
@@ -40,14 +41,24 @@
             {% include 'svg/wave.svg' %}
         </section>
 
-        <section id="prologue">
+        <section id="lire">
             {% include 'chapter.njk' %}
+        </section>
 
-            <div class="buttons">
-                <a href="{{websites.wattpad.tome1.chapter1}}" rel="external" target="_blank" class="link link--primary">
-                    Continuer sur Wattpad
-                </a>
-            </div>
+        <section class="container">
+            <article class="maxwidth--md text--margin-sm text--center">
+                <h2 class="title--underline">Envie d'en lire davantage&nbsp;?</h2>
+
+                <p>
+                    Les chapitres 2, 3, 4 et 5 des <em>Noces d'Ombre et de Fumée</em> sont disponibles gratuitement sur la fiche Amazon&nbsp;! (bouton "Lire l'échantillon")
+                </p>
+
+                <div class="buttons">
+                    <a href="{{websites.read.nof}}" rel="external" target="_blank" class="button button--primary">
+                        Lire la suite sur Amazon
+                    </a>
+                </div>
+            </article>
         </section>
     </main>
 

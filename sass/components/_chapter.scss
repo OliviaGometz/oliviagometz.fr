@@ -8,21 +8,6 @@
         margin-bottom: $spaceSM;
     }
 
-    .chapter-date {
-        text-align: center;
-        font-family: $fontMain, serif;
-        font-size: $fontSizeXL;
-        color: $grey50;
-
-        &::after {
-            content: '';
-            width: $underline;
-            height: $line;
-            background-color: $secondaryLight;
-            margin: $spaceMD auto $spaceXL auto;
-        }
-    }
-
     p {
         text-align: justify;
         font-size: $fontSizeSM;
