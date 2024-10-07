@@ -18,7 +18,8 @@
       {
         "ignore": [
           "flex-grow",
-          "user-select"
+          "user-select",
+          "-webkit-text-size-adjust"
         ]
       }
     ],
