@@ -1,0 +1,43 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Olivia Gometz - Dédicaces et rencontres</title>
+    <meta name="description" content="Quelles sont mes prochaines dédicaces et à quels salons je participe." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav('meetings')}}
+
+    <main>
+        <section class="banner banner-container library-banner">
+            <article class="maxwidth--md text--margin-sm">
+                <h1 class="title--header">Dédicaces et rencontres</h1>
+
+                <p>
+                    Quelles sont mes prochaines dédicaces, en salons ou librairies.
+                </p>
+            </article>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="container">
+            <article class="maxwidth--lg text--margin-sm text--center">
+                <h2 class="title--normal">Page en construction</h2>
+
+                <p>Un tas de belles choses se préparent en coulisses. En attendant la mise en production de cette page, n'hésitez pas à suivre les mises à jour sur mes réseaux&nbsp;!</p>
+
+                <div class="container">
+                    {% for name, website in websites.network %}
+                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
+                            {% include "svg/logos/networks/" + name + ".svg" %}
+                        </a>
+                    {% endfor %}
+                </div>
+            </article>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

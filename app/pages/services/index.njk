@@ -1,21 +1,21 @@
 {% extends "layout.njk" %}
 
 {% block head %}
-    <title>Olivia Gometz - Librairies et salons</title>
-    <meta name="description" content="Dans quelles librairies trouver mes romans, quels sont mes prochaines dédicaces, et à quels salons je participe." />
+    <title>Olivia Gometz - Services</title>
+    <meta name="description" content="Mes services aux auteurs et autrices" />
 {% endblock %}
 
 {% block content %}
     {% from 'nav.njk' import nav %}
-    {{nav('characters')}}
+    {{nav('services')}}
 
     <main>
-        <section class="banner banner-container library-banner">
+        <section class="banner banner-container podcasts-banner">
             <article class="maxwidth--md text--margin-sm">
-                <h1 class="title--header">Librairies, salons <small>et dédicaces</small></h1>
+                <h1 class="title--header">Services</h1>
 
                 <p>
-                    Dans quelles librairies trouver mes romans, quels sont mes prochaines dédicaces, et à quels salons je participe.
+                    Mes services aux auteurs et autrices.
                 </p>
             </article>
 
@@ -26,7 +26,7 @@
             <article class="maxwidth--lg text--margin-sm text--center">
                 <h2 class="title--normal">Page en construction</h2>
 
-                <p>Un tas de belles choses se préparent en coulisses. En attendant la mise en production de cette page, n'hésitez pas à suivre les mises à jour sur mes réseaux&nbsp;!</p>
+                <p>À venir quand j'en offrirai. En attendant, je suis là&nbsp;:</p>
 
                 <div class="container">
                     {% for name, website in websites.network %}
