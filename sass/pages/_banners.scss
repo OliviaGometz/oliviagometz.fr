@@ -1,0 +1,5 @@
+@each $page in 'meetings', 'podcasts', 'services' {
+    .#{$page}-banner {
+        background-image: url('../img/bg/#{$page}.png');
+    }
+}
