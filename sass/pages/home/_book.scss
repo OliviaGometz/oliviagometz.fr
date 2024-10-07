@@ -35,4 +35,21 @@
             color: $primaryUltraLight;
         }
     }
+
+    &--secondary {
+        background-color: $secondary;
+        background-image: linear-gradient(
+            to bottom,
+            $secondary,
+            $secondaryDark
+        );
+
+        h2 {
+            color: $white00;
+        }
+
+        p {
+            color: $secondaryUltraLight;
+        }
+    }
 }
