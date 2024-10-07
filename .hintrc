@@ -28,7 +28,8 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "manifest-app-name": "off"
   },
   "browserslist": [
     "defaults",
