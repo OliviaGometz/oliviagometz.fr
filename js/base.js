@@ -10,5 +10,10 @@ const menuToggle = function() {
     body.classList.toggle(activeCss);
 };
 
-hamburger.addEventListener('click', menuToggle);
-menuOverlay.addEventListener('click', menuToggle);
+if (hamburger) {
+    hamburger.addEventListener('click', menuToggle);
+}
+
+if (menuOverlay) {
+    menuOverlay.addEventListener('click', menuToggle);
+}
