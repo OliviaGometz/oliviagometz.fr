@@ -13,15 +13,29 @@
         margin-bottom: 0;
     }
 
-    .buttons:last-child {
-        a {
-            margin-bottom: 0;
+    .buttons {
+        &:first-child {
+            a {
+                margin-top: 0;
+            }
+        }
+
+        &:last-child {
+            a {
+                margin-bottom: 0;
+            }
         }
     }
 
     p {
         font-size: $fontSizeSM;
         margin: $spaceSM 0;
+    }
+
+    &--light {
+        border: none;
+        outline: none;
+        margin: 0;
     }
 
     @each $colorName, $color in $colors {

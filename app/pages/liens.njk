@@ -7,47 +7,57 @@
 {% endblock %}
 
 {% block content %}
-    <header class="banner-gradient banner-gradient--primary links-banner">
-        <div class="content">
-            <img src="/img/medias/me-circle.png" alt="Photo de profil de Olivia Gometz" />
+    <header class="banner-gradient banner-gradient--primary">
+        <div class="container">
+            <article class="text--center">
+                <img src="/img/medias/me-circle.png" class="img img--center" alt="Photo de profil de Olivia Gometz" />
 
-            <h1>Olivia Gometz</h1>
+                <h1>Olivia Gometz</h1>
 
-            <div class="container">
-                {% for name, website in websites.network %}
-                    <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
-                        {% include "svg/logos/networks/" + name + ".svg" %}
-                    </a>
-                {% endfor %}
-            </div>
+                <div class="buttons">
+                    {% for name, website in websites.network %}
+                        <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
+                            {% include "svg/logos/networks/" + name + ".svg" %}
+                        </a>
+                    {% endfor %}
+                </div>
+            </article>
         </div>
 
         {% include 'svg/wave.svg' %}
     </header>
 
-    <section class="links-content">
-        <aside class="card card--secondary maxwidth--sm">
-            <a href="{{websites.buy.nof.ebook}}" class="button" rel="external" target="_blank">
-                Acheter Les Noces
-            </a>
+    <section class="container">
+        <div class="maxwidth--sm text--center">
+            <div class="card card--light">
+                <div class="buttons">
+                    <a href="/" class="button">
+                        Mon site web
+                    </a>
+                </div>
 
-            <small><em>Les Noces d'Ombre et de Fumée</em> au format Kindle, broché ou relié</small>
-        </aside>
+                <small>Mon site internet d'autrice, avec mes romans et les infos dédicaces/salons&nbsp;!</small>
+            </div>
 
-        <div>
-            <a href="/" class="button">
-                Mon site web
-            </a>
+            <div class="card card--light">
+                <div class="buttons">
+                    <a href="https://les-carmidor.fr" class="button">
+                        Site des Carmidor
+                    </a>
+                </div>
 
-            <small>Mon site internet d'autrice, avec mes romans et les infos dédicaces/salons&nbsp;!</small>
-        </div>
+                <small>Avis, carte interactive, arbres et bannières des familles&hellip;</small>
+            </div>
 
-        <div>
-            <a href="https://les-carmidor.fr" class="button">
-                Site des Carmidor
-            </a>
+            <div class="card card--secondary">
+                <div class="buttons">
+                    <a href="{{websites.buy.nof.ebook}}" class="button" rel="external" target="_blank">
+                        Acheter Les Noces
+                    </a>
+                </div>
 
-            <small>Avis, carte interactive, arbres et bannières des familles&hellip;</small>
+                <small><em>Les Noces d'Ombre et de Fumée</em> au format Kindle, broché ou relié</small>
+            </div>
         </div>
     </section>
 

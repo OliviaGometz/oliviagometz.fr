@@ -10,25 +10,27 @@
     {{nav('services')}}
 
     <main>
-        <section class="banner banner-container services-banner">
-            <article class="maxwidth--md text--margin-sm">
-                <h1 class="title--header">Services</h1>
+        <section class="banner-image banner-image--services wave-bottom-reverse">
+            <div class="container">
+                <article class="maxwidth--md text--margin-sm">
+                    <h1 class="title--header">Services</h1>
 
-                <p>
-                    Mes services aux auteurs et autrices.
-                </p>
-            </article>
+                    <p>
+                        Mes services aux auteurs et autrices.
+                    </p>
+                </article>
+            </div>
 
             {% include 'svg/wave.svg' %}
         </section>
 
         <section class="container">
             <article class="maxwidth--lg text--margin-sm text--center">
-                <h2 class="title--normal">Page en construction</h2>
+                <h2>Page en construction</h2>
 
                 <p>À venir quand j'en offrirai. En attendant, je suis là&nbsp;:</p>
 
-                <div class="container">
+                <div class="buttons">
                     {% for name, website in websites.network %}
                         <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
                             {% include "svg/logos/networks/" + name + ".svg" %}

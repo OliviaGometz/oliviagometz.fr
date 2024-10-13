@@ -14,10 +14,9 @@
 // Bases
 @import "base/normalize";
 @import "base/general";
-@import "base/helpers";
+@import "base/containers";
 
 // Components
-@import "components/articles";
 @import "components/badges";
 @import "components/banners";
 @import "components/buttons";
@@ -30,6 +29,7 @@
 @import "components/logos";
 @import "components/overlays";
 @import "components/person";
+@import "components/quotes";
 @import "components/texts";
 @import "components/timeline";
 @import "components/titles";
@@ -42,17 +42,3 @@
 @import "structure/main";
 @import "structure/nav";
 @import "structure/footer";
-
-// Pages
-@import "pages/banners";
-@import "pages/home/banner";
-@import "pages/home/intro";
-@import "pages/home/book";
-@import "pages/home/podcasts";
-
-@import "pages/links/banner";
-@import "pages/links/content";
-
-@import "pages/legal";
-
-@import "pages/nof/products";

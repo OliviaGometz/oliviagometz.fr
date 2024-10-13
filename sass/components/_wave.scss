@@ -16,6 +16,30 @@ $strokeOffset: 3100;
             stroke-width: 3px;
         }
     }
+
+    &:first-child {
+        transform: translateY(-1px) scaleY(-1);
+    }
+
+    &:last-child {
+        transform: translateY(1px);
+    }
+}
+
+.wave-top-reverse {
+    .wave {
+        &:first-child {
+            transform: translateY(-1px) scaleX(-1) scaleY(-1);
+        }
+    }
+}
+
+.wave-bottom-reverse {
+    .wave {
+        &:last-child {
+            transform: translateY(1px) scaleX(-1);
+        }
+    }
 }
 
 *:hover {

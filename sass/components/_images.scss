@@ -1,9 +1,21 @@
 .img {
-    &--book {
-        display: block;
-        width: 30%;
+    display: block;
+    padding: 0 $spaceMD;
+
+    &--center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &--sm {
+        width: 50%;
         min-width: 180px;
-        max-width: 300px;
-        padding: 0 $spaceMD;
+        max-width: 280px;
+    }
+
+    &--md {
+        width: 50%;
+        min-width: 250px;
+        max-width: 350px;
     }
 }

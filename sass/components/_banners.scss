@@ -1,92 +1,21 @@
-.banner {
-    background-color: $black00;
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-
-    article {
-        background-color: color.adjust($black00, $alpha: -0.5);
-        padding: $spaceMD;
-
-        @media #{$minSM} {
-            padding: $spaceLG;
-        }
-
-        @media #{$minMD} {
-            padding: $spaceXL;
-        }
-
-        p {
-            color: $grey10;
-
-            small {
-                color: $grey30;
-                font-size: 0.7em;
-            }
-        }
-    }
-}
-
-.basic-banner {
-    img {
-        width: 70%;
-    }
-
-    article {
-        @media #{$minMD} {
-            padding-bottom: 0;
-        }
-    }
-}
-
-.banner-container {
-    background-size: auto 100%;
-
-    article {
-        text-align: center;
-
-        @media #{$minSM} {
-            margin-left: auto;
-        }
-
-        @media #{$minLG} {
-            margin-right: auto;
-            padding-bottom: 0;
-        }
-    }
-
-    .wave {
-        transform: scaleX(-1) translateY(1px);
-    }
-}
-
 .banner-gradient {
     color: $white00;
-    padding-top: $spaceMD;
-
-    .content {
-        max-width: 750px;
-        margin: 0 auto;
-        padding: $spaceMD;
-        text-align: center;
-
-        @media #{$minMD} {
-            padding-bottom: 0;
-        }
-
-        img {
-            display: block;
-            width: 50%;
-            max-width: 150px;
-            margin: 0 auto;
-        }
-    }
-
-    .wave {
-        transform: scaleX(-1) translateY(1px);
-    }
 
     @each $colorName, $color in $colors {
+        &--#{$colorName},
+        &--dark-#{$colorName} {
+            h1,
+            h2,
+            h3,
+            small {
+                color: map-get($color, "ultraLight");
+            }
+
+            p {
+                color: $white00;
+            }
+        }
+
         &--#{$colorName} {
             background-color: map-get($color, "main");
             background-image: linear-gradient(
@@ -95,5 +24,55 @@
                 map-get($color, "dark")
             );
         }
-    } 
+
+        &--dark-#{$colorName} {
+            background-color: $black00;
+            background-image: linear-gradient(
+                to bottom,
+                $black00,
+                map-get($color, "ultraDark")
+            );
+        }
+    }
+}
+
+.banner-image {
+    color: $white00;
+    background-color: $black00;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    article {
+        background-color: color.adjust($black00, $alpha: -0.5);
+
+        p {
+            color: $grey10;
+
+            small {
+                color: $grey30;
+            }
+        }
+    }
+
+    @each $page in 'meetings', 'podcasts', 'services' {
+        &--#{$page} {
+            background-image: url('../img/bg/#{$page}.png');
+        }
+    }
+}
+
+.banner-fixed-image {
+    color: $white00;
+    text-shadow: $textShadowMD;
+    background-color: $black00;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    @each $page in 'podcasts' {
+        &--#{$page} {
+            background-image: url('../img/bg/#{$page}-lg.png');
+        }
+    }
 }

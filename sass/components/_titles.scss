@@ -1,21 +1,10 @@
 .title {
     &--header {
         text-align: center;
-        color: $white00;
         text-transform: uppercase;
         letter-spacing: $spacingLG;
         margin: $spaceMD;
         margin-bottom: $spaceXL;
-
-        &--black {
-            color: $black00;
-        }
-    }
-
-    &--normal {
-        text-align: center;
-        margin-left: $spaceMD;
-        margin-right: $spaceMD;
     }
 
     &--underline {

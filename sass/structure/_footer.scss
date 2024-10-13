@@ -1,20 +1,14 @@
 footer {
     background-color: $black00;
     text-align: center;
-    font-size: $fontSizeXS;
     padding-bottom: $spaceMD;
 
     @media #{$minMD} {
         padding-bottom: $spaceLG;
     }
 
-    .wave {
-        transform: rotate(180deg) translateY(1px);
-    }
-
     small {
         color: $grey30;
-        font-size: 1em;
         margin: $spaceMD $spaceSM;
 
         @media #{$minMD} {
@@ -23,6 +17,7 @@ footer {
     }
 
     ul {
+        font-size: $fontSizeXS;
         list-style-type: none;
         margin: 0;
         padding: 0;

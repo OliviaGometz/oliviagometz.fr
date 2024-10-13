@@ -65,21 +65,23 @@
         }
     }
 
-    &--primary {
-        span {
-            color: $primary;
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            span {
+                color: map-get($color, "main");
 
-            &::before,
-            &::after {
-                background-color: $primaryLight;
+                &::before,
+                &::after {
+                    background-color: map-get($color, "light");
+                }
             }
-        }
 
-        p {
-            border-color: $primaryLight;
+            p {
+                border-color: map-get($color, "light");
 
-            &::before {
-                background-color: $primaryLight;
+                &::before {
+                    background-color: map-get($color, "light");
+                }
             }
         }
     }

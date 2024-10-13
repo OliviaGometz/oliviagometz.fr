@@ -1,14 +1,17 @@
 .text {
-    &--sm {
-        p {
-            font-size: $fontSizeSM;
+    &--center {
+        h1,
+        h2,
+        h3,
+        p,
+        small {
+            text-align: center;
         }
     }
 
-    &--center {
-        h2,
+    &--sm {
         p {
-            text-align: center;
+            font-size: $fontSizeSM;
         }
     }
 
