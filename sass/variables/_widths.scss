@@ -1,0 +1,13 @@
+$widthXXS: 300px;
+$widthXS: 400px;
+$widthSM: 500px;
+$widthMD: 600px;
+$widthLG: 750px;
+
+$widths: (
+    xxs: $widthXXS,
+    xs: $widthXS,
+    sm: $widthSM,
+    md: $widthMD,
+    lg: $widthLG,
+);

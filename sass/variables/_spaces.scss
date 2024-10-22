@@ -7,3 +7,11 @@ $spaceMD: $spaceBase * 6;
 $spaceLG: $spaceBase * 8;
 $spaceXL: $spaceBase * 10;
 $spaceXXL: $spaceBase * 15;
+
+$spaces: (
+    xs: $spaceXS,
+    sm: $spaceSM,
+    md: $spaceMD,
+    lg: $spaceLG,
+    xl: $spaceXL
+);

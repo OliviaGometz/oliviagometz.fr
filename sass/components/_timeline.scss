@@ -37,7 +37,7 @@
 
     p {
         text-align: left;
-        max-width: map-get($widths, "md");
+        max-width: $widthMD;
 
         &:not(:last-of-type) {
             padding-bottom: $spaceLG;

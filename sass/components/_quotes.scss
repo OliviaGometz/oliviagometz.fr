@@ -1,5 +1,5 @@
 figure {
-    max-width: map-get($widths, "lg");
+    max-width: $widthLG;
     margin: $spaceMD 0;
     color: $black00;
 }
