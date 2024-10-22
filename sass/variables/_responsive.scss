@@ -1,12 +1,12 @@
-$widthSM: 550px;
-$widthMD: 960px;
-$widthLG: 1200px;
-$widthXL: 1350px;
+$screenSM: 550px;
+$screenMD: 960px;
+$screenLG: 1200px;
+$screenXL: 1350px;
 
-$minSM: "(min-width: #{$widthSM})";
-$minMD: "(min-width: #{$widthMD})";
-$minLG: "(min-width: #{$widthLG})";
-$minXL: "(min-width: #{$widthXL})";
+$minSM: "(min-width: #{$screenSM})";
+$minMD: "(min-width: #{$screenMD})";
+$minLG: "(min-width: #{$screenLG})";
+$minXL: "(min-width: #{$screenXL})";
 $maxSM: "not all and #{$minSM}";
 $maxMD: "not all and #{$minMD}";
 $maxLG: "not all and #{$minLG}";
