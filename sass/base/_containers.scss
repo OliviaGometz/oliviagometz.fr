@@ -14,3 +14,39 @@
         flex-wrap: wrap-reverse;
     }
 }
+
+$gridColumns: (
+    2: $widthMD,
+);
+
+.grid {
+    @media #{$minMD} {
+        gap: 0;
+    }
+
+    article {
+        @media #{$maxMD} {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media #{$minMD} {
+            display: inline-block;
+        }
+    }
+
+    @each $number, $blockWidth in $gridColumns {
+        &--#{$number} {
+            @media #{$minMD} {
+                columns: auto $number;
+                max-width: $blockWidth * $number;
+            }
+
+            article {
+                @media #{$maxMD} {
+                    max-width: $blockWidth;
+                }
+            }
+        }
+    }
+}
