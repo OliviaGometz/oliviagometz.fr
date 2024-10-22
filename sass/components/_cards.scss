@@ -4,8 +4,7 @@
     border: $line*4 solid $white00;
     outline: $line solid;
 
-    & > :first-child,
-    h2 {
+    & > :first-child {
         margin-top: 0;
     }
 
@@ -36,6 +35,13 @@
         border: none;
         outline: none;
         margin: 0;
+    }
+
+    &--white {
+        border: none;
+        outline: none;
+        background-color: $white00;
+        box-shadow: $blackShadowMD;
     }
 
     @each $colorName, $color in $colors {
