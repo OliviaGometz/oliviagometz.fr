@@ -1,0 +1,42 @@
+.maxwidth {
+    @each $name, $size in $widths {
+        &--#{$name} {
+            max-width: $size;
+        }
+    }
+}
+
+@each $property in 'margin', 'padding' {
+    .#{$property} {
+        @each $name, $size in $spaces {
+            &--#{$name} {
+                #{$property}: $size;
+            }
+        }
+
+        @each $direction in '-top', '-bottom', '-left', '-right' {
+            &#{$direction} {
+                @each $name, $size in $spaces {
+                    &--#{$name} {
+                        #{$property}#{$direction}: $size;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.centered,
+.centered svg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden {
+   position: absolute;
+   top: auto;
+   left: -100%;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
