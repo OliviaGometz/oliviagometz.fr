@@ -16,8 +16,15 @@
             content: '';
             width: $underline;
             height: $line;
-            background-color: $secondaryLight;
             margin: $spaceMD auto $spaceXL auto;
+        }
+
+        @each $colorName, $color in $colors {
+            &--#{$colorName} {
+                &::after {
+                    background-color: map-get($color, "light");
+                }
+            }
         }
     }
 }
