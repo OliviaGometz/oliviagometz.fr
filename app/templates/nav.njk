@@ -24,8 +24,7 @@
             },
             carmidor: {
                 name: 'Les Carmidor',
-                url: 'https://les-carmidor.fr/',
-                external: true
+                url: 'https://les-carmidor.fr/'
             },
             meetings: {
                 name: 'Dédicaces & rencontres',
@@ -44,7 +43,7 @@
                 <a
                     href="{{ link.url }}"
                     class="{% if link.button %}button--active-primary button button{% else %}link link{% endif %}--white{%if activePage == id %} active{% endif %}"
-                    {% if link.external %}rel="external" target="_blank"{% endif %}
+                    {% if 'https://' in link.url %}rel="external" target="_blank"{% endif %}
                 >
                     {{ link.name }}
                 </a>
