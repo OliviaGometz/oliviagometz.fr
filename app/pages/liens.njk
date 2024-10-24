@@ -29,35 +29,21 @@
 
     <section class="container">
         <div class="maxwidth--sm text--center">
-            <div class="card card--light">
-                <div class="buttons">
-                    <a href="/" class="button">
-                        Mon site web
-                    </a>
+            {% for element in linktree %}
+                <div class="card card--{{element.style}}">
+                    <div class="buttons">
+                        <a
+                            href="{{element.link}}"
+                            class="button"
+                            {% if 'https://' in element.link %}rel="external" target="_blank"{% endif %}
+                        >
+                            {{element.label | safe}}
+                        </a>
+                    </div>
+
+                    <small>{{element.description | safe}}</small>
                 </div>
-
-                <small>Mon site internet d’autrice, avec mes romans et les infos dédicaces/salons&nbsp;!</small>
-            </div>
-
-            <div class="card card--light">
-                <div class="buttons">
-                    <a href="https://les-carmidor.fr" class="button">
-                        Site des Carmidor
-                    </a>
-                </div>
-
-                <small>Avis, carte interactive, arbres et bannières des familles&hellip;</small>
-            </div>
-
-            <div class="card card--secondary">
-                <div class="buttons">
-                    <a href="{{websites.buy.nof.ebook}}" class="button" rel="external" target="_blank">
-                        Acheter Les Noces
-                    </a>
-                </div>
-
-                <small><em>Les Noces d’Ombre et de Fumée</em> au format Kindle, broché ou relié</small>
-            </div>
+            {% endfor %}
         </div>
     </section>
 

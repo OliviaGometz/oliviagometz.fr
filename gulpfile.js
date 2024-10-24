@@ -30,9 +30,10 @@ function html() {
     .src("app/pages/**/*.njk")
     .pipe(
       data(function () {
+        const linktree = require("./app/content/linktree.json");
         const timeline = require("./app/content/timeline.json");
         const websites = require("./app/content/websites.json");
-        return { timeline, websites };
+        return { linktree, timeline, websites };
       })
     )
     .pipe(

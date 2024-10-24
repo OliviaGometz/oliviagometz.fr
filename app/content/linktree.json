@@ -1,0 +1,20 @@
+[
+    {
+        "link": "/",
+        "label": "Mon site web",
+        "description": "Mon site internet d’autrice, avec mes romans et les infos dédicaces/salons&nbsp;!",
+        "style": "light"
+    },
+    {
+        "link": "https://les-carmidor.fr",
+        "label": "Site des Carmidor",
+        "description": "Avis, carte interactive, arbres et bannières des familles&hellip;",
+        "style": "light"
+    },
+    {
+        "link": "https://www.amazon.fr/Noces-dOmbre-Fum%25C3%25A9e-Olivia-Gometz-ebook/dp/B0CGM871V9/",
+        "label": "Acheter Les Noces",
+        "description": "<em>Les Noces d’Ombre et de Fumée</em> au format Kindle, broché ou relié",
+        "style": "secondary"
+    }
+]
