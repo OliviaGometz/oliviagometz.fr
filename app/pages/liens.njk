@@ -47,7 +47,8 @@
         </div>
     </section>
 
-    {% include 'content/newsletter.njk' %}
+    {% from 'content/newsletter.njk' import newsletter %}
+    {{ newsletter() }}
 
     {% include 'footer.njk' %}
 {% endblock %}

@@ -206,7 +206,8 @@
             {% include 'svg/wave.svg' %}
         </section>
 
-        {% include 'content/newsletter.njk' %}
+        {% from 'content/newsletter.njk' import newsletter %}
+        {{ newsletter() }}
     </main>
 
     {% include 'footer.njk' %}
