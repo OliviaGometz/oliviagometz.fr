@@ -28,3 +28,20 @@
         }
     }
 }
+
+.subtitle {
+    word-break: break-word;
+    text-transform: uppercase;
+    letter-spacing: $spacingXL;
+    font-size: $titleSizeXS;
+
+    @media #{$maxSM} {
+        font-size: $fontSizeMD;
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            color: map-get($color, "main");
+        }
+    }
+}

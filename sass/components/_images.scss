@@ -2,6 +2,12 @@
     display: block;
     padding: 0 $spaceMD;
 
+    &--xs {
+        width: 30%;
+        min-width: 120px;
+        max-width: 200px;
+    }
+
     &--sm {
         width: 50%;
         min-width: 180px;

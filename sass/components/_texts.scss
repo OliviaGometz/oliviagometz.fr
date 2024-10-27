@@ -9,6 +9,12 @@
         }
     }
 
+    &--xs {
+        p {
+            font-size: $fontSizeXS;
+        }
+    }
+
     &--sm {
         p {
             font-size: $fontSizeSM;

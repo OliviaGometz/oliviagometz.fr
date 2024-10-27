@@ -1,0 +1,47 @@
+.podcast {
+    background-color: $white00;
+    box-shadow: $blackShadowMD;
+    margin: $spaceMD;
+    padding: $spaceMD;
+    padding-bottom: $spaceXS;
+
+    img {
+        float: left;
+        border-bottom-right-radius: 100%;
+        padding: 0;
+        margin-top: -$spaceMD;
+        margin-left: -$spaceMD;
+        margin-right: $spaceSM;
+        margin-bottom: $spaceSM;
+    }
+
+    .subtitle {
+        font-size: $fontSizeXXS;
+    }
+
+    small {
+        &.subtitle {
+            text-align: center;
+        }
+    }
+
+    h2 {
+        font-size: $titleSizeSM;
+        margin-top: $spaceSM;
+        margin-bottom: $spaceXS;
+
+        small {
+            display: inline;
+            font-size: .7em;
+        }
+    }
+
+    .badge {
+        margin-left: 0;
+    }
+
+    p {
+        clear: both;
+        margin: $spaceSM 0;
+    }
+}

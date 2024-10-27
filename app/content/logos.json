@@ -1,0 +1,24 @@
+{
+    "podcasts": [
+        {
+            "url": "https://open.spotify.com/",
+            "icon": "spotify"
+        },
+        {
+            "url": "https://podcasts.apple.com/",
+            "icon": "apple"
+        },
+        {
+            "url": "https://www.deezer.com/",
+            "icon": "deezer"
+        },
+        {
+            "url": "https://www.audible.fr/",
+            "icon": "audible"
+        },
+        {
+            "url": "https://www.youtube.com/",
+            "icon": "youtube"
+        }
+    ]
+}

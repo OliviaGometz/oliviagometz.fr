@@ -16,7 +16,7 @@
                     <h1 class="title--header">Podcasts</h1>
 
                     <p>
-                        Tous les podcasts auxquels on m’a invitée.
+                        Tous les podcasts sur lesquels j’ai eu la chance d’être invitée pour papoter écriture, lecture, conseils et anecdotes (le tout avec un humour plus ou moins qualitatif).
                     </p>
                 </article>
             </div>
@@ -24,21 +24,42 @@
             {% include 'svg/wave.svg' %}
         </section>
 
-        <section class="container">
-            <article class="maxwidth--lg text--margin-sm text--center">
-                <h2>Page en construction</h2>
+        <section class="grid grid--2 centered margin-bottom--lg padding-left--md padding-right--md">
+            {% for id, podcast in podcasts %}
+                <article class="podcast text--xs">
+                    <img src="/img/medias/podcasts/{{ id }}.png" class="img img--xs" alt="Vignette du podcast de {{ podcast.name }}, épisode {{ podcast.title }}"/>
 
-                <p>Y’a plus qu’à lister les podcasts dans lesquels vous pouvez me retrouver (y’en a une bonne dizaine mine de rien). En attendant la mise en production de cette page, n’hésitez pas à suivre les mises à jour sur mes réseaux&nbsp;!</p>
+                    <strong class="subtitle subtitle--secondary">{{ podcast.name }}</strong>
+                    <h2>{{ podcast.title | safe }}</h2>
+                    <i class="badge badge--secondary">{{ podcast.duration }}</i>
 
-                <div class="buttons">
-                    {% for name, website in websites.network %}
-                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
-                            {% include "svg/logos/networks/" + name + ".svg" %}
-                        </a>
-                    {% endfor %}
-                </div>
-            </article>
+                    <p>{{ podcast.description | safe }}</p>
+
+                    <small class="subtitle subtitle--primary">À écouter sur&nbsp;:</small>
+
+                    <div class="buttons">
+                        {% for link in podcast.links %}
+                            {% set logoPath = 'website' %}
+                            {% set linkName = 'le site internet' %}
+
+                            {% for logo in logos.podcasts %}
+                                {% if logo.url in link %}
+                                    {% set logoPath = 'podcasts/' + logo.icon + '-mini' %}
+                                    {% set linkName = logo.icon %}
+                                {% endif %}
+                            {% endfor %}
+
+                            <a href="{{link}}" class="logo logo--sm logo--primary" aria-label="{{linkName}}" title="{{linkName}}" rel="external" target="_blank">
+                                {% include "svg/logos/" + logoPath + ".svg" %}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </article>
+            {% endfor %}
         </section>
+
+        {% from 'content/newsletter.njk' import newsletter %}
+        {{ newsletter('Plus de podcasts&nbsp;?', 'Si vous voulez être averti de la sortie des prochains podcasts sur lesquels j’interviens, inscrivez-vous à ma newsletter&nbsp;:') }}
     </main>
 
     {% include 'footer.njk' %}

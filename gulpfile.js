@@ -31,9 +31,11 @@ function html() {
     .pipe(
       data(function () {
         const linktree = require("./app/content/linktree.json");
+        const logos = require("./app/content/logos.json");
+        const podcasts = require("./app/content/podcasts.json");
         const timeline = require("./app/content/timeline.json");
         const websites = require("./app/content/websites.json");
-        return { linktree, timeline, websites };
+        return { linktree, logos, podcasts, timeline, websites };
       })
     )
     .pipe(
