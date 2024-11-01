@@ -1,0 +1,29 @@
+.map-europe {
+    max-width: 400px;
+
+    polygon {
+        stroke: $secondary;
+        stroke-width: 2px;
+        fill: none;
+    }
+
+    circle {
+        stroke: $black00;
+        stroke-width: 2px;
+        fill: $secondaryLight;
+        transform-origin: center;
+        transform-box: fill-box;
+        transition: all $durationSM;
+    }
+
+    a {
+        &:hover,
+        &:active,
+        &:focus {
+            circle {
+                fill: $secondaryUltraLight;
+                transform: scale(1.5);
+            }
+        }
+    }
+}

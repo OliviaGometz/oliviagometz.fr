@@ -47,6 +47,7 @@ footer {
             }
 
             a {
+                font-weight: $normal; // avoid basic link style
                 display: inline-block;
                 font-size: 0.8em;
                 text-transform: uppercase;
@@ -62,6 +63,7 @@ footer {
                 &:active,
                 &:focus {
                     color: $secondaryUltraLight;
+                    background-color: transparent; // avoid basic link style
                 }
             }
         }

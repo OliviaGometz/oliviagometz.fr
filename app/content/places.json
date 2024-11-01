@@ -1,0 +1,74 @@
+{
+    "bruxelles": {
+        "city": "Bruxelles",
+        "country": "belgique",
+        "position": {
+            "x": 287,
+            "y": 35
+        }
+    },
+    "mons": {
+        "city": "Mons",
+        "country": "belgique",
+        "position": {
+            "x": 275,
+            "y": 54
+        }
+    },
+    "paris": {
+        "city": "Paris",
+        "country": "france",
+        "position": {
+            "x": 226,
+            "y": 129
+        }
+    },
+    "epinal": {
+        "city": "Épinal",
+        "country": "france",
+        "position": {
+            "x": 350,
+            "y": 161
+        }
+    },
+    "limoges": {
+        "city": "Limoges",
+        "country": "france",
+        "position": {
+            "x": 193,
+            "y": 265
+        }
+    },
+    "brive": {
+        "city": "Brive-la-Gaillarde",
+        "country": "france",
+        "position": {
+            "x": 201,
+            "y": 294
+        }
+    },
+    "merignac": {
+        "city": "Mérignac",
+        "country": "france",
+        "position": {
+            "x": 134,
+            "y": 308
+        }
+    },
+    "bruguieres": {
+        "city": "Bruguières",
+        "country": "france",
+        "position": {
+            "x": 197,
+            "y": 354
+        }
+    },
+    "toulouse": {
+        "city": "Toulouse",
+        "country": "france",
+        "position": {
+            "x": 198,
+            "y": 370
+        }
+    }
+}

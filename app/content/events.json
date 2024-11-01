@@ -1,0 +1,226 @@
+{
+    "salon-du-livre-de-wallonie": {
+        "public": true,
+        "type": "salon",
+        "name": "Salon du Livre de Wallonie",
+        "place": "mons",
+        "dates": {
+            "start": "2024-11-23",
+            "end": "2024-11-24"
+        },
+        "hours": {
+            "samedi": "De <strong>10h à 12h</strong> puis de <strong>12h45 à 18h</strong>",
+            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h30 à 18h</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Pour accéder au salon, pensez à <a href='https://www.eventbrite.be/e/billets-12e-salon-du-livre-de-wallonie-929009130317' rel='external' target='_blank'>réserver votre ticket d’entrée</a> (c’est gratuit&nbsp;!).",
+            "Je dédicace sur le stand Plume Blanche. Ce salon est généralement très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez vos tomes 1 et 2 de <em>Les Carmidor</em> dès le <strong>samedi matin</strong>, et privilégiez la fin d’après-midi ou le <strong>dimanche</strong> pour papoter avec moi – samedi matin, il me faudra être efficace dans les dédicaces, donc je ne pourrai pas prendre autant de temps que d’habitude pour discuter avec vous.",
+            "<em>Les Noces d’Ombre et de Fumée</em> en broché et relié <small>(version <strong>collector rouge</strong>, disponible uniquement en novembre et décembre 2024)</small> seront quant à eux vendus par la <strong>J.Robin Agency</strong>, juste à côté du stand Plume Blanche où je vous les dédicace avec plaisir&nbsp;!"
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://monslivre.be/"
+    },
+    "foire-du-livre-de-bruxelles": {
+        "public": false,
+        "type": "salon",
+        "name": "Foire du Livre de Bruxelles",
+        "place": "bruxelles",
+        "dates": {
+            "start": "2025-03-13",
+            "end": "2025-03-16"
+        },
+        "hours": {
+            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 22h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>12h30 à 15h</strong>",
+            "dimanche": "De <strong>10h à 12h30</strong> puis de <strong>15h à 18h</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Pour accéder au salon, pensez à <a href='lien' rel='external' target='_blank'>vous inscrire</a> (c’est gratuit&nbsp;!).",
+            "Vous me retrouverez sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://flb.be/"
+    },
+    "comptoir-du-reve": {
+        "public": false,
+        "type": "librairie",
+        "name": "Dédicaces et soirée au Comptoir du Rêve",
+        "place": "toulouse",
+        "dates": {
+            "start": "2025-03-29",
+            "end": "2025-03-29"
+        },
+        "hours": {
+            "dédicaces": "De <strong>15h à 17h</strong>",
+            "soirée": "Horaires à venir"
+        },
+        "access": "ticket",
+        "details": [
+            "Dédicaces suivies d’une soirée de lancement pour <em>Les Carmidor</em> tomes 1 et 2. Modalités à venir."
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.comptoirdureve.fr/"
+    },
+    "festival-du-livre-de-paris": {
+        "public": false,
+        "type": "salon",
+        "name": "Festival du Livre de Paris",
+        "place": "paris",
+        "dates": {
+            "start": "2025-04-11",
+            "end": "2025-04-13"
+        },
+        "hours": {
+            "vendredi": "Horaires à venir",
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
+        },
+        "access": "payante",
+        "details": [
+            "Modalités à venir. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.festivaldulivredeparis.fr/"
+    },
+    "echos-et-merveilles": {
+        "public": false,
+        "type": "salon",
+        "name": "Festival Echos et Merveilles",
+        "place": "bruguieres",
+        "dates": {
+            "start": "2025-05-01",
+            "end": "2025-05-04"
+        },
+        "hours": {
+            "jeudi": "Horaires à venir",
+            "vendredi": "Horaires à venir",
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
+        },
+        "access": "payante",
+        "details": [
+            "Modalités à venir (accès au parc à 8€ la journée pour les adultes, 9€ sur place). Je serai dans l’espace des invités du salon."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://echosetmerveilles.com/salon-du-livre"
+    },
+    "imaginales": {
+        "public": false,
+        "type": "salon",
+        "name": "Les Imaginales",
+        "place": "epinal",
+        "dates": {
+            "start": "2025-05-22",
+            "end": "2025-05-25"
+        },
+        "hours": {
+            "jeudi": "Horaires à venir",
+            "vendredi": "Horaires à venir",
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
+        },
+        "access": "free",
+        "details": [
+            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche, dans la Bulle du Livre."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.imaginales.fr/"
+    },
+    "lire-a-limoges": {
+        "public": false,
+        "type": "salon",
+        "name": "Lire à Limoges",
+        "place": "limoges",
+        "dates": {
+            "start": "2025-06-20",
+            "end": "2025-06-22"
+        },
+        "hours": {
+            "vendredi": "Horaires à venir (14h à 19h)",
+            "samedi": "Horaires à venir (10h à 19h)",
+            "dimanche": "Horaires à venir (10h à 18h)"
+        },
+        "access": "free",
+        "details": [
+            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://lire.limoges.fr/"
+    },
+    "hypermondes": {
+        "public": false,
+        "type": "salon",
+        "name": "Les Hypermondes",
+        "place": "merignac",
+        "dates": {
+            "start": "2025-09",
+            "end": "2025-09"
+        },
+        "hours": {
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
+        },
+        "access": "free",
+        "details": [
+            "Modalités à venir.",
+            "Vous me retrouverez sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://hypermondes.fr/"
+    },
+    "foire-du-livre-de-brive": {
+        "public": false,
+        "type": "salon",
+        "name": "Foire du livre de Brive",
+        "place": "brive",
+        "dates": {
+            "start": "2025-11",
+            "end": "2025-11"
+        },
+        "hours": {
+            "vendredi": "Horaires à venir (10h à 20h)",
+            "samedi": "Horaires à venir (9h à 20h)",
+            "dimanche": "Horaires à venir (9h à 18h)"
+        },
+        "access": "free",
+        "details": [
+            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "http://www.foiredulivredebrive.net/"
+    }
+}

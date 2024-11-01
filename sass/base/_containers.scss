@@ -1,3 +1,18 @@
+.basic-container {
+    margin: 0 $spaceSM;
+
+    @media #{$minMD} {
+        margin: 0 $spaceMD;
+    }
+
+    & > div,
+    & > article,
+    & > aside {
+        margin: $spaceMD auto;
+        padding: $spaceMD;
+    }
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;

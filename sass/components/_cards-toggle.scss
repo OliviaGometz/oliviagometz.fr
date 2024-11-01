@@ -1,0 +1,55 @@
+
+.card-toggle {
+    position: relative;
+    padding-bottom: $buttonHeight !important;
+
+    .button-toggle {
+        cursor: pointer;
+        outline: none;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: $buttonHeight;
+        border-radius: $buttonHeight $buttonHeight 0 0;
+        border: none;
+        margin: 0;
+        padding: $spaceXXS $spaceMD;
+        padding-bottom: 0;
+        font-family: $fontMain, serif;
+        font-size: $fontSizeMD;
+        font-weight: $bold;
+        font-variant: small-caps;
+        letter-spacing: $spacingSM;
+        transition: all $durationSM;
+
+        &::before {
+            content: '+';
+            margin-right: $spaceXS;
+        }
+
+        @each $colorName, $color in $colors {
+            &--#{$colorName} {
+                background-color: map-get($color, "ultraLight");
+                color: map-get($color, "main");
+
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: map-get($color, "light");
+                    color: map-get($color, "dark");
+                }
+            }
+        }
+    }
+
+    details[open] {
+        .button-toggle {
+            &::before {
+                content: '–';
+            }
+        }
+    }
+}

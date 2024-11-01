@@ -10,36 +10,132 @@
     {{nav('meetings')}}
 
     <main>
-        <section class="banner-image banner-image--meetings wave-bottom-reverse">
+        <section class="banner-gradient banner-gradient--dark-secondary">
             <div class="container">
                 <article class="maxwidth--md text--margin-sm">
                     <h1 class="title--header">Dédicaces et rencontres</h1>
 
                     <p>
-                        Quelles sont mes prochaines dédicaces, en salons ou librairies.
+                        Tous les salons et événements à venir où vous pourrez me retrouver en dédicace avec mes romans.
+                    </p>
+
+                    <p>
+                        <small>Cliquez sur les points de la carte ou consultez la liste ci-dessous.</small>
                     </p>
                 </article>
+
+                {% include 'content/map.njk' %}
             </div>
 
             {% include 'svg/wave.svg' %}
         </section>
 
-        <section class="container">
-            <article class="maxwidth--lg text--margin-sm text--center">
-                <h2>Page en construction</h2>
+        <section class="basic-container">
+            {% for id, event in events %}
+            <article
+                class="card card--white card-toggle event{% if not event.public %} js-hidden{% endif %}"
+                id="{{ id }}"
+                data-js="event"
+                data-eventstart="{{ event.dates.start }}"
+                data-eventend="{{ event.dates.end }}"
+            >
+                {% if event.type == 'salon' %}
+                    <i class="badge badge--secondary">Salon littéraire</i>
+                {% else %}
+                    <i class="badge badge--primary">Librairie</i>
+                {% endif %}
 
-                <p>Un tas de belles choses se préparent en coulisses. En attendant la mise en production de cette page, n’hésitez pas à suivre les mises à jour sur mes réseaux&nbsp;!</p>
+                <span class="event__decompte"></span>
 
-                <div class="buttons">
-                    {% for name, website in websites.network %}
-                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
-                            {% include "svg/logos/networks/" + name + ".svg" %}
+                <h2>{{ event.name }}</h2>
+
+                <ul>
+                    <li>
+                        📅 {{ event.dates | datesToString }}
+                    </li>
+
+                    <li class="localisation">
+                        {% include "svg/logos/countries/" + places[event.place].country + ".svg" %}
+                        À <strong>{{ places[event.place].city }}</strong>
+                    </li>
+
+                    <li>
+                        🎟️ Entrée <strong>
+                        {% if event.access == 'ticket' %}
+                        gratuite sur ticket
+                        {% else %}
+                            {% if event.access == 'free' %}
+                            libre et gratuite
+                            {% else %}
+                            payante
+                            {% endif %}
+                        {% endif %}
+                        </strong>
+                    </li>
+
+                    <li>
+                        🌐 Visiter le <a href="{{ event.url }}" target="_blank" rel="external">
+                            {% if event.type == 'salon' %}
+                            site de l’événement
+                            {% else %}
+                            site de la librairie
+                            {% endif %}
                         </a>
+                    </li>
+                </ul>
+
+                <details>
+                    <aside>
+                        <div class="event__aside-content">
+                            <h3>Mes horaires</h3>
+
+                            <div class="timeline timeline--secondary">
+                                {% for period, details in event.hours %}
+                                    <span>{{ period }}</span>
+                                    <p>{{ details | safe }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div class="event__aside-content">
+                            <h3>Mes livres disponibles à la vente</h3>
+
+                            <div class="event__books">
+                                {% for book in event.books %}
+                                    <div>
+                                        {% if books[book].release > event.dates.end %}
+                                            <span class="event__books__premiere">
+                                                En avant-première&nbsp;!
+                                            </span>
+                                        {% endif %}
+
+                                        <img src="{{ books[book].img }}" alt="books[book].alt" />
+
+                                        <p>{{ books[book].title | safe }} ({{ books[book].type }})</p>
+                                    </div>
+                                {% endfor %}
+                            </div>
+
+                            <small class="event__details">Je dédicace tous les livres/carnets que vous voulez&nbsp;: les dédicaces ne sont pas réservées qu’aux achats sur place.</small>
+                        </div>
+                    </aside>
+
+                    <h3>Informations utiles</h3>
+
+                    {% for detail in event.details %}
+                        <p>{{ detail | safe }}</p>
                     {% endfor %}
-                </div>
+
+                    <summary class="button-toggle button-toggle--secondary" data-js="toggle" data-target="{{id}}">détails</summary>
+                </details>
             </article>
+            {% endfor %}
         </section>
+
+        {% from 'content/newsletter.njk' import newsletter %}
+        {{ newsletter('Encore plus d’événements', 'Plein d’autres salons et dédicaces sont prévues, mais pas encore annoncées&nbsp;! Pour ne pas manquer les futures dates et lieux de rencontres, inscrivez-vous à ma newsletter&nbsp;:') }}
     </main>
 
     {% include 'footer.njk' %}
+    <script src="/js/events.js?v={{version}}"></script>
 {% endblock %}

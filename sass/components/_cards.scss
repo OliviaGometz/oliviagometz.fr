@@ -42,6 +42,10 @@
         outline: none;
         background-color: $white00;
         box-shadow: $blackShadowMD;
+
+        &--emphasis {
+            box-shadow: $secondaryShadowMD;
+        }
     }
 
     @each $colorName, $color in $colors {

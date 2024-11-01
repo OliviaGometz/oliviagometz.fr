@@ -1,0 +1,30 @@
+{
+    "nof-paperback": {
+        "title": "<em>Les Noces d’Ombre et de Fumée</em>",
+        "type": "broché",
+        "alt": "Les Noces d’Ombre et de Fumée (en broché)",
+        "img": "/img/medias/nof-paperback.png",
+        "release": "2023-09-08"
+    },
+    "nof-hardback": {
+        "title": "<em>Les Noces d’Ombre et de Fumée</em>",
+        "type": "relié",
+        "alt": "Les Noces d’Ombre et de Fumée (en relié)",
+        "img": "/img/medias/nof-hardback.png",
+        "release": "2023-09-08"
+    },
+    "carmidor-1-paperback": {
+        "title": "<em>Les Carmidor</em>, tome&nbsp;1",
+        "type": "broché",
+        "alt": "Les Carmidor, tome 1 : Trahir et Survivre (en broché)",
+        "img": "/img/medias/carmidor-t1-paperback.png",
+        "release": "2025-04-01"
+    },
+    "carmidor-2-paperback": {
+        "title": "<em>Les Carmidor</em>, tome&nbsp;2",
+        "type": "broché",
+        "alt": "Les Carmidor, tome 2 : Unir et Détruire (en broché)",
+        "img": "/img/medias/carmidor-t2-paperback.png",
+        "release": "2025-04-01"
+    }
+}
