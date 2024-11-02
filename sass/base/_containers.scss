@@ -28,6 +28,10 @@
     &--wrap-reverse {
         flex-wrap: wrap-reverse;
     }
+
+    &--flex-start {
+        align-items: flex-start;
+    }
 }
 
 $gridColumns: (
