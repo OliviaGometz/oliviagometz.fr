@@ -40,3 +40,17 @@ $indent: 2em;
         }
     }
 }
+
+.list-tags {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+    li {
+        margin: $spaceXS;
+    }
+}
