@@ -54,3 +54,14 @@ $indent: 2em;
         margin: $spaceXS;
     }
 }
+
+.list-centered {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+        margin: $spaceXS;
+    }
+}
