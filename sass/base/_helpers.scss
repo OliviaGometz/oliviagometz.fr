@@ -18,7 +18,7 @@
             &#{$direction} {
                 @each $name, $size in $spaces {
                     &--#{$name} {
-                        #{$property}#{$direction}: $size;
+                        #{$property}#{$direction}: $size !important;
                     }
                 }
             }
