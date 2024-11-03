@@ -1,6 +1,10 @@
 .banner-gradient {
     color: $white00;
 
+    a {
+        color: $white00;
+    }
+
     @each $colorName, $color in $colors {
         &--#{$colorName},
         &--dark-#{$colorName} {
@@ -43,6 +47,10 @@
     background-position: left;
     background-repeat: no-repeat;
 
+    a {
+        color: $white00;
+    }
+
     article {
         background-color: color.adjust($black00, $alpha: -0.5);
 
@@ -69,6 +77,10 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+    a {
+        color: $white00;
+    }
 
     @each $page in 'podcasts', 'nof' {
         &--#{$page} {
