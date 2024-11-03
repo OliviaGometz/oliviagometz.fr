@@ -4,26 +4,36 @@
         h2,
         h3,
         p,
+        li,
         small {
             text-align: center;
         }
     }
 
     &--xs {
-        p {
+        p,
+        li {
             font-size: $fontSizeXS;
         }
     }
 
     &--sm {
-        p {
+        p,
+        li {
             font-size: $fontSizeSM;
         }
     }
 
     &--margin-sm {
-        p {
+        p,
+        li {
             margin: $spaceSM 0;
+        }
+    }
+
+    @each $colorName, $color in $colors {
+        &--#{$colorName} {
+            color: map-get($color, "main");
         }
     }
 }
