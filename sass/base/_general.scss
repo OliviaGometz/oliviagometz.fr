@@ -101,6 +101,12 @@ small {
     }
 }
 
+p {
+    small {
+        display: inline;
+    }
+}
+
 ::selection {
     background-color: $primary;
     color: $white00;
