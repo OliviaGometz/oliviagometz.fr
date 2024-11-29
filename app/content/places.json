@@ -70,5 +70,13 @@
             "x": 198,
             "y": 370
         }
+    },
+    "portet": {
+        "city": "Portet-sur-Garonne",
+        "country": "france",
+        "position": {
+            "x": 198,
+            "y": 383
+        }
     }
 }
