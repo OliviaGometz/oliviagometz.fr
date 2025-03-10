@@ -47,6 +47,14 @@
             "y": 294
         }
     },
+    "marcillac": {
+        "city": "Marcillac-la-Croze",
+        "country": "france",
+        "position": {
+            "x": 207,
+            "y": 300
+        }
+    },
     "merignac": {
         "city": "Mérignac",
         "country": "france",

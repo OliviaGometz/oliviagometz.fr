@@ -9,15 +9,15 @@
             "end": "2025-03-16"
         },
         "hours": {
-            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "vendredi": "De <strong>10h à 22h</strong> <small>(avec des p’tites pauses)</small>",
+            "jeudi": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 21h</strong> <small>(avec des p’tites pauses)</small>",
             "samedi": "De <strong>12h30 à 15h</strong>",
             "dimanche": "De <strong>10h à 12h30</strong>"
         },
         "access": "ticket",
         "details": [
-            "Pour accéder au salon, pensez à vous inscrire (c’est gratuit&nbsp;!).",
-            "Vous me retrouverez sur le stand Plume Blanche (plus d'infos à venir)."
+            "Pour accéder au salon, pensez à <a href='https://tickets.flb.be/foire-du-livre-de-bruxelles-2025/' rel='external' target='_blank'>vous inscrire</a> (c’est gratuit&nbsp;!).",
+            "Vous me retrouverez sur le stand Plume Blanche (stand 165), dans le Hall 1 (Gare maritime)."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -26,7 +26,7 @@
         "url": "https://flb.be/"
     },
     "comptoir-du-reve": {
-        "public": false,
+        "public": true,
         "type": "librairie",
         "name": "Dédicaces et soirée au Comptoir du Rêve",
         "place": "toulouse",
@@ -36,11 +36,12 @@
         },
         "hours": {
             "dédicaces": "De <strong>15h à 17h</strong>",
-            "soirée": "Horaires à venir"
+            "soirée": "De <strong>19h30 à 21h30</strong>"
         },
         "access": "ticket",
         "details": [
-            "Dédicaces suivies d’une soirée de lancement pour <em>Les Carmidor</em> tomes 1 et 2. Modalités à venir."
+            "Dédicace dans la librairie suivie d’une soirée de lancement pour <em>Les Carmidor</em> tomes 1 et 2 (les places pour la soirée sont déjà écoulées).",
+            "Pour me rencontrer, pensez à <a href='https://www.billetweb.fr/dedicace-les-carmidor-olivia-gometz' rel='external' target='_blank'>réserver votre billet</a> (c’est gratuit&nbsp;!)."
         ],
         "books": [
             "nof-paperback",
@@ -51,7 +52,7 @@
         "url": "https://www.comptoirdureve.fr/"
     },
     "imaginalivres": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Imagina'Livres",
         "place": "portet",
@@ -60,12 +61,12 @@
             "end": "2025-04-06"
         },
         "hours": {
-            "samedi": "De <strong>10h à 19h</strong>",
-            "dimanche": "De <strong>10h à 19h</strong>"
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>"
         },
         "access": "free",
         "details": [
-            "Infos à venir. Je serai sur le stand de la J. Robin Agency avec tous mes romans en vente."
+            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
         ],
         "books": [
             "nof-paperback",
@@ -76,7 +77,7 @@
         "url": "https://limagin-arium.com/limaginalivres/"
     },
     "festival-du-livre-de-paris": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Festival du Livre de Paris",
         "place": "paris",
@@ -85,13 +86,15 @@
             "end": "2025-04-13"
         },
         "hours": {
-            "vendredi": "Horaires à venir",
-            "samedi": "Horaires à venir",
-            "dimanche": "Horaires à venir"
+            "vendredi": "De <strong>12h à 16h</strong>",
+            "samedi": "De <strong>9h à 12h</strong>",
+            "dimanche": "De <strong>14h à 16h</strong>"
         },
         "access": "payante",
         "details": [
-            "Modalités à venir. Je dédicace sur le stand Plume Blanche."
+            "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>.",
+            "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez avant le 10 avril, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
+            "Vous me retrouverez sur le stand Plume Blanche (emplacement à venir)."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -100,7 +103,7 @@
         "url": "https://www.festivaldulivredeparis.fr/"
     },
     "echos-et-merveilles": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Festival Echos et Merveilles",
         "place": "bruguieres",
@@ -109,14 +112,15 @@
             "end": "2025-05-04"
         },
         "hours": {
-            "jeudi": "Horaires à venir",
-            "vendredi": "Horaires à venir",
-            "samedi": "Horaires à venir",
-            "dimanche": "Horaires à venir"
+            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
         },
         "access": "payante",
         "details": [
-            "Modalités à venir (accès au parc à 8€ la journée pour les adultes, 9€ sur place). Je serai sur le stand Plume Blanche, et Les Noces en vente sur le stand de la J. Robin Agency."
+            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/product/village-des-legendes-2025-tickets-jour-par-jour-parc-en-journee-' rel='external' target='_blank'>acheter votre ticket</a> (11&nbsp;€ par jour – optez pour le pass 4 jours à 30&nbsp;€ si vous venez 3 jours ou plus&nbsp;!).",
+            "Je dédicace sur le stand Plume Blanche avec <em>Les Carmidor</em>, et <em>Les Noces</em> est en vente sur le stand de la J. Robin Agency."
         ],
         "books": [
             "nof-paperback",
@@ -127,7 +131,7 @@
         "url": "https://echosetmerveilles.com/salon-du-livre"
     },
     "imaginales": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Les Imaginales",
         "place": "epinal",
@@ -136,14 +140,14 @@
             "end": "2025-05-25"
         },
         "hours": {
-            "jeudi": "Horaires à venir",
-            "vendredi": "Horaires à venir",
-            "samedi": "Horaires à venir",
-            "dimanche": "Horaires à venir"
+            "jeudi": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 12h</strong> puis de <strong>14h à 18h</strong>",
+            "dimanche": "De <strong>10h à 12h30</strong>"
         },
         "access": "free",
         "details": [
-            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche, dans la Bulle du Livre."
+            "Accès libre et gratuit. Vous me retrouverez sur le stand Plume Blanche, dans la Bulle du Livre."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -198,6 +202,30 @@
             "carmidor-2-paperback"
         ],
         "url": "https://hypermondes.fr/"
+    },
+    "aïcontis": {
+        "public": false,
+        "type": "salon",
+        "name": "Aïcontis, festival du fantastique et de l’imaginaire",
+        "place": "marcillac",
+        "dates": {
+            "start": "2025-10-04",
+            "end": "2025-10-05"
+        },
+        "hours": {
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
+        },
+        "access": "free",
+        "details": [
+            "Modalités à venir.",
+            "Vous me retrouverez sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.tourismecorreze.com/fr/aicontis_le_festival_du_fantastique_et_de_l_imaginaire.html"
     },
     "salon-du-livre-de-wallonie": {
         "public": false,
