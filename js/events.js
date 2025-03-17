@@ -17,7 +17,9 @@ const dayDiff = function(date) {
 };
 
 const displayDayDiff = function(text, block) {
-    block.querySelectorAll('.event__decompte')[0].textContent = text;
+    if (block.querySelectorAll('.event__decompte')[0]){
+        block.querySelectorAll('.event__decompte')[0].textContent = text;
+    }
 };
 
 const emphasisImminente = function(block) {

@@ -48,6 +48,9 @@
         <a
             href="#{{id}}"
             aria-label="{{event.name}} (à {{places[event.place].city}})"
+            data-js="event"
+            data-eventstart="{{ event.dates.start }}"
+            data-eventend="{{ event.dates.end }}"
             {% if not event.public %}class="js-hidden"{% endif %}
         >
             <circle cx="{{places[event.place].position.x}}" cy="{{places[event.place].position.y + 8}}" r="8">
