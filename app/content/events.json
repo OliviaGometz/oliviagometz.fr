@@ -1,55 +1,4 @@
 {
-    "comptoir-du-reve": {
-        "public": true,
-        "type": "librairie",
-        "name": "Dédicaces et soirée au Comptoir du Rêve",
-        "place": "toulouse",
-        "dates": {
-            "start": "2025-03-29",
-            "end": "2025-03-29"
-        },
-        "hours": {
-            "dédicaces": "De <strong>15h à 17h</strong>",
-            "soirée": "De <strong>19h30 à 21h30</strong>"
-        },
-        "access": "ticket",
-        "details": [
-            "Dédicace dans la librairie suivie d’une soirée de lancement pour <em>Les Carmidor</em> tomes 1 et 2 (les places pour la soirée sont déjà écoulées).",
-            "Pour me rencontrer, pensez à <a href='https://www.billetweb.fr/dedicace-les-carmidor-olivia-gometz' rel='external' target='_blank'>réserver votre billet</a> (c’est gratuit&nbsp;!)."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://www.comptoirdureve.fr/"
-    },
-    "imaginalivres": {
-        "public": true,
-        "type": "salon",
-        "name": "Imagina'Livres",
-        "place": "portet",
-        "dates": {
-            "start": "2025-04-05",
-            "end": "2025-04-06"
-        },
-        "hours": {
-            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>"
-        },
-        "access": "free",
-        "details": [
-            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://limagin-arium.com/limaginalivres/"
-    },
     "festival-du-livre-de-paris": {
         "public": true,
         "type": "salon",
@@ -61,14 +10,14 @@
         },
         "hours": {
             "vendredi": "De <strong>12h à 16h</strong>",
-            "samedi": "De <strong>9h à 12h</strong>",
+            "samedi": "De <strong>9h à 12h</strong> puis de <strong>18h à 20h</strong>",
             "dimanche": "De <strong>14h à 16h</strong>"
         },
         "access": "payante",
         "details": [
-            "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>.",
+            "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>. Attention, les sacs qui dépassent la dimension A3 ne sont pas autorisés (et il n’a pas de vestiaire), et le nombre de livres non achetés sur le salon est limité à 2 par personne à l’entrée.",
             "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez avant le 10 avril, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
-            "Vous me retrouverez sur le stand Plume Blanche (stand NS13)."
+            "Vous me retrouverez sur le stand des éditions Plume Blanche (stand NS13)."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -229,5 +178,56 @@
             "carmidor-2-paperback"
         ],
         "url": "https://flb.be/"
+    },
+    "comptoir-du-reve": {
+        "public": false,
+        "type": "librairie",
+        "name": "Dédicaces et soirée au Comptoir du Rêve",
+        "place": "toulouse",
+        "dates": {
+            "start": "2026-03",
+            "end": "2026-03"
+        },
+        "hours": {
+            "dédicaces": "De <strong>15h à 17h</strong>",
+            "soirée": "De <strong>19h30 à 21h30</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Dédicace dans la librairie suivie d’une soirée de lancement pour <em>Les Carmidor</em> tomes 3 (les places pour la soirée sont déjà écoulées).",
+            "Pour me rencontrer, pensez à <a href='https://www.billetweb.fr/dedicace-les-carmidor-olivia-gometz' rel='external' target='_blank'>réserver votre billet</a> (c’est gratuit&nbsp;!)."
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.comptoirdureve.fr/"
+    },
+    "imaginalivres": {
+        "public": false,
+        "type": "salon",
+        "name": "Imagina'Livres",
+        "place": "portet",
+        "dates": {
+            "start": "2026-04",
+            "end": "2026-04"
+        },
+        "hours": {
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>"
+        },
+        "access": "free",
+        "details": [
+            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://limagin-arium.com/limaginalivres/"
     }
 }
