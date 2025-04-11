@@ -17,14 +17,20 @@ const dayDiff = function(date) {
 };
 
 const displayDayDiff = function(text, block) {
-    if (block.querySelectorAll('.event__decompte')[0]){
-        block.querySelectorAll('.event__decompte')[0].textContent = text;
+    const eventDecompte = block.querySelectorAll('.event__decompte')[0];
+
+    if (eventDecompte) {
+        eventDecompte.textContent = text;
     }
 };
 
 const emphasisImminente = function(block) {
-    block.classList.add("card--white--emphasis");
-    block.querySelectorAll('details')[0].setAttribute("open", true);
+    const details = block.querySelectorAll('details')[0];
+
+    if (details) {
+        block.classList.add("card--white--emphasis");
+        details.setAttribute("open", true);
+    }
 };
 
 document.querySelectorAll('[data-js="event"]').forEach((event) => {
