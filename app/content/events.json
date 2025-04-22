@@ -1,30 +1,4 @@
 {
-    "festival-du-livre-de-paris": {
-        "public": true,
-        "type": "salon",
-        "name": "Festival du Livre de Paris",
-        "place": "paris",
-        "dates": {
-            "start": "2025-04-11",
-            "end": "2025-04-13"
-        },
-        "hours": {
-            "vendredi": "De <strong>12h à 16h</strong>",
-            "samedi": "De <strong>9h à 12h</strong> puis de <strong>18h à 20h</strong>",
-            "dimanche": "De <strong>14h à 16h</strong>"
-        },
-        "access": "payante",
-        "details": [
-            "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>. Attention, les sacs qui dépassent la dimension A3 ne sont pas autorisés (et il n’a pas de vestiaire), et le nombre de livres non achetés sur le salon est limité à 2 par personne à l’entrée.",
-            "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez avant le 10 avril, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
-            "Vous me retrouverez sur le stand des éditions Plume Blanche (stand NS13)."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://www.festivaldulivredeparis.fr/"
-    },
     "echos-et-merveilles": {
         "public": true,
         "type": "salon",
@@ -79,7 +53,7 @@
         "url": "https://www.imaginales.fr/"
     },
     "lire-a-limoges": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Lire à Limoges",
         "place": "limoges",
@@ -88,9 +62,9 @@
             "end": "2025-06-22"
         },
         "hours": {
-            "vendredi": "Horaires à venir (14h à 19h)",
-            "samedi": "Horaires à venir (10h à 19h)",
-            "dimanche": "Horaires à venir (10h à 18h)"
+            "vendredi": "De <strong>14h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 17h20</strong> <small>(avec des p’tites pauses)</small>"
         },
         "access": "free",
         "details": [
@@ -229,5 +203,31 @@
             "carmidor-2-paperback"
         ],
         "url": "https://limagin-arium.com/limaginalivres/"
+    },
+    "festival-du-livre-de-paris": {
+        "public": false,
+        "type": "salon",
+        "name": "Festival du Livre de Paris",
+        "place": "paris",
+        "dates": {
+            "start": "2026-04",
+            "end": "202-04"
+        },
+        "hours": {
+            "vendredi": "Horaires à venir",
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
+        },
+        "access": "payante",
+        "details": [
+            "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>. Attention, les sacs qui dépassent la dimension A3 ne sont pas autorisés (et il n’a pas de vestiaire), et le nombre de livres non achetés sur le salon est limité à 2 par personne à l’entrée.",
+            "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez avant le X avril, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
+            "Vous me retrouverez sur le stand des éditions Plume Blanche (stand ?)."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.festivaldulivredeparis.fr/"
     }
 }
