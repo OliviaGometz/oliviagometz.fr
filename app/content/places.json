@@ -23,6 +23,14 @@
             "y": 129
         }
     },
+    "roissy-en-brie": {
+        "city": "Roissy-en-Brie",
+        "country": "france",
+        "position": {
+            "x": 235,
+            "y": 134
+        }
+    },
     "epinal": {
         "city": "Épinal",
         "country": "france",

@@ -1,70 +1,16 @@
 {
-    "echos-et-merveilles": {
+    "aicontis": {
         "public": true,
         "type": "salon",
-        "name": "Festival Echos et Merveilles",
-        "place": "bruguieres",
+        "name": "Aïcontis",
+        "place": "marcillac",
         "dates": {
-            "start": "2025-05-01",
-            "end": "2025-05-04"
+            "start": "2025-10-04",
+            "end": "2025-10-05"
         },
         "hours": {
-            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "vendredi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
             "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
             "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
-        },
-        "access": "payante",
-        "details": [
-            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/product/village-des-legendes-2025-tickets-jour-par-jour-parc-en-journee-' rel='external' target='_blank'>acheter votre ticket</a> (11&nbsp;€ par jour – optez pour le pass 4 jours à 30&nbsp;€ si vous venez 3 jours ou plus&nbsp;!).",
-            "Je dédicace sur le stand Plume Blanche avec <em>Les Carmidor</em>, et <em>Les Noces</em> est en vente sur le stand de la J. Robin Agency."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://echosetmerveilles.com/salon-du-livre"
-    },
-    "imaginales": {
-        "public": true,
-        "type": "salon",
-        "name": "Les Imaginales",
-        "place": "epinal",
-        "dates": {
-            "start": "2025-05-22",
-            "end": "2025-05-25"
-        },
-        "hours": {
-            "jeudi": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>",
-            "vendredi": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>",
-            "samedi": "De <strong>10h à 12h</strong> puis de <strong>14h à 18h</strong>",
-            "dimanche": "De <strong>10h à 12h30</strong>"
-        },
-        "access": "free",
-        "details": [
-            "Accès libre et gratuit. Vous me retrouverez sur le stand Plume Blanche, dans la Bulle du Livre."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://www.imaginales.fr/"
-    },
-    "lire-a-limoges": {
-        "public": true,
-        "type": "salon",
-        "name": "Lire à Limoges",
-        "place": "limoges",
-        "dates": {
-            "start": "2025-06-20",
-            "end": "2025-06-22"
-        },
-        "hours": {
-            "vendredi": "De <strong>14h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 17h20</strong> <small>(avec des p’tites pauses)</small>"
         },
         "access": "free",
         "details": [
@@ -74,10 +20,10 @@
             "carmidor-1-paperback",
             "carmidor-2-paperback"
         ],
-        "url": "https://lire.limoges.fr/"
+        "url": "https://www.facebook.com/events/3893039041018577/"
     },
     "salon-du-livre-de-wallonie": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Salon du Livre de Wallonie",
         "place": "mons",
@@ -86,36 +32,56 @@
             "end": "2025-10-19"
         },
         "hours": {
-            "samedi": "De <strong>10h à 12h</strong> puis de <strong>12h45 à 18h</strong>",
-            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h30 à 18h</strong>"
+            "samedi": "De <strong>10h à 12h</strong> puis de <strong>12h45 à 19h</strong> (à confirmer)",
+            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h30 à 19h</strong> (à confirmer)"
         },
         "access": "ticket",
         "details": [
-            "Pour accéder au salon, pensez à <a href='https://www.eventbrite.be/e/billets-12e-salon-du-livre-de-wallonie-929009130317' rel='external' target='_blank'>réserver votre ticket d’entrée</a> (c’est gratuit&nbsp;!).",
-            "Je dédicace sur le stand Plume Blanche (stand n°76 – <a href='https://monslivre.be/wp-content/uploads/2024/11/Plan-SLW-2024.pdf' rel='external' target='_blank'>voir le plan du salon</a>). Ce salon est généralement très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez vos tomes 1 et 2 de <em>Les Carmidor</em> dès le <strong>samedi matin</strong>, et privilégiez la fin d’après-midi ou le <strong>dimanche</strong> pour papoter avec moi – samedi matin, il me faudra être efficace dans les dédicaces, donc je ne pourrai pas prendre autant de temps que d’habitude pour discuter avec vous.",
-            "<em>Les Noces d’Ombre et de Fumée</em> en broché et relié seront quant à eux vendus par la <strong>J.Robin Agency</strong> (stand n°72), 3 stands avant le stand Plume Blanche où je vous les dédicace avec plaisir&nbsp;!"
+            "Pour accéder au salon, pensez à <a href='https://www.eventbrite.be/e/billets-13e-salon-du-livre-de-wallonie-1372571852359' rel='external' target='_blank'>réserver votre ticket d’entrée</a> (c’est gratuit&nbsp;!).",
+            "Je dédicace sur le stand Plume Blanche. Ce salon est généralement très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez votre tome 3 de <em>Les Carmidor</em> dès le <strong>samedi matin</strong>, et privilégiez la fin d’après-midi ou le <strong>dimanche</strong> pour papoter avec moi – samedi matin, il me faudra être efficace dans les dédicaces, donc je ne pourrai pas prendre autant de temps que d’habitude pour discuter avec vous."
         ],
         "books": [
-            "nof-paperback",
-            "nof-hardback",
             "carmidor-1-paperback",
-            "carmidor-2-paperback"
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
         ],
         "url": "https://monslivre.be/"
     },
-    "foire-du-livre-de-brive": {
+    "salon-du-livre-de-roissy-en-brie": {
         "public": false,
         "type": "salon",
-        "name": "Foire du livre de Brive",
-        "place": "brive",
+        "name": "Salon du Livre de Roissy-en-Brie",
+        "place": "roissy-en-brie",
         "dates": {
-            "start": "2025-11-07",
-            "end": "2025-11-09"
+            "start": "2025-12-06",
+            "end": "2025-12-07"
         },
         "hours": {
-            "vendredi": "Horaires à venir (10h à 20h)",
-            "samedi": "Horaires à venir (9h à 20h)",
-            "dimanche": "Horaires à venir (9h à 18h)"
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
+        },
+        "access": "free",
+        "details": [
+            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.roissyenbrie77.fr/salon-du-livre/"
+    },
+    "imagin-a-brive": {
+        "public": true,
+        "type": "salon",
+        "name": "Imagin’à Brive",
+        "place": "brive",
+        "dates": {
+            "start": "2026-02-28",
+            "end": "2026-03-01"
+        },
+        "hours": {
+            "samedi": "Horaires à venir",
+            "dimanche": "Horaires à venir"
         },
         "access": "free",
         "details": [
@@ -123,35 +89,10 @@
         ],
         "books": [
             "carmidor-1-paperback",
-            "carmidor-2-paperback"
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
         ],
-        "url": "http://www.foiredulivredebrive.net/"
-    },
-    "foire-du-livre-de-bruxelles": {
-        "public": false,
-        "type": "salon",
-        "name": "Foire du Livre de Bruxelles",
-        "place": "bruxelles",
-        "dates": {
-            "start": "2026-03",
-            "end": "2026-03"
-        },
-        "hours": {
-            "jeudi": "Horaires à venir",
-            "vendredi": "Horaires à venir",
-            "samedi": "Horaires à venir",
-            "dimanche": "Horaires à venir"
-        },
-        "access": "ticket",
-        "details": [
-            "Pour accéder au salon, pensez à <a href='https://tickets.flb.be/foire-du-livre-de-bruxelles-2026/' rel='external' target='_blank'>vous inscrire</a> (c’est gratuit&nbsp;!).",
-            "Vous me retrouverez sur le stand Plume Blanche (stand X), dans le Hall 1 (Gare maritime)."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://flb.be/"
+        "url": "https://www.instagram.com/imagina_brive/"
     },
     "comptoir-du-reve": {
         "public": false,
@@ -175,7 +116,8 @@
             "nof-paperback",
             "nof-hardback",
             "carmidor-1-paperback",
-            "carmidor-2-paperback"
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
         ],
         "url": "https://www.comptoirdureve.fr/"
     },
@@ -200,7 +142,8 @@
             "nof-paperback",
             "nof-hardback",
             "carmidor-1-paperback",
-            "carmidor-2-paperback"
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
         ],
         "url": "https://limagin-arium.com/limaginalivres/"
     },
@@ -211,7 +154,7 @@
         "place": "paris",
         "dates": {
             "start": "2026-04",
-            "end": "202-04"
+            "end": "2026-04"
         },
         "hours": {
             "vendredi": "Horaires à venir",
@@ -226,8 +169,89 @@
         ],
         "books": [
             "carmidor-1-paperback",
-            "carmidor-2-paperback"
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
         ],
         "url": "https://www.festivaldulivredeparis.fr/"
+    },
+    "echos-et-merveilles": {
+        "public": false,
+        "type": "salon",
+        "name": "Festival Echos et Merveilles",
+        "place": "bruguieres",
+        "dates": {
+            "start": "2026-05",
+            "end": "2026-05"
+        },
+        "hours": {
+            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
+        },
+        "access": "payante",
+        "details": [
+            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/product/village-des-legendes-2025-tickets-jour-par-jour-parc-en-journee-' rel='external' target='_blank'>acheter votre ticket</a> (11&nbsp;€ par jour – optez pour le pass 4 jours à 30&nbsp;€ si vous venez 3 jours ou plus&nbsp;!).",
+            "Je dédicace sur le stand Plume Blanche avec <em>Les Carmidor</em>, et <em>Les Noces</em> est en vente sur le stand de la J. Robin Agency."
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://echosetmerveilles.com/salon-du-livre"
+    },
+    "imaginales": {
+        "public": false,
+        "type": "salon",
+        "name": "Les Imaginales",
+        "place": "epinal",
+        "dates": {
+            "start": "2026-05",
+            "end": "2026-05"
+        },
+        "hours": {
+            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 12h</strong> puis de <strong>14h à 19h</strong>",
+            "dimanche": "De <strong>10h à 12h30</strong>"
+        },
+        "access": "free",
+        "details": [
+            "Accès libre et gratuit. Vous me retrouverez sur le stand Plume Blanche, dans la Bulle du Livre."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://www.imaginales.fr/"
+    },
+    "lire-a-limoges": {
+        "public": false,
+        "type": "salon",
+        "name": "Lire à Limoges",
+        "place": "limoges",
+        "dates": {
+            "start": "2026-06",
+            "end": "2026-06"
+        },
+        "hours": {
+            "vendredi": "De <strong>14h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
+        },
+        "access": "free",
+        "details": [
+            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://lire.limoges.fr/"
     }
 }

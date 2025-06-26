@@ -26,5 +26,12 @@
         "alt": "Les Carmidor, tome 2 : Unir et Détruire (en broché)",
         "img": "/img/medias/carmidor-t2-paperback.png",
         "release": "2025-04-01"
+    },
+    "carmidor-3-paperback": {
+        "title": "<em>Les Carmidor</em>, tome&nbsp;3",
+        "type": "broché",
+        "alt": "Les Carmidor, tome 3 : Renaître et Sacrifier (en broché)",
+        "img": "/img/medias/carmidor-t3-paperback.png",
+        "release": "2026-05-05"
     }
 }
