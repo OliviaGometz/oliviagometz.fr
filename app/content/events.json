@@ -47,8 +47,79 @@
         ],
         "url": "https://monslivre.be/"
     },
+    "foire-du-livre-de-brive": {
+        "public": true,
+        "type": "salon",
+        "name": "Foire du livre de Brive",
+        "place": "brive",
+        "dates": {
+            "start": "2025-11-07",
+            "end": "2025-11-09"
+        },
+        "hours": {
+            "vendredi": "Horaires à venir (de 10h à 20h max)",
+            "samedi": "Horaires à venir (de 9h à 20h max)",
+            "dimanche": "Horaires à venir (de 9h à 18h max)"
+        },
+        "access": "free",
+        "details": [
+            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "http://www.foiredulivredebrive.net/"
+    },
+    "momie-romances": {
+        "public": true,
+        "type": "librairie",
+        "name": "Momie Romances",
+        "place": "lyon",
+        "dates": {
+            "start": "2025-11-22",
+            "end": "2025-11-22"
+        },
+        "hours": {
+            "samedi": "Horaires à venir"
+        },
+        "access": "free",
+        "details": [
+            "Dédicace dans la librairie, modalités à venir&nbsp!"
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://www.instagram.com/momie.romanceslyon/"
+    },
+    "tgs": {
+        "public": true,
+        "type": "salon",
+        "name": "Toulouse Game Show",
+        "place": "toulouse",
+        "dates": {
+            "start": "2025-11-29",
+            "end": "2025-11-30"
+        },
+        "hours": {
+            "samedi": "Horaires à venir (de 9h à 19h max)",
+            "dimanche": "Horaires à venir (de 9h à 18h30 max)"
+        },
+        "access": "payante",
+        "details": [
+            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback"
+        ],
+        "url": "https://tgs-toulouse.fr/"
+    },
     "salon-du-livre-de-roissy-en-brie": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Salon du Livre de Roissy-en-Brie",
         "place": "roissy-en-brie",
@@ -62,7 +133,8 @@
         },
         "access": "free",
         "details": [
-            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche."
+            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche.",
+            "Par ailleurs, j’anime une micro-conférence sur le féminisme dans la littérature fantasy&nbsp;!"
         ],
         "books": [
             "carmidor-1-paperback",

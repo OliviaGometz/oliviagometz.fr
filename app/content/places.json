@@ -47,6 +47,14 @@
             "y": 265
         }
     },
+    "lyon": {
+        "city": "Lyon",
+        "country": "france",
+        "position": {
+            "x": 302,
+            "y": 270
+        }
+    },
     "brive": {
         "city": "Brive-la-Gaillarde",
         "country": "france",
