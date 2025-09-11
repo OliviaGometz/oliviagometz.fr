@@ -15,11 +15,11 @@
                 <h1>Olivia Gometz</h1>
 
                 <div class="buttons">
-                    {% for name, website in websites.network %}
+                    {%- for name, website in websites.network %}
                         <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
                             {% include "svg/logos/networks/" + name + ".svg" %}
                         </a>
-                    {% endfor %}
+                    {%- endfor %}
                 </div>
             </article>
         </div>
@@ -29,7 +29,7 @@
 
     <section class="container">
         <div class="maxwidth--sm text--center">
-            {% for element in linktree %}
+            {%- for element in linktree %}
                 <div class="card card--{{element.style}}">
                     <div class="buttons">
                         <a
@@ -43,7 +43,7 @@
 
                     <small>{{element.description | safe}}</small>
                 </div>
-            {% endfor %}
+            {%- endfor %}
         </div>
     </section>
 

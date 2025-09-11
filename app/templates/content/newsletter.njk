@@ -2,19 +2,19 @@
 <section id="newsletter" class="container">
     <article class="maxwidth--sm text--sm text--margin-sm text--center">
         <h2>
-            {% if blockTitle %}
+            {%- if blockTitle %}
                 {{blockTitle | safe}}
-            {% else %}
+            {%- else %}
                 Recevoir de mes nouvelles
-            {% endif %}
+            {%- endif %}
         </h2>
 
         <p>
-            {% if blockText %}
+            {%- if blockText %}
                 {{blockText | safe}}
-            {% else %}
+            {%- else %}
                 Une newsletter 100% lecteurices, envoyée max une fois par mois (quand je suis régulière) pour partager mes actus les plus importantes en avant-première, et quelques exclusivités&nbsp;!
-            {% endif %}
+            {%- endif %}
         </p>
 
         <div class="ml-embedded" data-form="p3qnJb"></div>

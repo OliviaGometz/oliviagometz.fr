@@ -31,7 +31,7 @@
         </section>
 
         <section class="basic-container">
-            {% for id, event in events %}
+            {%- for id, event in events %}
             <article
                 class="card card--white card-toggle event{% if not event.public %} js-hidden{% endif %}"
                 id="{{ id }}"
@@ -39,11 +39,11 @@
                 data-eventstart="{{ event.dates.start }}"
                 data-eventend="{{ event.dates.end }}"
             >
-                {% if event.type == 'salon' %}
+                {%- if event.type == 'salon' %}
                     <i class="badge badge--secondary">Salon littéraire</i>
-                {% else %}
+                {%- else %}
                     <i class="badge badge--primary">Librairie</i>
-                {% endif %}
+                {%- endif %}
 
                 <span class="event__decompte"></span>
 
@@ -61,25 +61,25 @@
 
                     <li>
                         🎟️ Entrée <strong>
-                        {% if event.access == 'ticket' %}
+                        {%- if event.access == 'ticket' %}
                         gratuite sur ticket
-                        {% else %}
-                            {% if event.access == 'free' %}
+                        {%- else %}
+                            {%- if event.access == 'free' %}
                             libre et gratuite
-                            {% else %}
+                            {%- else %}
                             payante
-                            {% endif %}
-                        {% endif %}
+                            {%- endif %}
+                        {%- endif %}
                         </strong>
                     </li>
 
                     <li>
                         🌐 Visiter le <a href="{{ event.url }}" target="_blank" rel="external">
-                            {% if event.type == 'salon' %}
+                            {%- if event.type == 'salon' %}
                             site de l’événement
-                            {% else %}
+                            {%- else %}
                             site de la librairie
-                            {% endif %}
+                            {%- endif %}
                         </a>
                     </li>
                 </ul>
@@ -90,10 +90,10 @@
                             <h3>Mes horaires</h3>
 
                             <div class="timeline timeline--secondary">
-                                {% for period, details in event.hours %}
+                                {%- for period, details in event.hours %}
                                     <span>{{ period }}</span>
                                     <p>{{ details | safe }}</p>
-                                {% endfor %}
+                                {%- endfor %}
                             </div>
                         </div>
 
@@ -101,19 +101,19 @@
                             <h3>Mes livres disponibles à la vente</h3>
 
                             <div class="event__books">
-                                {% for book in event.books %}
+                                {%- for book in event.books %}
                                     <div>
-                                        {% if books[book].release > event.dates.end %}
+                                        {%- if books[book].release > event.dates.end %}
                                             <span class="event__books__premiere">
                                                 En avant-première&nbsp;!
                                             </span>
-                                        {% endif %}
+                                        {%- endif %}
 
                                         <img src="{{ books[book].img }}" alt="books[book].alt" />
 
                                         <p>{{ books[book].title | safe }} ({{ books[book].type }})</p>
                                     </div>
-                                {% endfor %}
+                                {%- endfor %}
                             </div>
 
                             <small class="event__details">Je dédicace tous les livres/carnets que vous voulez&nbsp;: les dédicaces ne sont pas réservées qu’aux achats sur place.</small>
@@ -122,14 +122,14 @@
 
                     <h3>Informations utiles</h3>
 
-                    {% for detail in event.details %}
+                    {%- for detail in event.details %}
                         <p>{{ detail | safe }}</p>
-                    {% endfor %}
+                    {%- endfor %}
 
                     <summary class="button-toggle button-toggle--secondary" data-js="toggle" data-target="{{id}}">détails</summary>
                 </details>
             </article>
-            {% endfor %}
+            {%- endfor %}
         </section>
 
         {% from 'content/newsletter.njk' import newsletter %}

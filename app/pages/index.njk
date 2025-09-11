@@ -16,11 +16,11 @@
                     <img src="/img/medias/me.png" alt="Photo de Olivia Gometz"/>
 
                     <div class="buttons">
-                        {% for name, website in websites.network %}
+                        {%- for name, website in websites.network %}
                             <a href="{{website.link}}" class="logo logo--sm logo--white" rel="external" target="_blank" aria-label="{{website.desc}}">
                                 {% include "svg/logos/networks/" + name + ".svg" %}
                             </a>
-                        {% endfor %}
+                        {%- endfor %}
                     </div>
                 </aside>
 
@@ -176,10 +176,10 @@
                 </h2>
 
                 <div class="timeline timeline--secondary">
-                    {% for line in timeline %}
+                    {%- for line in timeline %}
                         <span>{{line.date | safe}}</span>
                         <p>{{line.description | safe }}</p>
-                    {% endfor %}
+                    {%- endfor %}
                 </div>
             </article>
         </section>
