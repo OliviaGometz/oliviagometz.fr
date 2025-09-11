@@ -69,7 +69,11 @@
     },
     {
         "date": "Septembre 2024",
-        "description": "Fin de l’écriture du tome&nbsp;2 et du travail éditorial. Les deux premiers tomes des <em>Carmidor</em> sont prêts pour leur (ré)édition en 2025, et je commence l’écriture du tome&nbsp;3 dont la sortie est prévue en 2026."
+        "description": "Fin de l’écriture du tome&nbsp;2 et du travail éditorial. Les deux premiers tomes des <em>Carmidor</em> sont prêts pour leur (ré)édition en 2025."
+    },
+    {
+        "date": "Octobre 2024",
+        "description": "Début de l’écriture du tome&nbsp;3 des <em>Carmidor</em>."
     },
     {
         "date": "Novembre 2024",
@@ -82,5 +86,17 @@
     {
         "date": "1<sup>er</sup> avril 2025",
         "description": "(Re)sortie officielle des tomes 1 et 2 des <em>Carmidor</em> en broché, numérique et audio&nbsp;!"
+    },
+    {
+        "date": "Août 2025",
+        "description": "Fin de l’écriture du tome&nbsp;3 des <em>Carmidor</em> et du travail éditorial."
+    },
+    {
+        "date": "Septembre 2025",
+        "description": "Début de l’écriture du tome&nbsp;4 des <em>Carmidor</em>."
+    },
+    {
+        "date": "Octobre 2025",
+        "description": "Avant-première du tome 3 des <em>Carmidor</em> au Salon du Livre de Wallonie, à Mons."
     }
 ]
