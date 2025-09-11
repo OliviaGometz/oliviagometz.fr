@@ -34,7 +34,19 @@ const frenchMonths = {
 
 function dateFormat(input, returnMonth = true, returnYear = true) {
   var date = input.split('-');
-  var day = date[2] ? date[2] + ' ' : '';
+
+  if (date[2]) {
+    var day = parseInt(date[2]);
+    
+    if (day == 1) {
+      day = day + '<sup>er</sup> ';
+    } else {
+      day = day + ' ';
+    }
+  } else {
+    var day = '';
+  }
+
   var month = returnMonth ? frenchMonths[date[1]] : '';
   var year = returnYear ? ' ' + date[0] : '';
 
