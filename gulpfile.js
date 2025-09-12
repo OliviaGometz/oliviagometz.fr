@@ -72,6 +72,16 @@ function datesToString(input) {
   return formattedDate;
 }
 
+const events = require("./app/content/events.json");
+const places = require("./app/content/places.json");
+const eventsMapDots = {};
+
+for (const [event, details] of Object.entries(events)) {
+  if (eventsMapDots[details.place] === undefined) {
+    eventsMapDots[details.place] = event;
+  }
+}
+
 function style() {
   return gulp
     .src(paths.styles.src)
@@ -86,14 +96,12 @@ function html() {
     .pipe(
       data(function () {
         const books = require("./app/content/books.json");
-        const events = require("./app/content/events.json");
         const linktree = require("./app/content/linktree.json");
         const logos = require("./app/content/logos.json");
-        const places = require("./app/content/places.json");
         const podcasts = require("./app/content/podcasts.json");
         const timeline = require("./app/content/timeline.json");
         const websites = require("./app/content/websites.json");
-        return { books, events, linktree, logos, places, podcasts, timeline, websites };
+        return { events, eventsMapDots, places, books, linktree, logos, podcasts, timeline, websites };
       })
     )
     .pipe(
