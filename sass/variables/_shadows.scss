@@ -14,4 +14,5 @@ $secondaryShadowMD: 0 $shadowSM $shadowMD color.adjust($secondary, $alpha: -0.6)
 
 // Text shadows
 
+$textShadowSM: 0 0 $shadowSM $black00;
 $textShadowMD: 0 0 $shadowMD $black00;

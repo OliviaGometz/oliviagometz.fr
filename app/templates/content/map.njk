@@ -44,18 +44,33 @@
             403.4,189.9 399.6,193.3 395.4,193.8 393.1,190.4 388.3,193.9"/>
     </g>
 
-    {% for id, event in events %}
+    {%- for place, event in eventsMapDots %}
+        {%- set textAnchor = 'middle' %}
+        {%- set textTransform = 'matrix(1 0 0 1 0 -6)' %}
+
+        {%- if places[place].position.text == 'bottom' %}
+            {%- set textTransform = 'matrix(1 0 0 1 0 32)' %}
+        {%- elif places[place].position.text == 'right' %}
+            {%- set textAnchor = 'start' %}
+            {%- set textTransform = 'matrix(1 0 0 1 12 13)' %}
+        {%- elif places[place].position.text == 'left' %}
+            {%- set textAnchor = 'end' %}
+            {%- set textTransform = 'matrix(1 0 0 1 -12 13)' %}
+        {%- endif %}
+
         <a
-            href="#{{id}}"
-            aria-label="{{event.name}} (à {{places[event.place].city}})"
+            href="#{{event}}"
+            aria-label="{{events[event].name}} (à {{places[place].city}})"
             data-js="event"
-            data-eventstart="{{ event.dates.start }}"
-            data-eventend="{{ event.dates.end }}"
-            {% if not event.public %}class="js-hidden"{% endif %}
+            data-eventstart="{{ events[event].dates.start }}"
+            data-eventend="{{ events[event].dates.end }}"
+            {% if not events[event].public %}class="js-hidden"{% endif %}
         >
-            <circle cx="{{places[event.place].position.x}}" cy="{{places[event.place].position.y + 8}}" r="8">
-                <title>{{event.name}} (à {{places[event.place].city}})</title>
-            </circle>
+            <g transform="matrix(1 0 0 1 {{places[place].position.x}} {{places[place].position.y}})">
+                <title>{{events[event].name}} (à {{places[place].city}})</title>
+                <circle cx="0" cy="8" r="8" />
+                <text text-anchor="{{textAnchor}}" transform="{{textTransform}}">{{places[place].city}}</text>
+            </g>
         </a>
-    {% endfor %}
+    {%- endfor %}
 </svg>

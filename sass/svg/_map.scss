@@ -16,13 +16,26 @@
         transition: all $durationSM;
     }
 
+    text {
+        fill: $secondaryUltraLight;
+        font-size: $fontSizeXS;
+        transition: all $durationSM;
+        text-shadow: $textShadowSM;
+    }
+
     a {
         &:hover,
         &:active,
         &:focus {
             circle {
                 fill: $secondaryUltraLight;
-                transform: scale(1.5);
+                transform: scale(1.3);
+            }
+
+            text {
+                fill: $white00;
+                font-weight: $bold;
+                letter-spacing: $spacingXS;
             }
         }
     }
