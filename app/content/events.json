@@ -1,27 +1,4 @@
 {
-    "aicontis": {
-        "public": true,
-        "type": "salon",
-        "name": "Aïcontis",
-        "place": "marcillac",
-        "dates": {
-            "start": "2025-10-04",
-            "end": "2025-10-05"
-        },
-        "hours": {
-            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
-        },
-        "access": "free",
-        "details": [
-            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://www.facebook.com/events/3893039041018577/"
-    },
     "salon-du-livre-de-wallonie": {
         "public": true,
         "type": "salon",
@@ -33,14 +10,18 @@
         },
         "hours": {
             "samedi": "De <strong>10h à 12h</strong> puis de <strong>12h45 à 19h</strong> (à confirmer)",
-            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h30 à 19h</strong> (à confirmer)"
+            "dimanche": "De <strong>10h à 13h30</strong>"
         },
         "access": "ticket",
         "details": [
             "Pour accéder au salon, pensez à <a href='https://www.eventbrite.be/e/billets-13e-salon-du-livre-de-wallonie-1372571852359' rel='external' target='_blank'>réserver votre ticket d’entrée</a> (c’est gratuit&nbsp;!).",
-            "Je dédicace sur le stand Plume Blanche. Ce salon est généralement très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez votre tome 3 de <em>Les Carmidor</em> dès le <strong>samedi matin</strong>, et privilégiez la fin d’après-midi ou le <strong>dimanche</strong> pour papoter avec moi – samedi matin, il me faudra être efficace dans les dédicaces, donc je ne pourrai pas prendre autant de temps que d’habitude pour discuter avec vous."
+            "Je dédicace tous vos livres sur le stand Plume Blanche, à l’emplacement <strong>I1</strong> (au rez-de-chaussée, en bas à gauche du <a href='https://monslivre.be/plan-du-salon/' rel='external' target='_blank'>plan</a>).",
+            "<em>Les Noces d’Ombre et de Fumée</em> en broché et relié seront en vente sur le stand de la J. Robin Agency, à l’emplacement <strong>I5</strong> (au rez-de-chaussée, en haut à droite du plan, près de <strong>l’entrée avec livres</strong>).",
+            "Ce salon est généralement très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez votre tome 3 de <em>Les Carmidor</em> le <strong>samedi matin</strong>, et privilégiez l’après-midi ou le <strong>dimanche matin</strong> pour papoter avec moi."
         ],
         "books": [
+            "nof-paperback",
+            "nof-hardback",
             "carmidor-1-paperback",
             "carmidor-2-paperback",
             "carmidor-3-paperback"
@@ -59,11 +40,12 @@
         "hours": {
             "vendredi": "Horaires à venir (de 10h à 20h max)",
             "samedi": "Horaires à venir (de 9h à 20h max)",
-            "dimanche": "Horaires à venir (de 9h à 18h max)"
+            "dimanche": "Horaires à venir (de 9h à 17h max)"
         },
         "access": "free",
         "details": [
-            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche."
+            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche.",
+            "J’anime un atelier d'écriture de 1h30 sur le thème&nbsp;: <em>Donnez vie à un univers imaginaire original, crédible et au service de vos intrigues</em> (modalités à venir)."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -81,11 +63,13 @@
             "end": "2025-11-22"
         },
         "hours": {
-            "samedi": "Horaires à venir"
+            "table ronde": "De <strong>14h à 15h</strong>",
+            "dédicaces": "De <strong>15h à 18h</strong>"
         },
         "access": "free",
         "details": [
-            "Dédicace dans la librairie, modalités à venir&nbsp!"
+            "J’anime une table ronde sur le thème de la <strong>fantasy au féminin</strong>, puis je dédicace&nbsp;!",
+            "Table ronde sur réservation auprès de la librairie, et dédicaces libres."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -129,18 +113,42 @@
         },
         "hours": {
             "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
+            "dimanche": "De <strong>10h à 12h30</strong> puis de <strong>14h15 à 15h15</strong>"
         },
         "access": "free",
         "details": [
             "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche.",
-            "Par ailleurs, j’anime une micro-conférence sur le féminisme dans la littérature fantasy&nbsp;!"
+            "Par ailleurs, j’anime une micro-conférence de 30 minutes sur la place du <strong>féminisme dans la littérature de fantasy</strong>, le dimanche à <strong>13h30</strong> puis à <strong>15h30</strong>."
         ],
         "books": [
             "carmidor-1-paperback",
             "carmidor-2-paperback"
         ],
         "url": "https://www.roissyenbrie77.fr/salon-du-livre/"
+    },
+    "cultura-blagnac": {
+        "public": true,
+        "type": "librairie",
+        "name": "Cultura",
+        "place": "blagnac",
+        "dates": {
+            "start": "2025-12-14",
+            "end": "2025-12-14"
+        },
+        "hours": {
+            "dimanche": "Horaires à venir (max de 14h à 20h)"
+        },
+        "access": "free",
+        "details": [
+            "Je dédicace tous mes romans en vente en compagnie de l’autrice des <em>Soldats de la Nuit</em>, Perrine Bonnavita&nbsp;!"
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "nof-paperback",
+            "nof-hardback"
+        ],
+        "url": "https://www.cultura.com/les-magasins/cultura-blagnac/librairie-blagnac.html"
     },
     "imagin-a-brive": {
         "public": true,
