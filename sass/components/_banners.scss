@@ -63,7 +63,7 @@
         }
     }
 
-    @each $page in 'meetings', 'podcasts', 'services' {
+    @each $page in 'motriarcat', 'podcasts', 'services' {
         &--#{$page} {
             background-image: url('../img/bg/#{$page}.png');
         }

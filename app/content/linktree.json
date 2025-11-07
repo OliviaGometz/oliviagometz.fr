@@ -16,5 +16,11 @@
         "label": "Acheter Les Noces",
         "description": "<em>Les Noces d’Ombre et de Fumée</em> au format Kindle, broché ou relié",
         "style": "secondary"
+    },
+    {
+        "link": "/motriarcat",
+        "label": "Motriarcat",
+        "description": "Tout savoir sur mon challenge d’écriture en équipes, notamment les dates de la prochaine édition",
+        "style": "light"
     }
 ]

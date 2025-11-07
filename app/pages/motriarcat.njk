@@ -1,0 +1,52 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Olivia Gometz - Motriarcat</title>
+    <meta name="description" content="Challenge d’écriture thématique en équipes" />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav()}}
+
+    <main>
+        <section class="banner-image banner-image--motriarcat wave-bottom-reverse">
+            <div class="container">
+                <article class="maxwidth--md text--margin-sm">
+                    <h1 class="title--header">Motriarcat</h1>
+
+                    <p>
+                        Le challenge d’écriture thématique en équipes qui réunit sur Discord tout un tas d’autrices et d’auteurs pendant 2 semaines.
+                    </p>
+                </article>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        {% from 'content/newsletter.njk' import newsletter %}
+        {{ newsletter(
+            'C’est quand la prochaine édition&nbsp;?',
+            'Cette newsletter ne sert qu’à une seule et unique chose&nbsp;: vous annoncer, le moment venu, les dates de la prochaine édition de Motriarcat et les modalités pour tenter d’y obtenir une place. Aucun autre email ne vous sera envoyé.',
+            'Lv0mZk'
+        ) }}
+
+        <section class="container">
+            <article class="maxwidth--lg text--margin-sm text--center">
+                <h2>Et en attendant&nbsp;?</h2>
+
+                <p>Sur mes réseaux sociaux d’autrice, je parle parfois de Motriarcat&nbsp;! Suivez les éditions en story et découvrez-en les coulisses en me suivant là&nbsp;:</p>
+
+                <div class="buttons">
+                    {% for name, website in websites.network %}
+                        <a href="{{website.link}}" class="logo logo--sm logo--secondary" rel="external" target="_blank" aria-label="{{website.desc}}">
+                            {% include "svg/logos/networks/" + name + ".svg" %}
+                        </a>
+                    {% endfor %}
+                </div>
+            </article>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}

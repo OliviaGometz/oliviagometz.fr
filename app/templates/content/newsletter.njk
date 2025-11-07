@@ -1,4 +1,4 @@
-{% macro newsletter(blockTitle='', blockText='') %}
+{% macro newsletter(blockTitle='', blockText='', dataForm='p3qnJb') %}
 <section id="newsletter" class="container">
     <article class="maxwidth--sm text--sm text--margin-sm text--center">
         <h2>
@@ -13,11 +13,11 @@
             {%- if blockText %}
                 {{blockText | safe}}
             {%- else %}
-                Une newsletter 100% lecteurices, envoyée max une fois par mois (quand je suis régulière) pour partager mes actus les plus importantes en avant-première, et quelques exclusivités&nbsp;!
+                Une newsletter 100% lecteurices, envoyée max une fois par mois (et ça, c’est quand je suis régulière) pour partager mes actus les plus importantes en avant-première, et quelques exclusivités&nbsp;!
             {%- endif %}
         </p>
 
-        <div class="ml-embedded" data-form="p3qnJb"></div>
+        <div class="ml-embedded" data-form="{{dataForm}}"></div>
     </article>
 </section>
 {% endmacro %}
