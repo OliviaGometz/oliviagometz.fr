@@ -1,104 +1,4 @@
 {
-    "foire-du-livre-de-brive": {
-        "public": true,
-        "type": "salon",
-        "name": "Foire du livre de Brive",
-        "place": "brive",
-        "dates": {
-            "start": "2025-11-07",
-            "end": "2025-11-09"
-        },
-        "hours": {
-            "vendredi": "De <strong>10h à 12h</strong> puis de <strong>14h à 19h</strong>",
-            "samedi": "De <strong>9h à 12h</strong> puis de <strong>14h à 18h</strong>",
-            "dimanche": "De <strong>9h à 12h</strong> puis de <strong>16h à 17h</strong>",
-            "atelier": "Dimanche de <strong>14h à 15h30</strong>"
-        },
-        "access": "free",
-        "details": [
-            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche.",
-            "J’anime un atelier d'écriture gratuit d’une heure et demi au Théâtre de Brive (petite salle), le dimanche de 14h à 15h30, sur le thème&nbsp;: <em>Donnez vie à un univers imaginaire original, crédible et au service de vos intrigues</em>.",
-            "Plus que 2 places disponibles, infos et réservation sur la <a href='https://www.foiredulivredebrive.net/programme/ecrire-en-fantasy-atelier-decriture/' rel='external' target='_blank'>page de l’atelier</a>."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "http://www.foiredulivredebrive.net/"
-    },
-    "momie-romances": {
-        "public": true,
-        "type": "librairie",
-        "name": "Momie Romances",
-        "place": "lyon",
-        "dates": {
-            "start": "2025-11-22",
-            "end": "2025-11-22"
-        },
-        "hours": {
-            "table ronde": "De <strong>14h à 15h</strong>",
-            "dédicaces": "De <strong>15h à 18h</strong>"
-        },
-        "access": "free",
-        "details": [
-            "J’anime une table ronde sur le thème de la <strong>fantasy au féminin</strong>, puis je dédicace&nbsp;!",
-            "Table ronde sur réservation auprès de la librairie, et dédicaces libres."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://www.instagram.com/momie.romanceslyon/"
-    },
-    "tgs": {
-        "public": true,
-        "type": "salon",
-        "name": "Toulouse Game Show",
-        "place": "toulouse",
-        "dates": {
-            "start": "2025-11-29",
-            "end": "2025-11-30"
-        },
-        "hours": {
-            "samedi": "Horaires à venir (de 9h à 19h max)",
-            "dimanche": "Horaires à venir (de 9h à 18h30 max)"
-        },
-        "access": "payante",
-        "details": [
-            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://tgs-toulouse.fr/"
-    },
-    "salon-du-livre-de-roissy-en-brie": {
-        "public": true,
-        "type": "salon",
-        "name": "Salon du Livre de Roissy-en-Brie",
-        "place": "roissy-en-brie",
-        "dates": {
-            "start": "2025-12-06",
-            "end": "2025-12-07"
-        },
-        "hours": {
-            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 12h30</strong> puis de <strong>14h15 à 15h15</strong>"
-        },
-        "access": "free",
-        "details": [
-            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche.",
-            "Par ailleurs, j’anime une micro-conférence de 30 minutes sur la place du <strong>féminisme dans la littérature de fantasy</strong>, le dimanche à <strong>13h30</strong> puis à <strong>15h30</strong>."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback"
-        ],
-        "url": "https://www.roissyenbrie77.fr/salon-du-livre/"
-    },
     "cultura-blagnac": {
         "public": true,
         "type": "librairie",
@@ -109,7 +9,7 @@
             "end": "2025-12-14"
         },
         "hours": {
-            "dimanche": "Horaires à venir (max de 14h à 20h)"
+            "dimanche": "De <strong>14h à 18h</strong>"
         },
         "access": "free",
         "details": [
@@ -200,25 +100,52 @@
         ],
         "url": "https://limagin-arium.com/limaginalivres/"
     },
+    "foire-du-livre-de-bruxelles": {
+        "public": true,
+        "type": "salon",
+        "name": "Foire du Livre de Bruxelles",
+        "place": "bruxelles",
+        "dates": {
+            "start": "2026-03-26",
+            "end": "2026-03-29"
+        },
+        "hours": {
+            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "vendredi": "De <strong>10h à 14h</strong> puis de <strong>19h à 21h</strong>",
+            "samedi": "De <strong>10h à 13h</strong>",
+            "dimanche": "De <strong>10h à 13h</strong> puis de <strong>16h à 18h30</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Pour accéder au salon, pensez à <a href='https://tickets.flb.be/foire-du-livre-de-bruxelles-2026/' rel='external' target='_blank'>vous inscrire</a> (c’est gratuit&nbsp;!).",
+            "Vous me retrouverez sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://flb.be/"
+    },
     "festival-du-livre-de-paris": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Festival du Livre de Paris",
         "place": "paris",
         "dates": {
-            "start": "2026-04",
-            "end": "2026-04"
+            "start": "2026-04-17",
+            "end": "2026-04-19"
         },
         "hours": {
-            "vendredi": "Horaires à venir",
-            "samedi": "Horaires à venir",
-            "dimanche": "Horaires à venir"
+            "vendredi": "De <strong>10h à 14h</strong> puis de <strong>18h à 20h</strong>",
+            "samedi": "De <strong>9h à 12h</strong>",
+            "dimanche": "De <strong>13h à 15h</strong>"
         },
         "access": "payante",
         "details": [
             "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>. Attention, les sacs qui dépassent la dimension A3 ne sont pas autorisés (et il n’a pas de vestiaire), et le nombre de livres non achetés sur le salon est limité à 2 par personne à l’entrée.",
-            "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez avant le X avril, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
-            "Vous me retrouverez sur le stand des éditions Plume Blanche (stand ?)."
+            "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez assez tôt, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
+            "Vous me retrouverez sur le stand des éditions Plume Blanche."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -228,13 +155,13 @@
         "url": "https://www.festivaldulivredeparis.fr/"
     },
     "echos-et-merveilles": {
-        "public": false,
+        "public": true,
         "type": "salon",
         "name": "Festival Echos et Merveilles",
         "place": "bruguieres",
         "dates": {
-            "start": "2026-05",
-            "end": "2026-05"
+            "start": "2026-05-14",
+            "end": "2026-05-17"
         },
         "hours": {
             "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
@@ -244,7 +171,7 @@
         },
         "access": "payante",
         "details": [
-            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/product/village-des-legendes-2025-tickets-jour-par-jour-parc-en-journee-' rel='external' target='_blank'>acheter votre ticket</a> (11&nbsp;€ par jour – optez pour le pass 4 jours à 30&nbsp;€ si vous venez 3 jours ou plus&nbsp;!).",
+            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/' rel='external' target='_blank'>acheter votre ticket</a> (11&nbsp;€ par jour – optez pour le pass 4 jours à 30&nbsp;€ si vous venez 3 jours ou plus&nbsp;!).",
             "Je dédicace sur le stand Plume Blanche avec <em>Les Carmidor</em>, et <em>Les Noces</em> est en vente sur le stand de la J. Robin Agency."
         ],
         "books": [
@@ -335,5 +262,80 @@
             "carmidor-3-paperback"
         ],
         "url": "https://monslivre.be/"
+    },
+    "foire-du-livre-de-brive": {
+        "public": false,
+        "type": "salon",
+        "name": "Foire du livre de Brive",
+        "place": "brive",
+        "dates": {
+            "start": "2026-11",
+            "end": "2026-11"
+        },
+        "hours": {
+            "vendredi": "De <strong>10h à 12h</strong> puis de <strong>14h à 19h</strong>",
+            "samedi": "De <strong>9h à 12h</strong> puis de <strong>14h à 18h</strong>",
+            "dimanche": "De <strong>9h à 12h</strong> puis de <strong>14h à 18h</strong>"
+        },
+        "access": "free",
+        "details": [
+            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "http://www.foiredulivredebrive.net/"
+    },
+    "tgs": {
+        "public": false,
+        "type": "salon",
+        "name": "Toulouse Game Show",
+        "place": "toulouse",
+        "dates": {
+            "start": "2026-11",
+            "end": "2026-11"
+        },
+        "hours": {
+            "samedi": "Horaires à venir (de 9h à 19h max)",
+            "dimanche": "Horaires à venir (de 9h à 18h30 max)"
+        },
+        "access": "payante",
+        "details": [
+            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://tgs-toulouse.fr/"
+    },
+    "salon-du-livre-de-roissy-en-brie": {
+        "public": false,
+        "type": "salon",
+        "name": "Salon du Livre de Roissy-en-Brie",
+        "place": "roissy-en-brie",
+        "dates": {
+            "start": "2026-12",
+            "end": "2026-12"
+        },
+        "hours": {
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 12h30</strong> puis de <strong>14h15 à 15h15</strong>"
+        },
+        "access": "free",
+        "details": [
+            "Accès libre et gratuit. Je dédicace sur le stand Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://www.roissyenbrie77.fr/salon-du-livre/"
     }
 }
