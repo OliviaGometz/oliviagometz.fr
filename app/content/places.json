@@ -97,7 +97,8 @@
         "country": "france",
         "position": {
             "x": 197,
-            "y": 354
+            "y": 354,
+            "text": "left"
         }
     },
     "toulouse": {
@@ -106,7 +107,7 @@
         "position": {
             "x": 198,
             "y": 370,
-            "text": "left"
+            "text": "right"
         }
     },
     "portet": {
