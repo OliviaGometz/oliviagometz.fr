@@ -1,28 +1,4 @@
 {
-    "cultura-blagnac": {
-        "public": true,
-        "type": "librairie",
-        "name": "Cultura",
-        "place": "blagnac",
-        "dates": {
-            "start": "2025-12-14",
-            "end": "2025-12-14"
-        },
-        "hours": {
-            "dimanche": "De <strong>14h à 18h</strong>"
-        },
-        "access": "free",
-        "details": [
-            "Je dédicace tous mes romans en vente en compagnie de l’autrice des <em>Soldats de la Nuit</em>, Perrine Bonavita&nbsp;!"
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback",
-            "nof-paperback",
-            "nof-hardback"
-        ],
-        "url": "https://www.cultura.com/les-magasins/cultura-blagnac/librairie-blagnac.html"
-    },
     "imagin-a-brive": {
         "public": true,
         "type": "salon",
@@ -74,32 +50,6 @@
         ],
         "url": "https://www.comptoirdureve.fr/"
     },
-    "imaginalivres": {
-        "public": false,
-        "type": "salon",
-        "name": "Imagina'Livres",
-        "place": "portet",
-        "dates": {
-            "start": "2026-04",
-            "end": "2026-04"
-        },
-        "hours": {
-            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>"
-        },
-        "access": "free",
-        "details": [
-            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback",
-            "carmidor-3-paperback"
-        ],
-        "url": "https://limagin-arium.com/limaginalivres/"
-    },
     "foire-du-livre-de-bruxelles": {
         "public": true,
         "type": "salon",
@@ -126,6 +76,32 @@
             "carmidor-3-paperback"
         ],
         "url": "https://flb.be/"
+    },
+    "imaginalivres": {
+        "public": true,
+        "type": "salon",
+        "name": "Imagina’Livres",
+        "place": "portet",
+        "dates": {
+            "start": "2026-04-11",
+            "end": "2026-04-12"
+        },
+        "hours": {
+            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "dimanche": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>"
+        },
+        "access": "free",
+        "details": [
+            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente, notamment le tome 3 des <em>Carmidor</em> qui y sera en avant-première&nbsp!"
+        ],
+        "books": [
+            "nof-paperback",
+            "nof-hardback",
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://limagin-arium.com/limaginalivres/"
     },
     "festival-du-livre-de-paris": {
         "public": true,
