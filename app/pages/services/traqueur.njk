@@ -1,0 +1,47 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Olivia Gometz - Traqueur</title>
+    <meta name="description" content="Traqueur d’écriture, de réécriture, de correction ou de travail éditorial pour les auteurs." />
+{% endblock %}
+
+{% block content %}
+    {% from 'nav.njk' import nav %}
+    {{nav()}}
+
+    <main>
+        <section class="banner-image banner-image--services wave-bottom-reverse">
+            <div class="container">
+                <article class="maxwidth--md text--margin-sm">
+                    <h1 class="title--header">Traqueur</h1>
+
+                    <p>
+                        Mon modèle Google Sheet gratuit pour les auteurices&nbsp;: traquez votre progression dans l’écriture, la réécriture, la correction ou le travail éditorial de votre roman&nbsp;!
+                    </p>
+                </article>
+            </div>
+
+            {% include 'svg/wave.svg' %}
+        </section>
+
+        <section class="container">
+            <article class="maxwidth--lg text--margin-sm text--center">
+                <h2>Page en construction</h2>
+
+                <p>Mais déjà, retrouvez le modèle du <strong>Traqueur</strong> et sa démo ci-dessous. Pensez à bien lire la <a href="https://docs.google.com/document/d/1Nodpri0KCF_5Mv2Jn3YOFCOTrYCBcuWYlHWqnqejXiM" rel="external" target="_blank">notice d’utilisation</a> pour savoir comment vous en servir&nbsp;!</p>
+
+                <div class="buttons">
+                    <a href="https://docs.google.com/spreadsheets/d/1XTbNsg7WaWB9JXWvSai941S7m1Nal37oFtQEwVxk9dQ" rel="external" target="_blank" class="link link--primary">
+                        La démo
+                    </a>
+
+                    <a href="https://docs.google.com/spreadsheets/d/1qsjc-uEmFaixpliXdrCdvh8pwtxZz8oCO4njqN_bB-w" rel="external" target="_blank" class="button button--primary">
+                        Le modèle
+                    </a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    {% include 'footer.njk' %}
+{% endblock %}
