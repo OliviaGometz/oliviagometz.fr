@@ -1,11 +1,5 @@
 [
     {
-        "link": "https://forms.gle/XCcXExUAw8dYhofNA",
-        "label": "M'inscrire à Motriarcat",
-        "description": "Candidater à la nouvelle édition du challenge d'écriture, qui se tiendra du 26 janvier au 8 février",
-        "style": "primary"
-    },
-    {
         "link": "/",
         "label": "Mon site web",
         "description": "Mon site internet d’autrice, avec mes romans et les infos dédicaces/salons&nbsp;!",
