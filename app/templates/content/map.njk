@@ -66,7 +66,7 @@
             data-eventend="{{ events[event].dates.end }}"
             {% if not events[event].public %}class="js-hidden"{% endif %}
         >
-            <g transform="matrix(1 0 0 1 {{places[place].position.x}} {{places[place].position.y}})">
+            <g transform="matrix(1 0 0 1 {{places[place].position.x}} {{places[place].position.y - 5}})">
                 <title>{{events[event].name}} (à {{places[place].city}})</title>
                 <circle cx="0" cy="8" r="8" />
                 <text text-anchor="{{textAnchor}}" transform="{{textTransform}}">{{places[place].city}}</text>
