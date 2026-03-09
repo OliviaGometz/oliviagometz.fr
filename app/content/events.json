@@ -66,7 +66,8 @@
         },
         "access": "free",
         "details": [
-            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente, notamment le tome 3 des <em>Carmidor</em> qui y sera en avant-première&nbsp!"
+            "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente, notamment le tome 3 des <em>Carmidor</em> qui y sera en avant-première&nbsp!",
+            "Par ailleurs, je participe à une table ronde au sujet de mon <a href='/motriarcat'>challenge d’écriture, Motriarcat</a>, en compagnie de 2 autres organisatrices."
         ],
         "books": [
             "nof-paperback",
@@ -94,7 +95,7 @@
         "access": "payante",
         "details": [
             "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>. Attention, les sacs qui dépassent la dimension A3 ne sont pas autorisés (et il n’a pas de vestiaire), et le nombre de livres non achetés sur le salon est limité à 2 par personne à l’entrée.",
-            "Prix du billet&nbsp;: 5&nbsp;€ si vous l’achetez assez tôt, 9&nbsp;€ sinon. C’est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut quand même réserver votre billet.",
+            "Prix du billet&nbsp;: 6&nbsp;€ si vous l’achetez avant le mardi 7 avril inclus, 10&nbsp;€ sinon. À condition de le réserver avant le 7 avril, le billet est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut impérativement réserver votre billet.",
             "Vous me retrouverez sur le stand des éditions Plume Blanche."
         ],
         "books": [
@@ -148,8 +149,8 @@
         },
         "access": "payante",
         "details": [
-            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/' rel='external' target='_blank'>acheter votre ticket</a> (11&nbsp;€ par jour – optez pour le pass 4 jours à 30&nbsp;€ si vous venez 3 jours ou plus&nbsp;!).",
-            "Je dédicace sur le stand Plume Blanche avec <em>Les Carmidor</em>, et <em>Les Noces</em> est en vente sur le stand de la J. Robin Agency."
+            "Pour accéder au Village des Légendes, pensez à <a href='https://billetterie.festik.net/echos-merveilles/' rel='external' target='_blank'>acheter votre ticket</a> (13,80&nbsp;€ par jour en tarif adulte prévente – optez pour le pass 4 jours à 49,80&nbsp;€ si vous venez les 4 jours, ça vous reviendra moins cher&nbsp;!).",
+            "Je dédicace sur le stand Plume Blanche avec <em>Les Carmidor</em>."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -189,8 +190,8 @@
         "name": "Lire à Limoges",
         "place": "limoges",
         "dates": {
-            "start": "2026-06",
-            "end": "2026-06"
+            "start": "2026-06-05",
+            "end": "2026-06-07"
         },
         "hours": {
             "vendredi": "De <strong>14h à 19h</strong> <small>(avec des p’tites pauses)</small>",
