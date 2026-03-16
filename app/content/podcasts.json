@@ -2,13 +2,24 @@
     "unendroitcosy1": {
         "date": "09/03/2026",
         "name": "Un endroit cosy",
-        "title": "Table ronde sur le challenge d’écriture Motriarcat avec Mona Lehmann",
+        "title": "Table ronde sur le challenge d’écriture Motriarcat <small>(avec Mona Lehmann)</small>",
         "description": "Luna nous a invitées, Mona et moi, à partager nos expériences dans l’organisation du <a href='/motriarcat'>challenge d’écriture Motriarcat</a>, avec nos anecdotes sur les coulisses, le fonctionnement pour les auteurices et pour les organisatrices, ce qui fait le succès du challenge et les ingrédients pour que tout se déroule bien.",
         "duration": "1h36",
         "links": [
             "https://open.spotify.com/episode/5uYE20Ia7uFJTXVGwHnQGP",
             "https://podcasts.apple.com/us/podcast/%C3%A9pisode-8-motriarcat-le-nouveau-challenge-d%C3%A9criture/id1846283511?i=1000753954887",
             "https://www.deezer.com/fr/episode/854402391"
+        ]
+    },
+    "mégy1": {
+        "date": "05/13/2024",
+        "name": "Les podcasts de Mégy",
+        "title": "Trigger warnings&nbsp;: nécessité ou excès de précaution&nbsp;?",
+        "description": "Que sont les trigger ou content warnings, à quoi ils servent, sont-ils vraiment efficaces pour protéger les lecteurices, constituent-ils du spoil et comment les utiliser&nbsp;: avec Mégy, on revient sur ce sujet clivant en essayant d’être constructives et utiles pour les auteurices et les éditeurices.",
+        "duration": "48 min",
+        "links": [
+            "https://open.spotify.com/episode/5SZsW7cOgxmzKoB7BzwLQ9",
+            "https://podcasts.apple.com/us/podcast/trigger-warnings-n%C3%A9cessit%C3%A9-vitale-ou-exc%C3%A8s-de/id1649096816?i=1000648036477"
         ]
     },
     "scriptura1": {
