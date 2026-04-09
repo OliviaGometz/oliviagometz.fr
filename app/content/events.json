@@ -1,56 +1,4 @@
 {
-    "foire-du-livre-de-bruxelles": {
-        "public": true,
-        "type": "salon",
-        "name": "Foire du Livre de Bruxelles",
-        "place": "bruxelles",
-        "dates": {
-            "start": "2026-03-26",
-            "end": "2026-03-29"
-        },
-        "hours": {
-            "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "vendredi": "De <strong>10h à 14h</strong> puis de <strong>19h à 21h</strong>",
-            "samedi": "De <strong>10h à 13h</strong>",
-            "dimanche": "De <strong>10h à 13h</strong> puis de <strong>16h à 18h30</strong>"
-        },
-        "access": "ticket",
-        "details": [
-            "Pour accéder au salon, pensez à <a href='https://tickets.flb.be/foire-du-livre-de-bruxelles-2026/' rel='external' target='_blank'>vous inscrire</a> (c’est gratuit&nbsp;!).",
-            "Vous me retrouverez sur le stand Plume Blanche."
-        ],
-        "books": [
-            "carmidor-1-paperback",
-            "carmidor-2-paperback",
-            "carmidor-3-paperback"
-        ],
-        "url": "https://flb.be/"
-    },
-    "bestiaire-de-paul": {
-        "public": true,
-        "type": "librairie",
-        "name": "Dédicaces au Bestiaire de Paul",
-        "place": "limoges",
-        "dates": {
-            "start": "2026-04-04",
-            "end": "2026-04-04"
-        },
-        "hours": {
-            "dédicaces": "De <strong>13h à 17h30</strong>"
-        },
-        "access": "free",
-        "details": [
-            "Rencontre et dédicaces à la librairie (entrée libre, pas besoin d’inscription ou de ticket)."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback",
-            "carmidor-3-paperback"
-        ],
-        "url": "https://www.instagram.com/lebestiairedepaullibrairie/"
-    },
     "imaginalivres": {
         "public": true,
         "type": "salon",
@@ -61,13 +9,13 @@
             "end": "2026-04-12"
         },
         "hours": {
-            "samedi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
-            "dimanche": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>"
+            "samedi": "De <strong>10h à 10h30</strong> puis de <strong>14h à 19h</strong>",
+            "dimanche": "De <strong>10h à 18h</strong> <small>(avec des p’tites pauses)</small>"
         },
         "access": "free",
         "details": [
             "Je dédicace sur le stand de la J. Robin Agency avec tous mes romans en vente, notamment le tome 3 des <em>Carmidor</em> qui y sera en avant-première&nbsp!",
-            "Par ailleurs, je participe à une table ronde au sujet de mon <a href='/motriarcat'>challenge d’écriture, Motriarcat</a>, en compagnie de 2 autres organisatrices."
+            "Par ailleurs, je participe à une table ronde au sujet de mon <a href='/motriarcat'>challenge d’écriture, Motriarcat</a>, le samedi à 10h30, et à une table ronde sur les créatures marines le même jour à 13h."
         ],
         "books": [
             "nof-paperback",
@@ -95,8 +43,8 @@
         "access": "payante",
         "details": [
             "Pour accéder au Grand Palais, pensez à <a href='https://www.festivaldulivredeparis.fr/fr/billetterie' rel='external' target='_blank'>réserver ou acheter votre billet</a>. Attention, les sacs qui dépassent la dimension A3 ne sont pas autorisés (et il n’a pas de vestiaire), et le nombre de livres non achetés sur le salon est limité à 2 par personne à l’entrée.",
-            "Prix du billet&nbsp;: 6&nbsp;€ si vous l’achetez avant le mardi 7 avril inclus, 10&nbsp;€ sinon. À condition de le réserver avant le 7 avril, le billet est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif, et il faut impérativement réserver votre billet.",
-            "Vous me retrouverez sur le stand des éditions Plume Blanche."
+            "Prix du billet&nbsp;: 10&nbsp;€. Le billet est gratuit pour les moins de 25 ans, les enseignants, les bibliothécaires, les libraires, les demandeurs d'emploi, ainsi que les personnes à mobilité réduite et leur accompagnateur – sur présentation d'un justificatif.",
+            "Vous me retrouverez sur le stand des éditions Plume Blanche (stand NS5)."
         ],
         "books": [
             "carmidor-1-paperback",
