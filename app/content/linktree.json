@@ -1,5 +1,11 @@
 [
     {
+        "link": "https://forms.gle/W6mfjaNaiwzqhnsf9",
+        "label": "M'inscrire à Motriarcat",
+        "description": "Candidater à la nouvelle édition du challenge d'écriture, qui se tiendra du 27 avril au 10 mai",
+        "style": "primary"
+    },
+    {
         "link": "/",
         "label": "Mon site web",
         "description": "Mon site internet d’autrice, avec mes romans et les infos dédicaces/salons&nbsp;!",
