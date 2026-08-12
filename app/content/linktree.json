@@ -1,5 +1,11 @@
 [
     {
+        "link": "https://forms.gle/nsaVw7bGwVy4FNxA7",
+        "label": "M'inscrire à Motriarcat",
+        "description": "Candidater à la nouvelle édition du challenge d'écriture, qui se tiendra du 17 au 30 août",
+        "style": "primary"
+    },
+    {
         "link": "/",
         "label": "Mon site web",
         "description": "Mon site internet d’autrice, avec mes romans et les infos dédicaces/salons&nbsp;!",
