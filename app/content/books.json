@@ -33,5 +33,12 @@
         "alt": "Les Carmidor, tome 3 : Renaître et Sacrifier (en broché)",
         "img": "/img/medias/carmidor-t3-paperback.png",
         "release": "2026-05-05"
+    },
+    "carmidor-4-paperback": {
+        "title": "<em>Les Carmidor</em>, tome&nbsp;4",
+        "type": "broché",
+        "alt": "Les Carmidor, tome 4 : Corrompre et Régner (en broché)",
+        "img": "/img/medias/carmidor-t4-paperback.png",
+        "release": "2027-01-05"
     }
 }
