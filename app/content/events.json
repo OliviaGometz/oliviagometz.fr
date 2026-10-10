@@ -1,30 +1,55 @@
 {
-    "salon-du-livre-de-wallonie": {
+    "festival-des-muses": {
         "public": true,
         "type": "salon",
-        "name": "Salon du Livre de Wallonie",
-        "place": "mons",
+        "name": "Festival des Muses",
+        "place": "sauveterre",
         "dates": {
-            "start": "2026-09-26",
-            "end": "2026-09-27"
+            "start": "2026-10-10",
+            "end": "2026-10-11"
         },
         "hours": {
-            "samedi": "De <strong>10h à 12h</strong> puis de <strong>12h45 à 18h</strong>",
-            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h45 à 18h</strong>"
+            "samedi": "De <strong>10h à 12h</strong> puis de <strong>13h30 à 18h</strong>",
+            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h30 à 16h</strong>"
         },
-        "access": "ticket",
+        "access": "payante",
         "details": [
-            "Pour accéder au salon, pensez à <a href='https://www.billetweb.fr/14e-salon-du-livre-de-wallonie' rel='external' target='_blank'>réserver votre ticket d’entrée</a> (c’est gratuit&nbsp;!).",
-            "Je dédicace tous vos livres sur le stand Plume Blanche, à l’emplacement <strong>I1</strong> (le grand stand en haut à gauche du <a href='https://www.monslivre.be/__l5e/assets-v1/9f95994b-91bc-45be-89bd-b22166b14d51/plan-salon-2026.png' rel='external' target='_blank'>plan</a>).",
-            "Ce salon est très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez votre tome 4 de <em>Les Carmidor</em> le <strong>samedi matin</strong>, et privilégiez l’après-midi ou le <strong>dimanche</strong> pour papoter avec moi."
+            "Le festival se déroule au domaine Le Taleur, sur l'île de la Barthelasse, à Sauveterre, près d’Avignon.",
+            "Prix du billet d’entrée&nbsp;: 12&nbsp;€ la journée, 20&nbsp;€ le week-end. Billet à acheter sur <a href='https://festivaldesmuses.fr/boutique' rel='external' target='_blank'>la boutique officielle</a> (attention, le nombre d’entrées disponibles est limité).",
+            "Vous me retrouverez sur le stand de la J. Robin Agency (sous le préau, espace Eryndor)."
         ],
         "books": [
             "carmidor-1-paperback",
             "carmidor-2-paperback",
-            "carmidor-3-paperback",
-            "carmidor-4-paperback"
+            "carmidor-3-paperback"
         ],
-        "url": "https://www.monslivre.be/salon-du-livre-de-wallonie"
+        "url": "https://festivaldesmuses.fr/"
+    },
+    "medialudo": {
+        "public": true,
+        "type": "librairie",
+        "name": "La Journée de l’Imaginaire à la Médialudo",
+        "place": "blagnac",
+        "dates": {
+            "start": "2026-10-17",
+            "end": "2026-10-17"
+        },
+        "hours": {
+            "table ronde": "De <strong>16h à 17h</strong>",
+            "dédicaces": "De <strong>17h à 18h30</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Je suis invitée par la Médialudo de Blagnac (au 4 Avenue du Parc) pour la Journée de l’Imaginaire.",
+            "Au programme&nbsp;: une table ronde sur le travail d’autrice (comment démarrer dans le milieu de l’édition, comment ça fonctionne, comment communiquer, etc) avec Marie Fabre et Sarah Abassi, puis une séance de dédicaces.",
+            "Événement sur inscription (gratuite) par mail à medialudo@mairie-blagnac.fr ou par téléphone au 05 61 71 75 20."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://medialudo.blagnac.fr/node/16876006"
     },
     "foire-du-livre-de-brive": {
         "public": true,
@@ -42,7 +67,7 @@
         },
         "access": "free",
         "details": [
-            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche, à l’Espace des 3 Provinces."
+            "Entrée libre et gratuite. Je dédicace sur le stand Plume Blanche, à l’Espace des 3 Provinces (avenue Jacques et Bernadette Chirac)."
         ],
         "books": [
             "carmidor-1-paperback",
@@ -51,14 +76,40 @@
         ],
         "url": "http://www.foiredulivredebrive.net/"
     },
-    "imaginalivres": {
+    "slpj": {
         "public": true,
+        "type": "salon",
+        "name": "Salon du Livre et de la Presse Jeunesse",
+        "place": "montreuil",
+        "dates": {
+            "start": "2026-11-27",
+            "end": "2026-11-29"
+        },
+        "hours": {
+            "vendredi": "De <strong>13h à 19h</strong> <small>(avec des p’tites pauses)</small>",
+            "samedi": "De <strong>10h à 13h</strong>",
+            "dimanche": "De <strong>10h à 13h</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Pour accéder au salon, pensez à <a href='https://billetterie.slpj.fr/visiteur' rel='external' target='_blank'>réserver votre billet</a> (gratuit et obligatoire).",
+            "Vous me retrouverez sur le stand des éditions Plume Blanche."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback"
+        ],
+        "url": "https://slpj.fr/salon/"
+    },
+    "imaginalivres": {
+        "public": false,
         "type": "salon",
         "name": "Imagina’Livres",
         "place": "portet",
         "dates": {
-            "start": "2026-04-11",
-            "end": "2026-04-12"
+            "start": "2027-04",
+            "end": "2027-04"
         },
         "hours": {
             "samedi": "De <strong>10h à 10h30</strong> puis de <strong>14h à 19h</strong>",
@@ -79,13 +130,13 @@
         "url": "https://limagin-arium.com/limaginalivres/"
     },
     "festival-du-livre-de-paris": {
-        "public": true,
+        "public": false,
         "type": "salon",
         "name": "Festival du Livre de Paris",
         "place": "paris",
         "dates": {
-            "start": "2026-04-17",
-            "end": "2026-04-19"
+            "start": "2027-04",
+            "end": "2027-04"
         },
         "hours": {
             "vendredi": "De <strong>12h à 14h</strong> puis de <strong>18h à 20h</strong>",
@@ -105,41 +156,14 @@
         ],
         "url": "https://www.festivaldulivredeparis.fr/"
     },
-    "second-petit-dejeuner": {
-        "public": true,
-        "type": "librairie",
-        "name": "Petit déj’ littéraire et dédicaces au Second Petit Déjeuner",
-        "place": "toulouse",
-        "dates": {
-            "start": "2026-04-25",
-            "end": "2026-04-25"
-        },
-        "hours": {
-            "petit-déj": "De <strong>10h30 à 12h</strong>",
-            "dédicaces": "De <strong>12h à 14h</strong>"
-        },
-        "access": "free",
-        "details": [
-            "Le petit déjeuner littéraire est accessible sur réservation (places limitées), soit par téléphone au <a href='tel:0561067202'>05.61.06.72.02</a>, soit par message privé sur <a href='https://www.instagram.com/second_petit_dejeuner/' rel='external' target='_blank'>le compte Instagram du café</a>.",
-            "En revanche, les dédicaces après le petit déjeuner sont libres (pas besoin d’inscription ou de ticket)."
-        ],
-        "books": [
-            "nof-paperback",
-            "nof-hardback",
-            "carmidor-1-paperback",
-            "carmidor-2-paperback",
-            "carmidor-3-paperback"
-        ],
-        "url": "https://www.instagram.com/second_petit_dejeuner/"
-    },
     "echos-et-merveilles": {
-        "public": true,
+        "public": false,
         "type": "salon",
         "name": "Festival Echos et Merveilles",
         "place": "bruguieres",
         "dates": {
-            "start": "2026-05-14",
-            "end": "2026-05-17"
+            "start": "2027-05",
+            "end": "2027-05"
         },
         "hours": {
             "jeudi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
@@ -160,13 +184,13 @@
         "url": "https://echosetmerveilles.com/salon-du-livre"
     },
     "imaginales": {
-        "public": true,
+        "public": false,
         "type": "salon",
         "name": "Les Imaginales",
         "place": "epinal",
         "dates": {
-            "start": "2026-05-29",
-            "end": "2026-05-31"
+            "start": "2027-05",
+            "end": "2027-05"
         },
         "hours": {
             "vendredi": "De <strong>10h à 19h</strong> <small>(avec des p’tites pauses)</small>",
@@ -185,13 +209,13 @@
         "url": "https://www.imaginales.fr/"
     },
     "lire-a-limoges": {
-        "public": true,
+        "public": false,
         "type": "salon",
         "name": "Lire à Limoges",
         "place": "limoges",
         "dates": {
-            "start": "2026-06-05",
-            "end": "2026-06-07"
+            "start": "2027-06",
+            "end": "2027-06"
         },
         "hours": {
             "vendredi": "De <strong>14h30 à 19h</strong>",
@@ -208,5 +232,32 @@
             "carmidor-3-paperback"
         ],
         "url": "https://lire.limoges.fr/"
+    },
+    "salon-du-livre-de-wallonie": {
+        "public": false,
+        "type": "salon",
+        "name": "Salon du Livre de Wallonie",
+        "place": "mons",
+        "dates": {
+            "start": "2027-09",
+            "end": "2027-09"
+        },
+        "hours": {
+            "samedi": "De <strong>10h à 12h</strong> puis de <strong>12h45 à 18h</strong>",
+            "dimanche": "De <strong>10h à 12h</strong> puis de <strong>13h45 à 18h</strong>"
+        },
+        "access": "ticket",
+        "details": [
+            "Pour accéder au salon, pensez à <a href='https://www.billetweb.fr/14e-salon-du-livre-de-wallonie' rel='external' target='_blank'>réserver votre ticket d’entrée</a> (c’est gratuit&nbsp;!).",
+            "Je dédicace tous vos livres sur le stand Plume Blanche, à l’emplacement <strong>I1</strong> (le grand stand en haut à gauche du <a href='https://www.monslivre.be/__l5e/assets-v1/9f95994b-91bc-45be-89bd-b22166b14d51/plan-salon-2026.png' rel='external' target='_blank'>plan</a>).",
+            "Ce salon est très animé et les titres en avant-première partent vite. Si vous le pouvez, achetez votre tome 4 de <em>Les Carmidor</em> le <strong>samedi matin</strong>, et privilégiez l’après-midi ou le <strong>dimanche</strong> pour papoter avec moi."
+        ],
+        "books": [
+            "carmidor-1-paperback",
+            "carmidor-2-paperback",
+            "carmidor-3-paperback",
+            "carmidor-4-paperback"
+        ],
+        "url": "https://www.monslivre.be/salon-du-livre-de-wallonie"
     }
 }

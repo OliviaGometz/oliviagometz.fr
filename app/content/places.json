@@ -24,6 +24,14 @@
             "y": 134
         }
     },
+    "montreuil": {
+        "city": "Montreuil",
+        "country": "france",
+        "position": {
+            "x": 229,
+            "y": 135
+        }
+    },
     "roissy-en-brie": {
         "city": "Roissy-en-Brie",
         "country": "france",
@@ -63,6 +71,14 @@
         "position": {
             "x": 302,
             "y": 275
+        }
+    },
+    "sauveterre": {
+        "city": "Sauveterre",
+        "country": "france",
+        "position": {
+            "x": 300,
+            "y": 348
         }
     },
     "brive": {
