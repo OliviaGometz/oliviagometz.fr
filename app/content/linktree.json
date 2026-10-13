@@ -1,5 +1,11 @@
 [
     {
+        "link": "https://forms.gle/vfJu23TVov8ZU9G88",
+        "label": "M'inscrire à Motriarcat",
+        "description": "Candidater à l'édition Rite des Étudiantes, qui se tiendra du 19 octobre au 1er novembre",
+        "style": "primary"
+    },
+    {
         "link": "/",
         "label": "Mon site web",
         "description": "Mon site internet d’autrice, avec mes romans et les infos dédicaces/salons&nbsp;!",
