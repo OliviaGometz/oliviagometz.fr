@@ -1,4 +1,16 @@
 {
+    "radioparagraphe1": {
+        "date": "07/10/2026",
+        "name": "Un endroit cosy",
+        "title": "Motriarcat, le challenge d’écriture qui t’aide à écrire",
+        "description": "Avec Mae Laria, on discute des coulisses du <a href='/motriarcat'>challenge d’écriture Motriarcat</a>, de son fonctionnement, de son efficacité et de ses secrets, ainsi que du ressenti de Mae sur les 2 éditions auxquelles elle a participé. Après 4 éditions organisées en moins d’un an, j’avais encore plein de choses à dire sur ce sujet.",
+        "duration": "1h04",
+        "links": [
+            "https://open.spotify.com/episode/1NSRcJxIDTfEwhdQ1Iozig",
+            "https://podcasts.apple.com/fr/podcast/28-motriarcat-ou-le-challenge-d%C3%A9criture-qui-taide-%C3%A0/id1843362426?i=1000793589494",
+            "https://www.deezer.com/fr/episode/944312062"
+        ]
+    },
     "unendroitcosy1": {
         "date": "09/03/2026",
         "name": "Un endroit cosy",
